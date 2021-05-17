@@ -17,16 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://mattermostwebapp.herokuapp.com/')
-
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'), 'huykhoi263')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
-    'o1rBehR+FzY2ClyWuSUtzg==')
-
-WebUI.click(findTestObject('Object Repository/Page_Mattermost/button_Sign in'))
-
-WebUI.closeBrowser()
-

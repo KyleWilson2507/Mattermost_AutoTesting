@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC1_Login</name>
+   <name>TC6_UpdatePosition</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7bf25cb3-4745-48dd-95ca-583c26c424cb</testCaseGuid>
+   <testCaseGuid>7a6e67a3-0c40-4197-9053-5d355d536bae</testCaseGuid>
 </TestCaseEntity>

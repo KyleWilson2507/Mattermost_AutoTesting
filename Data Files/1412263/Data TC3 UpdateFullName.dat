@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Data TC3 UpdateFullName</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>f19c2d10-fb34-4f59-9e71-47aff3e09835</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Nguyen Huy+Khoi</data>
+   <data>Tran Van+A</data>
+   <data>Nguyen Thi+B</data>
+   <data>ABC 346%24%25%25%24%26%3E%3C%3EZ%3F</data>
+   <data>Huy+Khoi Nguyen</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>FirstName</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>LastName</name>
+      <size>5</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
