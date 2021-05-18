@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Page_Town Square - CNC_Nhom3 Mattermost/span'))
 WebUI.click(findTestObject('Page_Town Square - CNC_Nhom3 Mattermost/button_Account Settings'))
 
 for (def i = 1; i <= 5; i++) {
-    WebUI.click(findTestObject('Object Repository/Page_Town Square - CNC_Nhom3 Mattermost/span_Edit'))
+    WebUI.click(findTestObject('Page_Town Square - CNC_Nhom3 Mattermost/span_EditFullname'))
 
     WebUI.setText(findTestObject('Object Repository/Page_Town Square - CNC_Nhom3 Mattermost/input_First Name_firstName'), 
         findTestData('1412263/Data TC3 UpdateFullName').getValue(1, i))
@@ -42,7 +42,8 @@ for (def i = 1; i <= 5; i++) {
         findTestData('1412263/Data TC3 UpdateFullName').getValue(2, i))
 
     WebUI.click(findTestObject('Object Repository/Page_Town Square - CNC_Nhom3 Mattermost/span_Save'))
-	Thread.sleep(2000)
+
+    Thread.sleep(2000)
 }
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - CNC_Nhom3 Mattermost/span_'))

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Edit</name>
+   <name>span_EditNickname</name>
    <tag></tag>
    <elementGuidId>19802a28-a0dd-488e-bb3a-a571ad71bfb8</elementGuidId>
    <selectorCollection>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='emailEdit']/span</value>
+         <value>//button[@id='nicknameEdit']/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

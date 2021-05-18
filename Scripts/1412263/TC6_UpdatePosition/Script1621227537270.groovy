@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Object Repository/Page_Town Square - CNC_Nhom3 Matte
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - CNC_Nhom3 Mattermost/button_Account Settings'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - CNC_Nhom3 Mattermost/span_Edit'))
+WebUI.click(findTestObject('Page_Town Square - CNC_Nhom3 Mattermost/span_EditPosition'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Town Square - CNC_Nhom3 Mattermost/input_Position_position'), 'student')
 

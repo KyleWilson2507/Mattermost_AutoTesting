@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Object Repository/Page_Town Square - CNC_Nhom3 Matte
 WebUI.click(findTestObject('Object Repository/Page_Town Square - CNC_Nhom3 Mattermost/button_Security'))
 
 for (def i = 1; i <= 5; i++) {
-    WebUI.click(findTestObject('Object Repository/Page_Town Square - CNC_Nhom3 Mattermost/span_Edit'))
+    WebUI.click(findTestObject('Page_Town Square - CNC_Nhom3 Mattermost/span_EditPassword'))
 
     WebUI.setEncryptedText(findTestObject('Object Repository/Page_Town Square - CNC_Nhom3 Mattermost/input_Current Password_currentPassword'), 
         findTestData('1412263/Data TC2 UpdatePassword').getValue(1, i))
