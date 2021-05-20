@@ -23,21 +23,23 @@ WebUI.navigateToUrl('https://mattermostwebapp.herokuapp.com/')
 
 WebUI.callTestCase(findTestCase('1712666/CommonTC/CTC_Login'), [('var_username'): 'phuc', ('var_password'): 'CSt51UwWECc='])
 
-WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in (1)'))
+WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/div_phuc'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/div_phuc (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/span_Create a Team'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/span_Invite People'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Town Square - abc Mattermost/input_Team Name_teamNameInput'), var_teamName)
+WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/div_Add members'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/span_Next'))
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - abc Mattermost/input_Add members_react-select-2-input'), 
+    var_username)
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/span_Finish'))
+WebUI.click(findTestObject('Page_Town Square - abc Mattermost/div_option_0'))
 
-if (var_statusExpected.toString() == 'empty') {
-	WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_Town Square - abc Mattermost/label_A team with that name already exists'), 5)
+WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/span_Invite Members'))
+
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Town Square - abc Mattermost/span_Done'), 5)) {
+	WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/span_Done'))
 }
 
-WebUI.closeBrowser()
 

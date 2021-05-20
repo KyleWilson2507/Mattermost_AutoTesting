@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Data TC11 CreateATeam</name>
+   <name>Data TC12 InvitePeopleToTeam</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>78407f34-20b7-43ac-b0f0-cc65d5c9358e</dataFileGUID>
-   <dataSourceUrl>Excels/DataCreateATeam.xlsx</dataSourceUrl>
+   <dataFileGUID>b34dd7cd-b975-4488-8aae-b232ed5463b2</dataFileGUID>
+   <dataSourceUrl>Excels/DataInvitePeopleToTeam.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
