@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_uploaded</name>
+   <name>name_file_uploaded</name>
    <tag></tag>
-   <elementGuidId>faba8967-afca-4d99-b5ad-bcac8a12dc3d</elementGuidId>
+   <elementGuidId>d717d2f7-115a-4707-b012-7050a2099b4c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class=&quot;post-list__dynamic&quot;]//div[@style=&quot;position: relative;&quot;][last()]//div[@data-testid=&quot;fileAttachmentList&quot;]//div[@class=&quot;post-image__column&quot;]</value>
+         <value>//div[@class=&quot;post-list__dynamic&quot;]//div[@style=&quot;position: relative;&quot;][last()]//div[@data-testid=&quot;fileAttachmentList&quot;]//span[@class=&quot;post-image__name&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
