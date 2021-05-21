@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC12_InvitePeopleToTeam</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5863644-d827-4399-8a77-bbc4bfe5577a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5f6543c7-9a61-45e8-ac62-93d417b7e8e0</id>
+      <masked>false</masked>
+      <name>var_username</name>
+   </variable>
+</TestCaseEntity>

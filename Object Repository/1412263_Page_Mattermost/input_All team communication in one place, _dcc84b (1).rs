@@ -3,15 +3,15 @@
    <description></description>
    <name>input_All team communication in one place, _dcc84b (1)</name>
    <tag></tag>
-   <elementGuidId>1493748e-a0c9-4738-b826-08a924528da6</elementGuidId>
+   <elementGuidId>9adeb7a9-da2e-4a6e-aa83-a1fd9e35f154</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#loginId</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='loginId']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#loginId</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>autocapitalize</name>
       <type>Main</type>
-      <value>none</value>
+      <value>off</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

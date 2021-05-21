@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC14_UpdateTeamDescription</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>92092ae2-8b26-49d1-8f98-22b2068fdcd8</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8d6b9b2b-0a96-45cb-ba7d-7896d899bcc3</id>
+      <masked>false</masked>
+      <name>var_teamDescription</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Data TC14 UpdateTeamDescription</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>75a0b7ab-9d1b-4c80-8210-464edcc4b031</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>team+description+1</data>
+   <data>team+desciption+2</data>
+   <data>team+desciption+3</data>
+   <data>team+desciption+4</data>
+   <data>team+desciption+5</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>team description</name>
+      <size>5</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

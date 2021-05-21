@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CTC_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b633f6a2-af34-4629-995e-8f59dceb5a2b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5ae994a5-af92-412e-95c4-0757df3ee698</id>
+      <masked>false</masked>
+      <name>var_username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aab2957c-7efc-466e-9321-39d413269408</id>
+      <masked>false</masked>
+      <name>var_password</name>
+   </variable>
+</TestCaseEntity>
