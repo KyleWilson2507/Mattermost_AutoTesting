@@ -10,7 +10,11 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
+<<<<<<< HEAD
   &quot;text&quot;: &quot;{\n  \&quot;channel_id\&quot;: \&quot;4y5jhu8zk7dfzmtsxfac3b7uuc\&quot;,\n  \&quot;message\&quot;: \&quot;Coco Jambo\&quot;\n}&quot;,
+=======
+  &quot;text&quot;: &quot;{\n  \&quot;channel_id\&quot;: \&quot;3bba45je8pyjtp8s4cgk6iei3c\&quot;,\n  \&quot;message\&quot;: \&quot;Coco Jambo\&quot;\n}&quot;,
+>>>>>>> HuyKhoi
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -21,6 +25,16 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
+<<<<<<< HEAD
+=======
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer monf5z85ajbsjcb45yh3agucxh</value>
+>>>>>>> HuyKhoi
    </httpHeaderProperties>
    <katalonVersion>7.9.1</katalonVersion>
    <maxResponseSize>0</maxResponseSize>

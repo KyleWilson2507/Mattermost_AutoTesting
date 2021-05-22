@@ -1,4 +1,4 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -17,9 +17,12 @@ import com.kms.katalon.core.testobject.TestObjectProperty
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+
+import groovy.json.JsonSlurper
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+<<<<<<< HEAD
 def loginResponse = WS.sendRequest(findTestObject('Object Repository/1412263_API_Mattermost/API_Login'))
 
 Map parsed = loginResponse.getHeaderFields()
@@ -43,4 +46,28 @@ def response = WS.sendRequest(sendMessageRequest)
 WS.verifyElementPropertyValue(response, "channel_id", "4y5jhu8zk7dfzmtsxfac3b7uuc");
 
 WS.verifyElementPropertyValue(response, "message", "Coco Jambo");
+=======
+def loginResponse = WS.sendRequest(findTestObject('Object Repository/1412263_API_Mattermost/API_Login'))	
 
+Map parsed = loginResponse.getHeaderFields()
+
+String tokenAPI = parsed.Token
+
+String token = "Bearer " + tokenAPI.substring(1, tokenAPI.length() - 1)
+
+RequestObject sendMessageRequest = findTestObject('Object Repository/1412263_API_Mattermost/API_SendMessage')
+
+def HTTPHeader = new ArrayList()
+
+TestObjectProperty authorizationTest = new TestObjectProperty('Authorization', ConditionType.EQUALS, token);
+
+HTTPHeader.add(authorizationTest)
+
+sendMessageRequest.setHttpHeaderProperties(HTTPHeader)
+
+def response = WS.sendRequest(sendMessageRequest)
+
+WS.verifyElementPropertyValue(response, "channel_id", "3bba45je8pyjtp8s4cgk6iei3c");
+>>>>>>> HuyKhoi
+
+WS.verifyElementPropertyValue(response, "message", "Coco Jambo");
