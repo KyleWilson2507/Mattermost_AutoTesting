@@ -21,7 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://mattermostwebapp.herokuapp.com/')
 
-WebUI.callTestCase(findTestCase('1712666/CommonTC/CTC_Login'), [('var_username'): 'phuc', ('var_password'): 'CSt51UwWECc='])
+WebUI.callTestCase(findTestCase('1712666/CommonTC/CTC_Login'), [('var_username') : 'phuc', ('var_password') : 'CSt51UwWECc='], 
+    null)
 
 WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in (1)'))
 
@@ -36,7 +37,8 @@ WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/
 WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/span_Finish'))
 
 if (var_statusExpected.toString() == 'empty') {
-	WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_Town Square - abc Mattermost/label_A team with that name already exists'), 5)
+    WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_Town Square - abc Mattermost/label_A team with that name already exists'), 
+        5)
 }
 
 WebUI.closeBrowser()
