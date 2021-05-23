@@ -36,11 +36,13 @@ for (def rowNum = 1; rowNum <= findTestData('Data Files/1712612/Data TC17 Create
 	
 	WebUI.click(findTestObject('Object Repository/1712612_Mattermost Object/Page_Town Square - Test 1712612 Mattermost/button_Create Channel'))
 
-	
-	if (newChannelName.length() < 2) {
+	switch(newChannelName.length()) {
+		case 0:
+		case 1:
 		'Failed to create a team with name too short'
 		WebUI.verifyTextPresent('Display name must have at least 2 characters.', false, FailureHandling.STOP_ON_FAILURE)
-	} else {
+		break;
+		default:
 		if (WebUI.verifyElementPresent(findTestObject('Object Repository/1712612_Mattermost Object/Page_Town Square - Test 1712612 Mattermost/button_Create Channel_1'),
 			0, FailureHandling.OPTIONAL)) {
 			'Create new team with non-latin name'
@@ -53,7 +55,6 @@ for (def rowNum = 1; rowNum <= findTestData('Data Files/1712612/Data TC17 Create
 						0, FailureHandling.OPTIONAL)
 				
 			}
-		
 	}
     
     WebUI.refresh()

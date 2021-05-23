@@ -24,7 +24,8 @@ WebUI.callTestCase(findTestCase('1712612/CommonTC/TC_Login'), [:], FailureHandli
 WebUI.navigateToUrl('https://mattermostwebapp.herokuapp.com/test-1712612/channels/town-square')
 
 for (def rowNum = 1; rowNum <= findTestData('Data Files/1712612/Data TC17 CreatePublicChannels').getRowNumbers(); rowNum++) {
-    WebUI.click(findTestObject('Object Repository/1712612_Mattermost Object/Page_Town Square - Test 1712612 Mattermost/btn_create a public channel'))
+    
+	WebUI.click(findTestObject('Object Repository/1712612_Mattermost Object/Page_Town Square - Test 1712612 Mattermost/btn_create a public channel'))
 
     WebUI.verifyElementChecked(findTestObject('Page_Town Square - Test 1712612 Mattermost/input_Type_PublicChannel'), 0, 
         FailureHandling.STOP_ON_FAILURE)
@@ -37,24 +38,26 @@ for (def rowNum = 1; rowNum <= findTestData('Data Files/1712612/Data TC17 Create
 	
 	WebUI.click(findTestObject('Object Repository/1712612_Mattermost Object/Page_Town Square - Test 1712612 Mattermost/button_Create Channel'))
 
-    if (newChannelName.length() < 2) {
-        'Failed to create a team with name too short'
-        WebUI.verifyTextPresent('Display name must have at least 2 characters.', false, FailureHandling.STOP_ON_FAILURE)
-    } else {
-        if (WebUI.verifyElementPresent(findTestObject('Object Repository/1712612_Mattermost Object/Page_Town Square - Test 1712612 Mattermost/button_Create Channel_1'), 
-            0, FailureHandling.OPTIONAL)) {
-            'Create new team with non-latin name'
-        } else if (WebUI.verifyTextPresent('A channel with that name already exists on the same team', false, FailureHandling.STOP_ON_FAILURE))
-            { 
-                'Failed to create a team with Name has already existed'
-            } else {
+	switch(newChannelName.length()) {
+		case 0:
+		case 1:
+		'Failed to create a team with name too short'
+		WebUI.verifyTextPresent('Display name must have at least 2 characters.', false, FailureHandling.STOP_ON_FAILURE)
+		break;
+		default:
+		if (WebUI.verifyElementPresent(findTestObject('Object Repository/1712612_Mattermost Object/Page_Town Square - Test 1712612 Mattermost/button_Create Channel_1'),
+			0, FailureHandling.OPTIONAL)) {
+			'Create new team with non-latin name'
+		} else if (WebUI.verifyTextPresent('A channel with that name already exists on the same team', false, FailureHandling.STOP_ON_FAILURE))
+			{
+				'Failed to create a team with Name has already existed'
+			} else {
 					'Successful create a new team with'
 					WebUI.verifyElementNotPresent(findTestObject('Object Repository/1712612_Mattermost Object/Page_Town Square - Test 1712612 Mattermost/button_Create Channel'),
 						0, FailureHandling.OPTIONAL)
 				
 			}
-        
-    }
+	}
     
     WebUI.refresh()
 }
