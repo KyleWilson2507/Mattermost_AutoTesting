@@ -38,6 +38,7 @@ WebUI.click(findTestObject('Object Repository/1712612_Mattermost Object/Page_Upd
 
 WebUI.click(findTestObject('Object Repository/1712612_Mattermost Object/Page_Update channel purpose - Test 1712612 _81d6bc/button_View Info'))
 
-WebUI.verifyElementText(findTestObject('Page_Update channel purpose - Test 1712612 _81d6bc/div_This is update channel purpose'), 
-    'This is update channel purpose.')
+WebUI.verifyTextPresent('This is update channel purpose.', false)
+
+WebUI.closeBrowser()
 

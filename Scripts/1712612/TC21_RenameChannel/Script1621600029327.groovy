@@ -32,12 +32,5 @@ WebUI.setText(findTestObject('Object Repository/1712612_Mattermost Object/Page_c
 
 WebUI.click(findTestObject('Object Repository/1712612_Mattermost Object/Page_channel - Test 1712612 Mattermost/button_Save'))
 
-WebUI.verifyElementText(findTestObject('Page_channels - Test 1712612 Mattermost/span_channels'), 'channels')
-
-WebUI.click(findTestObject('Object Repository/1712612_Mattermost Object/Page_channels - Test 1712612 Mattermost/button_Rename Channel'))
-
-WebUI.setText(findTestObject('Object Repository/1712612_Mattermost Object/Page_channels - Test 1712612 Mattermost/input_Display Name_display_name'), 
-    'channel')
-
-WebUI.click(findTestObject('Object Repository/1712612_Mattermost Object/Page_channels - Test 1712612 Mattermost/button_Save'))
+WebUI.closeBrowser()
 
