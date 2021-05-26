@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Sign in</name>
    <tag></tag>
-   <elementGuidId>54c165c9-2bda-4f0b-82c5-1327a01b4a75</elementGuidId>
+   <elementGuidId>b1dcedcc-67b0-4bbe-aa1c-bec1c4558aa8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -14,7 +14,7 @@
          <value>//button[@id='loginButton']/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

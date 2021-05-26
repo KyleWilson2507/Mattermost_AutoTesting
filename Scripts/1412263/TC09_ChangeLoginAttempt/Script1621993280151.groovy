@@ -21,37 +21,26 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://mattermostwebapp.herokuapp.com/')
 
-WebUI.setText(findTestObject('1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'), 'huykhoi263')
+WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'), 'huykhoi263')
 
-WebUI.setEncryptedText(findTestObject('1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
     'o1rBehR+FzY2ClyWuSUtzg==')
 
-WebUI.sendKeys(findTestObject('1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'), Keys.chord(
+WebUI.sendKeys(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'), Keys.chord(
         Keys.ENTER))
 
-WebUI.delay(10)
+WebUI.click(findTestObject('1412263_Page_Town Square - CNC_Nhom3 Mattermost/path'))
 
-WebUI.click(findTestObject('1412263_Page_Town Square - CNC_Nhom3 Mattermost/i_CNC_Nhom3_fa fa-caret-down'))
+WebUI.click(findTestObject('1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_System Console'))
 
-WebUI.click(findTestObject('1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Online'))
+WebUI.click(findTestObject('Object Repository/Page_System Console - Mattermost/a_Password'))
 
-WebUI.click(findTestObject('1412263_Page_Town Square - CNC_Nhom3 Mattermost/i_CNC_Nhom3_fa fa-caret-down'))
+WebUI.click(findTestObject('Object Repository/Page_System Console - Mattermost/div_Maximum Login AttemptsNumber of login a_f48f8a'))
 
-WebUI.click(findTestObject('1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Away'))
+WebUI.setText(findTestObject('Object Repository/Page_System Console - Mattermost/input_Maximum Login Attempts_maximumLoginAttempts'), 
+    '15')
 
-WebUI.click(findTestObject('1412263_Page_Town Square - CNC_Nhom3 Mattermost/i_CNC_Nhom3_fa fa-caret-down'))
-
-WebUI.click(findTestObject('1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Do Not Disturb'))
-
-WebUI.click(findTestObject('1412263_Page_Town Square - CNC_Nhom3 Mattermost/i_CNC_Nhom3_fa fa-caret-down'))
-
-WebUI.click(findTestObject('1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Offline'))
-
-WebUI.click(findTestObject('1412263_Page_Town Square - CNC_Nhom3 Mattermost/i_CNC_Nhom3_fa fa-caret-down'))
-
-WebUI.click(findTestObject('1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Online'))
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/Page_System Console - Mattermost/button_Save'))
 
 WebUI.closeBrowser()
 
