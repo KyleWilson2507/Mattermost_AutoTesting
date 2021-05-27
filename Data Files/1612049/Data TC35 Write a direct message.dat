@@ -6,9 +6,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>83715c94-0b00-4bd3-8803-cc75dea58b5b</dataFileGUID>
-   <dataSourceUrl>D:\Documents\Studying Materials\Các chủ đề nâng cao trong CNPM\GA\GA1\username.csv</dataSourceUrl>
+   <dataSourceUrl>Excels/DataUsernames.csv</dataSourceUrl>
    <driver>CSV</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName></sheetName>
