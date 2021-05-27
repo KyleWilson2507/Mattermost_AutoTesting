@@ -197,4 +197,124 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/1712612/TC20_Update_channel_purpose</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>126b10b0-0185-4f95-8d66-b49b42841bc1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1712612/TC21_RenameChannel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>547f8a56-a2e7-497e-a905-e137faad7aec</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1712612/TC22_UpdateChannelHeader</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1b9de45f-a228-49a1-8909-9fb78931279c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1712612/TC23_LeavePublicChannel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b368517d-9e06-4ad1-9ed3-38fb4edb2406</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1712612/TC24_LeavePrivateChannel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>049c2274-8628-4a79-9011-f95f67df2c20</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1712612/TC25_ConvertPublicChannelToPrivate</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0a89090f-00fa-4209-999f-683b71d1558c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1712612/TC26_PinMessageInPublicChannel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aa664255-d4e8-431b-b157-08a53a244a27</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1712612/TC27_PinMessageInPrivateChannel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1a6a67fc-5c61-48cf-9add-fe7a84c8ef69</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1712612/TC28_UnpinMessageInPublicChannel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>66e14d59-ba93-43b3-a597-defe7ece7d57</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1712612/TC29_UnpinMessageInPrivateChannel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1cd78f35-1b27-4b52-9be9-a5a5ecc9ce07</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612049/TC35_Write a direct message</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7d672507-f885-4d4a-8355-67e71a009b5c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612049/TC36_Search messages</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f9f39c1c-ebd2-4a46-b01b-82c27b77d4db</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612049/TC37_Add mention</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2642bbd8-988e-42e8-99f7-75954506ce73</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612049/TC38_Close direct messages</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e0f3bcd7-6cdd-4715-b714-39083700d098</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612049/TC39_Reply to a message</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>15c69f21-05f4-4f0c-ae02-ca4e3439728d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612049/TC40_Add emoji</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2d5df960-6cd6-4f75-8e13-1eebec1db6e9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612049/TC41_Edit message</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e79a9c48-2f21-4edf-b865-047c546ac2dc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612049/TC42_Mark message as unread</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b3d169d0-9c26-4c32-bcd9-802dfed8dfb6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612049/TC43_Delete message</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5ac45a84-ac04-4da0-846b-c068ce407c2d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612049/TC44_Set header for direct message</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>10f0cfe7-3e72-4837-bd91-70df48610f9a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612049/TC45_Pin a message</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

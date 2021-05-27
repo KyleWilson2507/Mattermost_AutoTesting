@@ -6,15 +6,15 @@
    <elementGuidId>b06170f6-dff1-4c5b-95fe-85b1ca4c7785</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#saveSetting</value>
+         <key>XPATH</key>
+         <value>//button[@id='']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='saveSetting']</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

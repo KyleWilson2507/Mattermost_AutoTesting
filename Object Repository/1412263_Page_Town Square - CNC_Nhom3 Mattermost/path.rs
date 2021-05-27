@@ -6,12 +6,12 @@
    <elementGuidId>9ad4bfa3-daa6-42fa-84a6-36bc3e454f0f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>g > path</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='headerInfo']/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>g > path</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
