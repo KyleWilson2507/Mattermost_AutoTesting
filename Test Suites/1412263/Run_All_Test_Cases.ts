@@ -317,4 +317,70 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/1612049/TC45_Pin a message</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>b44079f1-7d1d-4c2c-8b1c-b68329394a5f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1712666/TC48_SaveMessage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0b41a11d-cab6-4b58-aa2d-88c4d3ad9145</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1712666/TC49_RemoveSaveMessage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9f437028-63b3-4db4-8e18-8d945534adc4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1712666/TC50_SendFile</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>40bd2f83-a632-4105-9b95-9b84c4bcb0a3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1712666/TC51_DownloadFile</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0640919e-2180-4c5d-8805-9fa5baa1be77</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1712666/TC55_ChangeNameAPI</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0bfbec9f-4a23-4d5d-b508-2496d86785c9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1712666/TC56_SearchUserAPI</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7666bd69-d419-45bd-8e3b-a7ba6f0336a9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1712666/TC57_SearchPublicChannelAPI</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6b9728b0-408b-4e97-a2c6-6c4c759cb4d8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1712666/TC58_LogoutAPI</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>babe751f-7b66-4ed0-824d-39892148b8ae</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1412263/TC52_APILogin</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5d0784b6-9b38-4352-9c2b-bdeb4a2e2b2a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1412263/TC53_APISignUp</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>973a47b3-1916-43e1-99ae-4d0e83e476d7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1412263/TC54_APISendMessage</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

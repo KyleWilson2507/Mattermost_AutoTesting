@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='']</value>
+         <value>//button[@id='saveSetting']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>#saveSetting</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
