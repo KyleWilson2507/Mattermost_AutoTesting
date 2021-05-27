@@ -32,11 +32,17 @@ for (i = 1; i <= 5; i += 1) {
 
     if (WebUI.verifyElementPresent(findTestObject('1612049/DirectMessage_Dialog/div_Search Username Result_searchResult'), 
         5, FailureHandling.CONTINUE_ON_FAILURE)) {
-        WebUI.sendKeys(findTestObject('1612049/DirectMessage_Workspace/Searchbox/input_Search Box_searchbox'), Keys.chord(Keys.ENTER))
+        WebUI.sendKeys(findTestObject('1612049/DirectMessage_Workspace/Searchbox/input_Search Box_searchbox'), Keys.chord(
+                Keys.ENTER))
 
         WebUI.click(findTestObject('Object Repository/1612049/DirectMessage_Workspace/Page_(1)  abchuykhoi - noname Mattermost/button_Go'))
 
-        WebUI.setText(findTestObject('1612049/inputarea_Direct Message_directMessage'), 'Hello, world')
+        if (WebUI.verifyElementPresent(findTestObject('1612049/inputarea_Direct Message_directMessage'), 5, FailureHandling.CONTINUE_ON_FAILURE)) {
+            WebUI.setText(findTestObject('1612049/inputarea_Direct Message_directMessage'), 'Hello, ' + findTestData('1612049/Data TC35 Write a direct message').getValue(
+                    1, i))
+
+            WebUI.sendKeys(findTestObject('1612049/inputarea_Direct Message_directMessage'), Keys.chord(Keys.ENTER))
+        }
     } else {
         WebUI.click(findTestObject('1612049/Index_Sidebarr/Page_(1)  Town Square - noname Mattermost/span__1'))
     }
