@@ -72,6 +72,15 @@
     },
     {
       "approved": true,
+<<<<<<< HEAD
+      "testObjectId": "Object Repository/Page_Town Square - test2 Mattermost/div_test",
+      "brokenLocator": "//div[@id\u003d\u0027descriptionDesc\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Edit\u0027])[2]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Town Square - test2 Mattermost/div_test_neighbor.png"
+=======
       "testObjectId": "Object Repository/1712612_Mattermost Object/Page_new channel - Test 1712612 Mattermost/button_Convert to Private Channel",
       "brokenLocator": "//li[@id\u003d\u0027channelCovertToPrivate\u0027]/button",
       "brokenLocatorMethod": "XPATH",
@@ -89,6 +98,7 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/1712612_Mattermost Object/Page_Town Square - Test 1712612 Mattermost/button_Pin to Channel_neighbor.png"
+>>>>>>> a98d2cb36931e9bec3263f4854c62ff1226ba8d2
     }
   ]
 }
