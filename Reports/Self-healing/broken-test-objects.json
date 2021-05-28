@@ -69,6 +69,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/1712612_Mattermost Object/Page_new channel - Test 1712612 Mattermost/button_Convert to Private Channel",
+      "brokenLocator": "//li[@id\u003d\u0027channelCovertToPrivate\u0027]/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Rename Channel\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/1712612_Mattermost Object/Page_new channel - Test 1712612 Mattermost/button_Convert to Private Channel_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/1712612_Mattermost Object/Page_Town Square - Test 1712612 Mattermost/button_Pin to Channel",
+      "brokenLocator": "//li[@id\u003d\u0027pin_post_y84p141g8fffugwo5wnkspdt1o\u0027]/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Copy Link\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/1712612_Mattermost Object/Page_Town Square - Test 1712612 Mattermost/button_Pin to Channel_neighbor.png"
     }
   ]
 }

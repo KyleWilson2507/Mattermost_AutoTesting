@@ -1,0 +1,64 @@
+{"testCaseName":"Test Cases/1412263/TC01_Login","testCaseId":"Test Cases/1412263/TC01_Login"}
+{"testCaseName":"Test Cases/1412263/TC02_UpdatePassword","testCaseId":"Test Cases/1412263/TC02_UpdatePassword"}
+{"testCaseName":"Test Cases/1412263/TC03_UpdateFullName","testCaseId":"Test Cases/1412263/TC03_UpdateFullName"}
+{"testCaseName":"Test Cases/1412263/TC04_UpdateNickname","testCaseId":"Test Cases/1412263/TC04_UpdateNickname"}
+{"testCaseName":"Test Cases/1412263/TC05_UpdateUsername","testCaseId":"Test Cases/1412263/TC05_UpdateUsername"}
+{"testCaseName":"Test Cases/1412263/TC06_UpdatePosition","testCaseId":"Test Cases/1412263/TC06_UpdatePosition"}
+{"testCaseName":"Test Cases/1412263/TC07_UpdateEmail","testCaseId":"Test Cases/1412263/TC07_UpdateEmail"}
+{"testCaseName":"Test Cases/1412263/TC08_ResetPassword","testCaseId":"Test Cases/1412263/TC08_ResetPassword"}
+{"testCaseName":"Test Cases/1412263/TC09_ChangeLoginAttempt","testCaseId":"Test Cases/1412263/TC09_ChangeLoginAttempt"}
+{"testCaseName":"Test Cases/1412263/TC10_SetPasswordLimit","testCaseId":"Test Cases/1412263/TC10_SetPasswordLimit"}
+{"testCaseName":"Test Cases/1712666/TC11_CreateATeam - Iteration 1","testCaseId":"Test Cases/1712666/TC11_CreateATeam","bindedValues":{"var_statusExpected":"\u0027A team with that name already exists.\u0027","var_teamName":"\u0027test\u0027"}}
+{"testCaseName":"Test Cases/1712666/TC11_CreateATeam - Iteration 2","testCaseId":"Test Cases/1712666/TC11_CreateATeam","bindedValues":{"var_statusExpected":"\u0027empty\u0027","var_teamName":"\u0027test2\u0027"}}
+{"testCaseName":"Test Cases/1712666/TC12_InvitePeopleToTeam - Iteration 1","testCaseId":"Test Cases/1712666/TC12_InvitePeopleToTeam","bindedValues":{"var_username":"\u0027nghi_tran\u0027"}}
+{"testCaseName":"Test Cases/1712666/TC12_InvitePeopleToTeam - Iteration 2","testCaseId":"Test Cases/1712666/TC12_InvitePeopleToTeam","bindedValues":{"var_username":"\u0027huy\u0027"}}
+{"testCaseName":"Test Cases/1712666/TC12_InvitePeopleToTeam - Iteration 3","testCaseId":"Test Cases/1712666/TC12_InvitePeopleToTeam","bindedValues":{"var_username":"\u0027huykhoi2507\u0027"}}
+{"testCaseName":"Test Cases/1712666/TC12_InvitePeopleToTeam - Iteration 4","testCaseId":"Test Cases/1712666/TC12_InvitePeopleToTeam","bindedValues":{"var_username":"\u0027huykhoi263\u0027"}}
+{"testCaseName":"Test Cases/1712666/TC12_InvitePeopleToTeam - Iteration 5","testCaseId":"Test Cases/1712666/TC12_InvitePeopleToTeam","bindedValues":{"var_username":"\u0027jooie\u0027"}}
+{"testCaseName":"Test Cases/1712666/TC13_UpdateTeamName - Iteration 1","testCaseId":"Test Cases/1712666/TC13_UpdateTeamName","bindedValues":{"var_teamname":"\u0027test1\u0027"}}
+{"testCaseName":"Test Cases/1712666/TC13_UpdateTeamName - Iteration 2","testCaseId":"Test Cases/1712666/TC13_UpdateTeamName","bindedValues":{"var_teamname":"\u0027test2\u0027"}}
+{"testCaseName":"Test Cases/1712666/TC13_UpdateTeamName - Iteration 3","testCaseId":"Test Cases/1712666/TC13_UpdateTeamName","bindedValues":{"var_teamname":"\u0027test3\u0027"}}
+{"testCaseName":"Test Cases/1712666/TC13_UpdateTeamName - Iteration 4","testCaseId":"Test Cases/1712666/TC13_UpdateTeamName","bindedValues":{"var_teamname":"\u0027test4\u0027"}}
+{"testCaseName":"Test Cases/1712666/TC13_UpdateTeamName - Iteration 5","testCaseId":"Test Cases/1712666/TC13_UpdateTeamName","bindedValues":{"var_teamname":"\u0027test5\u0027"}}
+{"testCaseName":"Test Cases/1712666/TC14_UpdateTeamDescription - Iteration 1","testCaseId":"Test Cases/1712666/TC14_UpdateTeamDescription","bindedValues":{"var_teamDescription":"\u0027team description 1\u0027"}}
+{"testCaseName":"Test Cases/1712666/TC14_UpdateTeamDescription - Iteration 2","testCaseId":"Test Cases/1712666/TC14_UpdateTeamDescription","bindedValues":{"var_teamDescription":"\u0027team desciption 2\u0027"}}
+{"testCaseName":"Test Cases/1712666/TC14_UpdateTeamDescription - Iteration 3","testCaseId":"Test Cases/1712666/TC14_UpdateTeamDescription","bindedValues":{"var_teamDescription":"\u0027team desciption 3\u0027"}}
+{"testCaseName":"Test Cases/1712666/TC14_UpdateTeamDescription - Iteration 4","testCaseId":"Test Cases/1712666/TC14_UpdateTeamDescription","bindedValues":{"var_teamDescription":"\u0027team desciption 4\u0027"}}
+{"testCaseName":"Test Cases/1712666/TC14_UpdateTeamDescription - Iteration 5","testCaseId":"Test Cases/1712666/TC14_UpdateTeamDescription","bindedValues":{"var_teamDescription":"\u0027team desciption 5\u0027"}}
+{"testCaseName":"Test Cases/1712666/TC15_JoinTeam","testCaseId":"Test Cases/1712666/TC15_JoinTeam"}
+{"testCaseName":"Test Cases/1712666/TC16_LeaveTeam","testCaseId":"Test Cases/1712666/TC16_LeaveTeam"}
+{"testCaseName":"Test Cases/1712612/TC17_CreatePublicChannels","testCaseId":"Test Cases/1712612/TC17_CreatePublicChannels"}
+{"testCaseName":"Test Cases/1712612/TC18_CreatePrivateChannels","testCaseId":"Test Cases/1712612/TC18_CreatePrivateChannels"}
+{"testCaseName":"Test Cases/1712612/TC19_InvitePeopleToChannel","testCaseId":"Test Cases/1712612/TC19_InvitePeopleToChannel"}
+{"testCaseName":"Test Cases/1712612/TC20_Update_channel_purpose","testCaseId":"Test Cases/1712612/TC20_Update_channel_purpose"}
+{"testCaseName":"Test Cases/1712612/TC21_RenameChannel","testCaseId":"Test Cases/1712612/TC21_RenameChannel"}
+{"testCaseName":"Test Cases/1712612/TC22_UpdateChannelHeader","testCaseId":"Test Cases/1712612/TC22_UpdateChannelHeader"}
+{"testCaseName":"Test Cases/1712612/TC23_LeavePublicChannel","testCaseId":"Test Cases/1712612/TC23_LeavePublicChannel"}
+{"testCaseName":"Test Cases/1712612/TC24_LeavePrivateChannel","testCaseId":"Test Cases/1712612/TC24_LeavePrivateChannel"}
+{"testCaseName":"Test Cases/1712612/TC25_ConvertPublicChannelToPrivate","testCaseId":"Test Cases/1712612/TC25_ConvertPublicChannelToPrivate"}
+{"testCaseName":"Test Cases/1712612/TC26_PinMessageInPublicChannel","testCaseId":"Test Cases/1712612/TC26_PinMessageInPublicChannel"}
+{"testCaseName":"Test Cases/1712612/TC27_PinMessageInPrivateChannel","testCaseId":"Test Cases/1712612/TC27_PinMessageInPrivateChannel"}
+{"testCaseName":"Test Cases/1712612/TC28_UnpinMessageInPublicChannel","testCaseId":"Test Cases/1712612/TC28_UnpinMessageInPublicChannel"}
+{"testCaseName":"Test Cases/1712612/TC29_UnpinMessageInPrivateChannel","testCaseId":"Test Cases/1712612/TC29_UnpinMessageInPrivateChannel"}
+{"testCaseName":"Test Cases/1612049/TC35_Write a direct message","testCaseId":"Test Cases/1612049/TC35_Write a direct message"}
+{"testCaseName":"Test Cases/1612049/TC36_Search messages","testCaseId":"Test Cases/1612049/TC36_Search messages"}
+{"testCaseName":"Test Cases/1612049/TC37_Add mention","testCaseId":"Test Cases/1612049/TC37_Add mention"}
+{"testCaseName":"Test Cases/1612049/TC38_Close direct messages","testCaseId":"Test Cases/1612049/TC38_Close direct messages"}
+{"testCaseName":"Test Cases/1612049/TC39_Reply to a message","testCaseId":"Test Cases/1612049/TC39_Reply to a message"}
+{"testCaseName":"Test Cases/1612049/TC40_Add emoji","testCaseId":"Test Cases/1612049/TC40_Add emoji"}
+{"testCaseName":"Test Cases/1612049/TC41_Edit message","testCaseId":"Test Cases/1612049/TC41_Edit message"}
+{"testCaseName":"Test Cases/1612049/TC42_Mark message as unread","testCaseId":"Test Cases/1612049/TC42_Mark message as unread"}
+{"testCaseName":"Test Cases/1612049/TC43_Delete message","testCaseId":"Test Cases/1612049/TC43_Delete message"}
+{"testCaseName":"Test Cases/1612049/TC44_Set header for direct message","testCaseId":"Test Cases/1612049/TC44_Set header for direct message"}
+{"testCaseName":"Test Cases/1612049/TC45_Pin a message","testCaseId":"Test Cases/1612049/TC45_Pin a message"}
+{"testCaseName":"Test Cases/1712666/TC48_SaveMessage","testCaseId":"Test Cases/1712666/TC48_SaveMessage"}
+{"testCaseName":"Test Cases/1712666/TC49_RemoveSaveMessage","testCaseId":"Test Cases/1712666/TC49_RemoveSaveMessage"}
+{"testCaseName":"Test Cases/1712666/TC50_SendFile","testCaseId":"Test Cases/1712666/TC50_SendFile"}
+{"testCaseName":"Test Cases/1712666/TC51_DownloadFile","testCaseId":"Test Cases/1712666/TC51_DownloadFile"}
+{"testCaseName":"Test Cases/1712666/TC55_ChangeNameAPI","testCaseId":"Test Cases/1712666/TC55_ChangeNameAPI"}
+{"testCaseName":"Test Cases/1712666/TC56_SearchUserAPI","testCaseId":"Test Cases/1712666/TC56_SearchUserAPI"}
+{"testCaseName":"Test Cases/1712666/TC57_SearchPublicChannelAPI","testCaseId":"Test Cases/1712666/TC57_SearchPublicChannelAPI"}
+{"testCaseName":"Test Cases/1712666/TC58_LogoutAPI","testCaseId":"Test Cases/1712666/TC58_LogoutAPI"}
+{"testCaseName":"Test Cases/1412263/TC52_APILogin","testCaseId":"Test Cases/1412263/TC52_APILogin"}
+{"testCaseName":"Test Cases/1412263/TC53_APISignUp","testCaseId":"Test Cases/1412263/TC53_APISignUp"}
+{"testCaseName":"Test Cases/1412263/TC54_APISendMessage","testCaseId":"Test Cases/1412263/TC54_APISendMessage"}
