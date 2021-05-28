@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Pin to Channel</name>
+   <name>button_Unpin from Channel - Copy</name>
    <tag></tag>
-   <elementGuidId>8ae44f28-88b7-4f2c-8da8-3a846c740a35</elementGuidId>
+   <elementGuidId>5f8ed74c-8aa9-491f-a37e-b0342e899fa4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#pin_post_y84p141g8fffugwo5wnkspdt1o > button.style--none</value>
+         <value>#unpin_post_y84p141g8fffugwo5wnkspdt1o > button.style--none</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[@class=&quot;MenuItem__primary-text&quot;][text() = &quot;Pin from Channel&quot;]</value>
+         <value>//span[@class=&quot;MenuItem__primary-text&quot;][text() = &quot;Unpin from Channel&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,21 +35,21 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Pin to Channel</value>
+      <value>Unpin from Channel</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;pin_post_y84p141g8fffugwo5wnkspdt1o&quot;)/button[@class=&quot;style--none&quot;]</value>
+      <value>id(&quot;unpin_post_y84p141g8fffugwo5wnkspdt1o&quot;)/button[@class=&quot;style--none&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//li[@id='pin_post_y84p141g8fffugwo5wnkspdt1o']/button</value>
+      <value>//li[@id='unpin_post_y84p141g8fffugwo5wnkspdt1o']/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

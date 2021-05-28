@@ -24,9 +24,19 @@ WebUI.navigateToUrl('https://mattermostwebapp.herokuapp.com/')
 WebUI.callTestCase(findTestCase('1612049/CommonTC/CTC_Login'), [('username') : 'jooie', ('password') : '6z6Vi2R3i06jbzaqW0pQ8Q=='], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('1612049/DirectMessage_Workspace/div_Emoji Message'))
+//WebUI.mouseOver(findTestObject('1612049/DirectMessage_Workspace/div_Emoji Message'))
+//
+//WebUI.click(findTestObject('Object Repository/1612049/DirectMessage_Workspace/Page_Town Square - noname Mattermost/button_jooie_CENTER_button_nc5r14iaktgz3811_c68c20'))
+//
+//WebUI.click(findTestObject('Object Repository/1612049/DirectMessage_Workspace/Page_Town Square - noname Mattermost/button_Mark as Unread'))
 
-WebUI.click(findTestObject('Object Repository/1612049/DirectMessage_Workspace/Page_Town Square - noname Mattermost/button_jooie_CENTER_button_nc5r14iaktgz3811_c68c20'))
+WebUI.setText(findTestObject('Page_Town Square - noname Mattermost/textarea_Write to Town Square_post_textbox'), 'mark as unread')
 
-WebUI.click(findTestObject('Object Repository/1612049/DirectMessage_Workspace/Page_Town Square - noname Mattermost/button_Mark as Unread'))
+WebUI.sendKeys(findTestObject('Page_Town Square - noname Mattermost/textarea_Write to Town Square_post_textbox'), Keys.chord(
+		Keys.ENTER))
 
+WebUI.click(findTestObject('Object Repository/Page_Town Square - noname Mattermost/p_a'))
+
+WebUI.click(findTestObject('Object Repository/1612049/DirectMessage_Workspace/btn_More Action Of Pin TC - Copy'))
+
+WebUI.click(findTestObject('Object Repository/1612049/DirectMessage_Workspace/Page_Town Square - noname Mattermost/button_Mark as Unread - Copy'))

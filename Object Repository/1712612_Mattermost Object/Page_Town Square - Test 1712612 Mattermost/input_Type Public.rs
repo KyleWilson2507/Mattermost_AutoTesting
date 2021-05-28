@@ -6,12 +6,12 @@
    <elementGuidId>12d4db5d-6393-48cc-9a3e-c08317f049df</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='private']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#private</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='public']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

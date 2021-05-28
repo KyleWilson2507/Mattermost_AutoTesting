@@ -24,11 +24,22 @@ WebUI.navigateToUrl('https://mattermostwebapp.herokuapp.com/')
 WebUI.callTestCase(findTestCase('1612049/CommonTC/CTC_Login'), [('username') : 'jooie', ('password') : '6z6Vi2R3i06jbzaqW0pQ8Q=='], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('1612049/DirectMessage_Dialog/div_Message'))
+//WebUI.mouseOver(findTestObject('1612049/DirectMessage_Dialog/div_Message'))
+//
+//WebUI.click(findTestObject('1612049/DirectMessage_Workspace/btn_More Actions'))
+//
+//WebUI.click(findTestObject('1612049/DirectMessage_Workspace/btn_Edit Message'))
 
-WebUI.click(findTestObject('1612049/DirectMessage_Workspace/btn_More Actions'))
+WebUI.setText(findTestObject('Page_Town Square - noname Mattermost/textarea_Write to Town Square_post_textbox'), 'some text')
 
-WebUI.click(findTestObject('1612049/DirectMessage_Workspace/btn_Edit Message'))
+WebUI.sendKeys(findTestObject('Page_Town Square - noname Mattermost/textarea_Write to Town Square_post_textbox'), Keys.chord(
+		Keys.ENTER))
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - noname Mattermost/p_a'))
+
+WebUI.click(findTestObject('Object Repository/1612049/DirectMessage_Workspace/btn_More Action Of Pin TC - Copy'))
+
+WebUI.click(findTestObject('Object Repository/1612049/DirectMessage_Workspace/btn_Edit Message - Copy'))
 
 WebUI.setText(findTestObject('1612049/DirectMessage_Workspace/textarea_Edit Message'), WebUI.getText(findTestObject('1612049/DirectMessage_Workspace/textarea_Edit Message')) + 
     ' edited')

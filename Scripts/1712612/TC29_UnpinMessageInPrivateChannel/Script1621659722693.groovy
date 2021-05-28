@@ -19,3 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('1712612/TC27_PinMessageInPrivateChannel'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Object Repository/Page_Town Square - noname Mattermost/p_a'))
+
+WebUI.click(findTestObject('Object Repository/1612049/DirectMessage_Workspace/btn_More Action Of Pin TC - Copy'))
+
+WebUI.click(findTestObject('Object Repository/1712612_Mattermost Object/Page_Town Square - Test 1712612 Mattermost/button_Unpin from Channel - Copy'))

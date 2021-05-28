@@ -6,12 +6,12 @@
    <elementGuidId>5738d41c-2174-4494-83d6-9f6358819cb2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@id='unpin_post_y84p141g8fffugwo5wnkspdt1o']/button</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#unpin_post_y84p141g8fffugwo5wnkspdt1o > button.style--none</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='unpin_post_y84p141g8fffugwo5wnkspdt1o']/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

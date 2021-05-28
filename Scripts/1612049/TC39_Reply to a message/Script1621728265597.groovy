@@ -24,9 +24,18 @@ WebUI.navigateToUrl('https://mattermostwebapp.herokuapp.com/')
 WebUI.callTestCase(findTestCase('1612049/CommonTC/CTC_Login'), [('username') : 'jooie', ('password') : '6z6Vi2R3i06jbzaqW0pQ8Q=='], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('1612049/DirectMessage_Workspace/div_Message_divMessage'))
+//WebUI.mouseOver(findTestObject('1612049/DirectMessage_Workspace/div_Message_divMessage'))
 
-WebUI.click(findTestObject('1612049/DirectMessage_Workspace/btn_Reply A Message_btnReply'))
+//WebUI.click(findTestObject('1612049/DirectMessage_Workspace/btn_Reply A Message_btnReply'))
+
+WebUI.setText(findTestObject('Page_Town Square - noname Mattermost/textarea_Write to Town Square_post_textbox'), 'reply comment')
+
+WebUI.sendKeys(findTestObject('Page_Town Square - noname Mattermost/textarea_Write to Town Square_post_textbox'), Keys.chord(
+		Keys.ENTER))
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - noname Mattermost/p_a'))
+
+WebUI.click(findTestObject('Object Repository/1612049/DirectMessage_Workspace/btn_Reply A Message_btnReply - Copy'))
 
 WebUI.setText(findTestObject('1612049/DirectMessage_Workspace/textarea_Add a comment_reply_textbox'), 'I\'m jooie')
 

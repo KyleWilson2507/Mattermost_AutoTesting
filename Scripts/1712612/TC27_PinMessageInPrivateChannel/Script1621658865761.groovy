@@ -23,13 +23,23 @@ WebUI.callTestCase(findTestCase('1712612/CommonTC/TC_Login'), [:], FailureHandli
 
 WebUI.navigateToUrl('https://mattermostwebapp.herokuapp.com/test-1712612/channels/test-pin-message')
 
-WebUI.click(findTestObject('Object Repository/1712612_Mattermost Object/Page_test pin message - Test 1712612 Mattermost/button_nghi_tran_CENTER_button_brb8z9fihidf_f663c2'))
+//WebUI.click(findTestObject('Object Repository/1712612_Mattermost Object/Page_test pin message - Test 1712612 Mattermost/button_nghi_tran_CENTER_button_brb8z9fihidf_f663c2'))
+//
+//WebUI.click(findTestObject('Object Repository/1712612_Mattermost Object/Page_test pin message - Test 1712612 Mattermost/button_Pin to Channel'))
+//
+//WebUI.verifyElementPresent(findTestObject('Page_test pin message - Test 1712612 Mattermost/div_Pinned'), 0)
+//
+//WebUI.click(findTestObject('Object Repository/1712612_Mattermost Object/Page_test pin message - Test 1712612 Mattermost/button_nghi_tran_CENTER_button_brb8z9fihidf_f663c2'))
+//
+//WebUI.click(findTestObject('Object Repository/1712612_Mattermost Object/Page_test pin message - Test 1712612 Mattermost/button_Unpin from Channel'))
 
-WebUI.click(findTestObject('Object Repository/1712612_Mattermost Object/Page_test pin message - Test 1712612 Mattermost/button_Pin to Channel'))
+WebUI.setText(findTestObject('Page_Town Square - noname Mattermost/textarea_Write to Town Square_post_textbox'), 'pin message private channel')
 
-WebUI.verifyElementPresent(findTestObject('Page_test pin message - Test 1712612 Mattermost/div_Pinned'), 0)
+WebUI.sendKeys(findTestObject('Page_Town Square - noname Mattermost/textarea_Write to Town Square_post_textbox'), Keys.chord(
+		Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/1712612_Mattermost Object/Page_test pin message - Test 1712612 Mattermost/button_nghi_tran_CENTER_button_brb8z9fihidf_f663c2'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - noname Mattermost/p_a'))
 
-WebUI.click(findTestObject('Object Repository/1712612_Mattermost Object/Page_test pin message - Test 1712612 Mattermost/button_Unpin from Channel'))
+WebUI.click(findTestObject('Object Repository/1612049/DirectMessage_Workspace/btn_More Action Of Pin TC - Copy'))
 
+WebUI.click(findTestObject('Object Repository/1612049/DirectMessage_Workspace/btn_Pin Message - Copy'))

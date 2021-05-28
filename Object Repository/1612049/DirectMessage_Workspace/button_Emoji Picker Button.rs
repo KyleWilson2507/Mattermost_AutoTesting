@@ -6,12 +6,12 @@
    <elementGuidId>4cb5e159-56e1-4c03-8015-e2abd9bc5858</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@class='emoji-picker__container post-action'])</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.emoji-picker__container.post-action</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@class='emoji-picker__container post-action']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
