@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS TC11 CreateATeam" time="50.62" tests="2" failures="1" errors="0">
+   <testsuite name="TS TC11 CreateATeam" tests="2" failures="1" errors="0" time="50.62" skipped="0" timestamp="2021-05-28 11:30:30" hostname="phuc - 192.168.0.4" id="Test Suites/1712666/TS TC11 CreateATeam">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\phuc\\git\\Mattermost_AutoTesting\\Reports\\20210528_113018\\1712666\\TS TC11 CreateATeam\\20210528_113018"/>
+         <property name="logFiles" value="C:\\Users\\phuc\\git\\Mattermost_AutoTesting\\Reports\\20210528_113018\\1712666\\TS TC11 CreateATeam\\20210528_113018\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\phuc\\git\\Mattermost_AutoTesting\\Reports\\20210528_113018\\1712666\\TS TC11 CreateATeam\\20210528_113018\\1622176279101.png, C:\\Users\\phuc\\git\\Mattermost_AutoTesting\\Reports\\20210528_113018\\1712666\\TS TC11 CreateATeam\\20210528_113018\\1622176279296.png"/>
+         <property name="hostName" value="phuc - 192.168.0.4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.0.208"/>
+         <property name="browser" value="Chrome 90.0.4430.212"/>
+         <property name="hostAddress" value="192.168.0.4"/>
+         <property name="sessionId" value="606fcd4d715500e419d08cf583bdc71f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1712666/TC11_CreateATeam" time="22.546" classname="Test Cases/1712666/TC11_CreateATeam" status="PASSED">
+         <system-out><![CDATA[2021-05-28 11:30:31 - [TEST_CASE][PASSED] - Test Cases/1712666/TC11_CreateATeam: Test Cases/1712666/TC11_CreateATeam
+
+2021-05-28 11:30:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-28 11:30:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-28 11:30:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-28 11:30:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-28 11:30:34 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermostwebapp.herokuapp.com/"): Navigate to 'https://mattermostwebapp.herokuapp.com/' successfully
+
+2021-05-28 11:30:39 - [MESSAGE][PASSED] - Navigate to 'https://mattermostwebapp.herokuapp.com/' successfully
+
+2021-05-28 11:30:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1712666/CommonTC/CTC_Login"), ["var_username":"phuc", "var_password":"CSt51UwWECc="], null): Call Test Case 'Test Cases/1712666/CommonTC/CTC_Login' successfully
+
+2021-05-28 11:30:39 - [TEST_CASE][PASSED] - Test Cases/1712666/CommonTC/CTC_Login: Test Cases/1712666/CommonTC/CTC_Login
+
+2021-05-28 11:30:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b"), var_username): Text 'phuc' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-28 11:30:43 - [MESSAGE][PASSED] - Text 'phuc' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-28 11:30:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6"), var_password): Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-28 11:30:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-28 11:30:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1412263_Page_Mattermost/span_Sign in")): Object: 'Object Repository/1412263_Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-28 11:30:44 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-28 11:30:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1712666/CommonTC/CTC_Login' successfully
+
+2021-05-28 11:30:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - abc Mattermost/div_phuc")): Object: 'Object Repository/Page_Town Square - abc Mattermost/div_phuc' is clicked on
+
+2021-05-28 11:30:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - abc Mattermost/div_phuc' is clicked on
+
+2021-05-28 11:30:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - abc Mattermost/span_Create a Team")): Object: 'Object Repository/Page_Town Square - abc Mattermost/span_Create a Team' is clicked on
+
+2021-05-28 11:30:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - abc Mattermost/span_Create a Team' is clicked on
+
+2021-05-28 11:30:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - abc Mattermost/input_Team Name_teamNameInput"), var_teamName): Text 'test' is set on object 'Object Repository/Page_Town Square - abc Mattermost/input_Team Name_teamNameInput'
+
+2021-05-28 11:30:51 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Town Square - abc Mattermost/input_Team Name_teamNameInput'
+
+2021-05-28 11:30:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - abc Mattermost/span_Next")): Object: 'Object Repository/Page_Town Square - abc Mattermost/span_Next' is clicked on
+
+2021-05-28 11:30:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - abc Mattermost/span_Next' is clicked on
+
+2021-05-28 11:30:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - abc Mattermost/span_Finish")): Object: 'Object Repository/Page_Town Square - abc Mattermost/span_Finish' is clicked on
+
+2021-05-28 11:30:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - abc Mattermost/span_Finish' is clicked on
+
+2021-05-28 11:30:52 - [TEST_STEP][PASSED] - if (var_statusExpected.toString() == "empty"): null
+
+2021-05-28 11:30:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-28 11:30:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1712666/TC11_CreateATeam" time="25.628" classname="Test Cases/1712666/TC11_CreateATeam" status="FAILED">
+         <failure type="FAILED" message="Test Cases/1712666/TC11_CreateATeam FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Town Square - abc Mattermost/label_A team with that name already exists' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1496)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$5.call(Unknown Source)
+	at TC11_CreateATeam.run(TC11_CreateATeam:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622176218678.run(TempTestSuite1622176218678.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Town Square - abc Mattermost/label_A team with that name already exists' located by 'By.xpath: //div[@id='root']/div/div/div/div[3]/div/div/div/form/div/label' is present after '5' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+"/>
+         <system-out><![CDATA[2021-05-28 11:30:53 - [TEST_CASE][FAILED] - Test Cases/1712666/TC11_CreateATeam: Test Cases/1712666/TC11_CreateATeam FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Town Square - abc Mattermost/label_A team with that name already exists' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1496)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$5.call(Unknown Source)
+	at TC11_CreateATeam.run(TC11_CreateATeam:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622176218678.run(TempTestSuite1622176218678.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Town Square - abc Mattermost/label_A team with that name already exists' located by 'By.xpath: //div[@id='root']/div/div/div/div[3]/div/div/div/form/div/label' is present after '5' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+2021-05-28 11:30:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-28 11:30:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-28 11:30:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-28 11:30:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-28 11:30:55 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermostwebapp.herokuapp.com/"): Navigate to 'https://mattermostwebapp.herokuapp.com/' successfully
+
+2021-05-28 11:31:00 - [MESSAGE][PASSED] - Navigate to 'https://mattermostwebapp.herokuapp.com/' successfully
+
+2021-05-28 11:31:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1712666/CommonTC/CTC_Login"), ["var_username":"phuc", "var_password":"CSt51UwWECc="], null): Call Test Case 'Test Cases/1712666/CommonTC/CTC_Login' successfully
+
+2021-05-28 11:31:00 - [TEST_CASE][PASSED] - Test Cases/1712666/CommonTC/CTC_Login: Test Cases/1712666/CommonTC/CTC_Login
+
+2021-05-28 11:31:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b"), var_username): Text 'phuc' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-28 11:31:04 - [MESSAGE][PASSED] - Text 'phuc' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-28 11:31:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6"), var_password): Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-28 11:31:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-28 11:31:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1412263_Page_Mattermost/span_Sign in")): Object: 'Object Repository/1412263_Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-28 11:31:06 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-28 11:31:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1712666/CommonTC/CTC_Login' successfully
+
+2021-05-28 11:31:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - abc Mattermost/div_phuc")): Object: 'Object Repository/Page_Town Square - abc Mattermost/div_phuc' is clicked on
+
+2021-05-28 11:31:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - abc Mattermost/div_phuc' is clicked on
+
+2021-05-28 11:31:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - abc Mattermost/span_Create a Team")): Object: 'Object Repository/Page_Town Square - abc Mattermost/span_Create a Team' is clicked on
+
+2021-05-28 11:31:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - abc Mattermost/span_Create a Team' is clicked on
+
+2021-05-28 11:31:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - abc Mattermost/input_Team Name_teamNameInput"), var_teamName): Text 'test2' is set on object 'Object Repository/Page_Town Square - abc Mattermost/input_Team Name_teamNameInput'
+
+2021-05-28 11:31:11 - [MESSAGE][PASSED] - Text 'test2' is set on object 'Object Repository/Page_Town Square - abc Mattermost/input_Team Name_teamNameInput'
+
+2021-05-28 11:31:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - abc Mattermost/span_Next")): Object: 'Object Repository/Page_Town Square - abc Mattermost/span_Next' is clicked on
+
+2021-05-28 11:31:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - abc Mattermost/span_Next' is clicked on
+
+2021-05-28 11:31:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - abc Mattermost/span_Finish")): Object: 'Object Repository/Page_Town Square - abc Mattermost/span_Finish' is clicked on
+
+2021-05-28 11:31:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - abc Mattermost/span_Finish' is clicked on
+
+2021-05-28 11:31:13 - [TEST_STEP][FAILED] - if (var_statusExpected.toString() == "empty"): Unable to verify object 'Object Repository/Page_Town Square - abc Mattermost/label_A team with that name already exists' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Town Square - abc Mattermost/label_A team with that name already exists' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1496)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$5.call(Unknown Source)
+	at TC11_CreateATeam.run(TC11_CreateATeam:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622176218678.run(TempTestSuite1622176218678.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Town Square - abc Mattermost/label_A team with that name already exists' located by 'By.xpath: //div[@id='root']/div/div/div/div[3]/div/div/div/form/div/label' is present after '5' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+2021-05-28 11:31:13 - [TEST_STEP][FAILED] - verifyElementNotPresent(findTestObject("Object Repository/Page_Town Square - abc Mattermost/label_A team with that name already exists"), 5): Unable to verify object 'Object Repository/Page_Town Square - abc Mattermost/label_A team with that name already exists' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Town Square - abc Mattermost/label_A team with that name already exists' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1496)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$5.call(Unknown Source)
+	at TC11_CreateATeam.run(TC11_CreateATeam:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622176218678.run(TempTestSuite1622176218678.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Town Square - abc Mattermost/label_A team with that name already exists' located by 'By.xpath: //div[@id='root']/div/div/div/div[3]/div/div/div/form/div/label' is present after '5' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+2021-05-28 11:31:19 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Page_Town Square - abc Mattermost/label_A team with that name already exists' located by 'By.xpath: //div[@id='root']/div/div/div/div[3]/div/div/div/form/div/label' is present after '5' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Town Square - abc Mattermost/label_A team with that name already exists' located by 'By.xpath: //div[@id='root']/div/div/div/div[3]/div/div/div/form/div/label' is present after '5' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1496)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$5.call(Unknown Source)
+	at TC11_CreateATeam.run(TC11_CreateATeam:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622176218678.run(TempTestSuite1622176218678.groovy:39)
+)
+[[ATTACHMENT|C:\\Users\\phuc\\git\\Mattermost_AutoTesting\\Reports\\20210528_113018\\1712666\\TS TC11 CreateATeam\\20210528_113018\\1622176279101.png]]
+
+2021-05-28 11:31:19 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Town Square - abc Mattermost/label_A team with that name already exists' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Town Square - abc Mattermost/label_A team with that name already exists' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1496)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$5.call(Unknown Source)
+	at TC11_CreateATeam.run(TC11_CreateATeam:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622176218678.run(TempTestSuite1622176218678.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Town Square - abc Mattermost/label_A team with that name already exists' located by 'By.xpath: //div[@id='root']/div/div/div/div[3]/div/div/div/form/div/label' is present after '5' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+[[ATTACHMENT|C:\\Users\\phuc\\git\\Mattermost_AutoTesting\\Reports\\20210528_113018\\1712666\\TS TC11 CreateATeam\\20210528_113018\\1622176279296.png]]]]></system-out>
+         <system-err><![CDATA[2021-05-28 11:30:53 - [TEST_CASE][FAILED] - Test Cases/1712666/TC11_CreateATeam: Test Cases/1712666/TC11_CreateATeam FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Town Square - abc Mattermost/label_A team with that name already exists' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1496)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$5.call(Unknown Source)
+	at TC11_CreateATeam.run(TC11_CreateATeam:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622176218678.run(TempTestSuite1622176218678.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Town Square - abc Mattermost/label_A team with that name already exists' located by 'By.xpath: //div[@id='root']/div/div/div/div[3]/div/div/div/form/div/label' is present after '5' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-05-28 11:30:30 - [TEST_SUITE][FAILED] - TS TC11 CreateATeam: Test Cases/1712666/TC11_CreateATeam FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Town Square - abc Mattermost/label_A team with that name already exists' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1496)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$5.call(Unknown Source)
+	at TC11_CreateATeam.run(TC11_CreateATeam:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622176218678.run(TempTestSuite1622176218678.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Town Square - abc Mattermost/label_A team with that name already exists' located by 'By.xpath: //div[@id='root']/div/div/div/div[3]/div/div/div/form/div/label' is present after '5' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[2021-05-28 11:30:30 - [TEST_SUITE][FAILED] - TS TC11 CreateATeam: Test Cases/1712666/TC11_CreateATeam FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Town Square - abc Mattermost/label_A team with that name already exists' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1496)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$5.call(Unknown Source)
+	at TC11_CreateATeam.run(TC11_CreateATeam:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622176218678.run(TempTestSuite1622176218678.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Town Square - abc Mattermost/label_A team with that name already exists' located by 'By.xpath: //div[@id='root']/div/div/div/div[3]/div/div/div/form/div/label' is present after '5' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

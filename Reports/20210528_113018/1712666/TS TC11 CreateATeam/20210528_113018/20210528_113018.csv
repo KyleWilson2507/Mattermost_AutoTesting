@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS TC11 CreateATeam,Chrome 90.0.4430.212,,,2021-05-28 11:30:30,2021-05-28 11:31:19,49.386s,FAILED
+,,,,,,,
+Test Cases/1712666/TC11_CreateATeam,Chrome 90.0.4430.212,,,2021-05-28 11:30:31,2021-05-28 11:30:53,22.546s,PASSED
+"openBrowser("""")",Chrome 90.0.4430.212,,,2021-05-28 11:30:31,2021-05-28 11:30:34,2.520s,PASSED
+"navigateToUrl(""https://mattermostwebapp.herokuapp.com/"")",Chrome 90.0.4430.212,,,2021-05-28 11:30:34,2021-05-28 11:30:39,5.360s,PASSED
+"callTestCase(findTestCase(""1712666/CommonTC/CTC_Login""), [""var_username"":""phuc"", ""var_password"":""CSt51UwWECc=""], null)",Chrome 90.0.4430.212,,,2021-05-28 11:30:39,2021-05-28 11:30:45,5.363s,PASSED
+"click(findTestObject(""Object Repository/Page_Town Square - abc Mattermost/div_phuc""))",Chrome 90.0.4430.212,,,2021-05-28 11:30:45,2021-05-28 11:30:49,4.372s,PASSED
+"click(findTestObject(""Object Repository/Page_Town Square - abc Mattermost/span_Create a Team""))",Chrome 90.0.4430.212,,,2021-05-28 11:30:49,2021-05-28 11:30:50,0.666s,PASSED
+"setText(findTestObject(""Object Repository/Page_Town Square - abc Mattermost/input_Team Name_teamNameInput""), var_teamName)",Chrome 90.0.4430.212,,,2021-05-28 11:30:50,2021-05-28 11:30:51,1.479s,PASSED
+"click(findTestObject(""Object Repository/Page_Town Square - abc Mattermost/span_Next""))",Chrome 90.0.4430.212,,,2021-05-28 11:30:51,2021-05-28 11:30:51,0.468s,PASSED
+"click(findTestObject(""Object Repository/Page_Town Square - abc Mattermost/span_Finish""))",Chrome 90.0.4430.212,,,2021-05-28 11:30:51,2021-05-28 11:30:52,0.956s,PASSED
+"if (var_statusExpected.toString() == ""empty"")",Chrome 90.0.4430.212,,,2021-05-28 11:30:52,2021-05-28 11:30:52,0.001s,PASSED
+closeBrowser(),Chrome 90.0.4430.212,,,2021-05-28 11:30:52,2021-05-28 11:30:53,0.787s,PASSED
+,,,,,,,
+Test Cases/1712666/TC11_CreateATeam,Chrome 90.0.4430.212,,,2021-05-28 11:30:53,2021-05-28 11:31:19,25.628s,FAILED
+"openBrowser("""")",Chrome 90.0.4430.212,,,2021-05-28 11:30:53,2021-05-28 11:30:55,1.377s,PASSED
+"navigateToUrl(""https://mattermostwebapp.herokuapp.com/"")",Chrome 90.0.4430.212,,,2021-05-28 11:30:55,2021-05-28 11:31:00,4.944s,PASSED
+"callTestCase(findTestCase(""1712666/CommonTC/CTC_Login""), [""var_username"":""phuc"", ""var_password"":""CSt51UwWECc=""], null)",Chrome 90.0.4430.212,,,2021-05-28 11:31:00,2021-05-28 11:31:06,5.971s,PASSED
+"click(findTestObject(""Object Repository/Page_Town Square - abc Mattermost/div_phuc""))",Chrome 90.0.4430.212,,,2021-05-28 11:31:06,2021-05-28 11:31:09,3.277s,PASSED
+"click(findTestObject(""Object Repository/Page_Town Square - abc Mattermost/span_Create a Team""))",Chrome 90.0.4430.212,,,2021-05-28 11:31:09,2021-05-28 11:31:10,0.636s,PASSED
+"setText(findTestObject(""Object Repository/Page_Town Square - abc Mattermost/input_Team Name_teamNameInput""), var_teamName)",Chrome 90.0.4430.212,,,2021-05-28 11:31:10,2021-05-28 11:31:11,1.212s,PASSED
+"click(findTestObject(""Object Repository/Page_Town Square - abc Mattermost/span_Next""))",Chrome 90.0.4430.212,,,2021-05-28 11:31:11,2021-05-28 11:31:11,0.478s,PASSED
+"click(findTestObject(""Object Repository/Page_Town Square - abc Mattermost/span_Finish""))",Chrome 90.0.4430.212,,,2021-05-28 11:31:11,2021-05-28 11:31:13,1.446s,PASSED
+"if (var_statusExpected.toString() == ""empty"")",Chrome 90.0.4430.212,,,2021-05-28 11:31:13,2021-05-28 11:31:19,6.265s,FAILED

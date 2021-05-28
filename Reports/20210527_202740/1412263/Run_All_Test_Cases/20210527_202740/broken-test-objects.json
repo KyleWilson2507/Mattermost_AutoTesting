@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/1412263_Page_Mattermost/span_Sign in (1)",
+      "brokenLocator": "//button[@id\u003d\u0027login\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@id\u003d\u0027loginButton\u0027]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210527_202740/1412263/Run_All_Test_Cases/20210527_202740/Object Repository/1412263_Page_Mattermost/span_Sign in (1)_idRelative.png"
+    }
+  ]
+}

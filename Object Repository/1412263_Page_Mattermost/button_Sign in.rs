@@ -6,15 +6,22 @@
    <elementGuidId>a9c747d8-b366-4cbf-9fa3-44713c0eadc0</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='loginButton']/span</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#loginButton</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='loginButton']</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'loginButton' and @type = 'submit' and (text() = 'Sign in' or . = 'Sign in')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
