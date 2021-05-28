@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('Object Repository/1612049/Login_Screen/Page_Mattermost/input_All team communication in one place, _dcc84b'), 
+WebUI.setText(findTestObject('1612049/Login_Screen/input_LoginID'), 
     username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/1612049/Login_Screen/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+WebUI.setEncryptedText(findTestObject('1612049/Login_Screen/input_LoginPassword'), 
     password)
 
-WebUI.click(findTestObject('Object Repository/1612049/Login_Screen/Page_Mattermost/button_Sign in'))
+WebUI.click(findTestObject('1612049/Login_Screen/btn_Signin'))
 
