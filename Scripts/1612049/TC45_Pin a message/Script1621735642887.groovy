@@ -29,7 +29,6 @@ WebUI.setText(findTestObject('Page_Town Square - noname Mattermost/textarea_Writ
 WebUI.sendKeys(findTestObject('Page_Town Square - noname Mattermost/textarea_Write to Town Square_post_textbox'), Keys.chord(
 		Keys.ENTER))
 
-
 WebUI.click(findTestObject('Object Repository/Page_Town Square - noname Mattermost/p_a'))
 
 //WebUI.click(findTestObject('1612049/DirectMessage_Workspace/btn_More Action Of Pin TC'))
