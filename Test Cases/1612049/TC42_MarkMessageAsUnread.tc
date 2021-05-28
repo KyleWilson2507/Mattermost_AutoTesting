@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC42_MarkMessageAsUnread</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fec6de3a-202c-49cd-aa3f-21d8b5f816e2</testCaseGuid>
+</TestCaseEntity>

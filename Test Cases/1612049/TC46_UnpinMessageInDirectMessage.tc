@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC46_UnpinMessageInDirectMessage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab22853b-03fd-4e3e-bc98-803fe2692e4b</testCaseGuid>
+</TestCaseEntity>

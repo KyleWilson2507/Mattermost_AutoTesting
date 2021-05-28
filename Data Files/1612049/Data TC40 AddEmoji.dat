@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Data TC40 AddEmoji</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>66dbd325-7e42-4ec5-882a-5845d385cd4a</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>relaxed</data>
+   <data>innocent</data>
+   <data>clown_face</data>
+   <data>upside_down_face</data>
+   <data>roll_eyes</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Emoji Expression</name>
+      <size>5</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

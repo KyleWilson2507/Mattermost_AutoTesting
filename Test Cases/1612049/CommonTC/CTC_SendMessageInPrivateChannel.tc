@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CTC_SendMessageInPrivateChannel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3c83c66-79b3-4ddb-a1cf-d7edb3e36716</testCaseGuid>
+</TestCaseEntity>
