@@ -24,8 +24,6 @@ WebUI.navigateToUrl('https://mattermostwebapp.herokuapp.com/')
 
 WebUI.callTestCase(findTestCase('1712666/CommonTC/CTC_Login'), [('var_username'): 'phuc', ('var_password'): 'CSt51UwWECc='])
 
-WebUI.click(findTestObject('Object Repository/Page_Mattermost/button_Sign in (1)'))
-
 WebUI.click(findTestObject('Object Repository/Page_Town Square - test2 Mattermost/div_phuc'))
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - test2 Mattermost/span_Team Settings'))

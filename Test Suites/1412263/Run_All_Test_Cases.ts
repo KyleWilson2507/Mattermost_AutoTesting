@@ -112,16 +112,25 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1712666/TC11_CreateATeam</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>59c29ff9-b858-40c8-b7ac-1f48d2508d64</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/1712666/Data TC11 CreateATeam</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>59c29ff9-b858-40c8-b7ac-1f48d2508d64</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>team name</value>
          <variableId>f76a89a8-067d-4083-bebd-cef7025107fc</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>59c29ff9-b858-40c8-b7ac-1f48d2508d64</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>status expected</value>
          <variableId>c0f64aa5-b79c-401b-b090-81bc781dd876</variableId>
       </variableLink>
    </testCaseLink>
@@ -130,10 +139,19 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1712666/TC12_InvitePeopleToTeam</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>f5f6656c-4171-4502-aec3-68b4d6fd8a40</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/1712666/Data TC12 InvitePeopleToTeam</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>f5f6656c-4171-4502-aec3-68b4d6fd8a40</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
          <variableId>5f6543c7-9a61-45e8-ac62-93d417b7e8e0</variableId>
       </variableLink>
    </testCaseLink>
@@ -142,10 +160,19 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1712666/TC13_UpdateTeamName</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>85309cf7-21e8-49f3-bf3b-423eb133ccac</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/1712666/Data TC13 UpdateTeamName</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>85309cf7-21e8-49f3-bf3b-423eb133ccac</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>team name</value>
          <variableId>214fda20-1bba-42d6-8231-eb679d9672ce</variableId>
       </variableLink>
    </testCaseLink>
@@ -154,10 +181,19 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1712666/TC14_UpdateTeamDescription</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>cc38a7fd-72b6-4c77-9f1c-be28b1f45328</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/1712666/Data TC14 UpdateTeamDescription</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>cc38a7fd-72b6-4c77-9f1c-be28b1f45328</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>team description</value>
          <variableId>8d6b9b2b-0a96-45cb-ba7d-7896d899bcc3</variableId>
       </variableLink>
    </testCaseLink>

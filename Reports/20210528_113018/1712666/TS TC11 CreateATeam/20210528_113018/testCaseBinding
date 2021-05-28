@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/1712666/TC11_CreateATeam - Iteration 1","testCaseId":"Test Cases/1712666/TC11_CreateATeam","bindedValues":{"var_statusExpected":"\u0027A team with that name already exists.\u0027","var_teamName":"\u0027test\u0027"}}
+{"testCaseName":"Test Cases/1712666/TC11_CreateATeam - Iteration 2","testCaseId":"Test Cases/1712666/TC11_CreateATeam","bindedValues":{"var_statusExpected":"\u0027empty\u0027","var_teamName":"\u0027test2\u0027"}}
