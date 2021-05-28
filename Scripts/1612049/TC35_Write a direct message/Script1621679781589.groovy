@@ -31,7 +31,7 @@ for (i = 1; i <= 5; i += 1) {
             1, i))
 
     if (WebUI.verifyElementPresent(findTestObject('1612049/DirectMessage_Dialog/div_Search Username Result_searchResult'), 
-        5, FailureHandling.CONTINUE_ON_FAILURE)) {
+        10, FailureHandling.CONTINUE_ON_FAILURE)) {
         WebUI.sendKeys(findTestObject('1612049/DirectMessage_Workspace/Searchbox/input_Search Box_searchbox'), Keys.chord(
                 Keys.ENTER))
 
@@ -46,6 +46,8 @@ for (i = 1; i <= 5; i += 1) {
     } else {
         WebUI.click(findTestObject('1612049/Index_Sidebarr/Page_(1)  Town Square - noname Mattermost/span__1'))
     }
+    
+    Thread.sleep(2000)
 }
 
 WebUI.closeBrowser()
