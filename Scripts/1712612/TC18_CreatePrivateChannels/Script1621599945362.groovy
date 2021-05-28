@@ -23,13 +23,13 @@ WebUI.callTestCase(findTestCase('1712612/CommonTC/TC_Login'), [:], FailureHandli
 
 WebUI.navigateToUrl('https://mattermostwebapp.herokuapp.com/test-1712612/channels/town-square')
 
-for (def rowNum = 1; rowNum <= findTestData('Data Files/1712612/Data TC17 CreatePublicChannels').getRowNumbers(); rowNum++) {
+for (def rowNum = 1; rowNum <= findTestData('Data Files/1712612/Data TC 18 CreatePrivateChannels').getRowNumbers(); rowNum++) {
 	
 	WebUI.click(findTestObject('Object Repository/1712612_Mattermost Object/Page_Town Square - Test 1712612 Mattermost/span_Create a private channel'))
 	
-	WebUI.verifyElementChecked(findTestObject('Object Repository/1712612_Mattermost Object/Page_Town Square - Test 1712612 Mattermost/input_Type Private'))
+//	WebUI.verifyElementChecked(findTestObject('Object Repository/1712612_Mattermost Object/Page_Town Square - Test 1712612 Mattermost/input_Type Private'))
 	
-	String newChannelName = findTestData('Data Files/1712612/Data TC17 CreatePublicChannels').getValue(1, rowNum)
+	String newChannelName = findTestData('Data Files/1712612/Data TC 18 CreatePrivateChannels').getValue(1, rowNum)
 
     WebUI.setText(findTestObject('Object Repository/1712612_Mattermost Object/Page_Town Square - Test 1712612 Mattermost/input_Name_newChannelName'), 
         newChannelName)

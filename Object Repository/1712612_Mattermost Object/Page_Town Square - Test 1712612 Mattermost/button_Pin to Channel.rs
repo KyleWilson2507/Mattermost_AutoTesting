@@ -6,12 +6,12 @@
    <elementGuidId>8ae44f28-88b7-4f2c-8da8-3a846c740a35</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@id='pin_post_y84p141g8fffugwo5wnkspdt1o']/button</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#pin_post_y84p141g8fffugwo5wnkspdt1o > button.style--none</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@class=&quot;MenuItem__primary-text&quot;][text() = &quot;Pin from Channel&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

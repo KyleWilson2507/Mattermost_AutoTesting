@@ -29,7 +29,7 @@ WebUI.setText(findTestObject('Page_Town Square - noname Mattermost/textarea_Writ
 WebUI.sendKeys(findTestObject('Page_Town Square - noname Mattermost/textarea_Write to Town Square_post_textbox'), Keys.chord(
         Keys.ENTER))
 
-WebUI.click(findTestObject('Page_Town Square - noname Mattermost/button_upload'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - noname Mattermost/p_a'))
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - noname Mattermost/button_phuc_CENTER_flagIcon_6g89c38yzffg7fh_29b705'))
 
