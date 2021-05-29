@@ -1,5 +1,0 @@
-{"testCaseName":"Test Cases/1712666/TC13_UpdateTeamName - Iteration 1","testCaseId":"Test Cases/1712666/TC13_UpdateTeamName","bindedValues":{"var_teamname":"\u0027band1\u0027"}}
-{"testCaseName":"Test Cases/1712666/TC13_UpdateTeamName - Iteration 2","testCaseId":"Test Cases/1712666/TC13_UpdateTeamName","bindedValues":{"var_teamname":"\u0027band2\u0027"}}
-{"testCaseName":"Test Cases/1712666/TC13_UpdateTeamName - Iteration 3","testCaseId":"Test Cases/1712666/TC13_UpdateTeamName","bindedValues":{"var_teamname":"\u0027band3\u0027"}}
-{"testCaseName":"Test Cases/1712666/TC13_UpdateTeamName - Iteration 4","testCaseId":"Test Cases/1712666/TC13_UpdateTeamName","bindedValues":{"var_teamname":"\u0027band4\u0027"}}
-{"testCaseName":"Test Cases/1712666/TC13_UpdateTeamName - Iteration 5","testCaseId":"Test Cases/1712666/TC13_UpdateTeamName","bindedValues":{"var_teamname":"\u0027band5\u0027"}}
