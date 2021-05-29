@@ -38,7 +38,15 @@ WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/
 
 String newTeamName = WebUI.getText(findTestObject('Object Repository/Page_Town Square - abc1 Mattermost/div_abc1'))
 
-if (newTeamName != var_teamname.toString()) {
+//if (newTeamName != var_teamname.toString()) {
+//	throw new StepErrorException('Fail updated team name')
+//}
+
+switch(newTeamName)
+{
+	case(var_teamname.toString()):
+	break;
+	default:
 	throw new StepErrorException('Fail updated team name')
 }
 

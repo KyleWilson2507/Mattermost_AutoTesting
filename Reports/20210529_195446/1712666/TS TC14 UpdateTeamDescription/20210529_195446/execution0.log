@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2021-05-28T11:34:51</date>
-  <millis>1622176491032</millis>
+  <date>2021-05-29T19:54:56</date>
+  <millis>1622292896179</millis>
   <sequence>0</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -18,8 +18,8 @@
   <property name="stopImmediately">false</property>
 </record>
 <record>
-  <date>2021-05-28T11:34:51</date>
-  <millis>1622176491051</millis>
+  <date>2021-05-29T19:54:56</date>
+  <millis>1622292896204</millis>
   <sequence>1</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -31,8 +31,8 @@
   <property name="hostName">phuc - 192.168.0.4</property>
 </record>
 <record>
-  <date>2021-05-28T11:34:51</date>
-  <millis>1622176491052</millis>
+  <date>2021-05-29T19:54:56</date>
+  <millis>1622292896204</millis>
   <sequence>2</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -44,8 +44,8 @@
   <property name="os">Windows 10 64bit</property>
 </record>
 <record>
-  <date>2021-05-28T11:34:51</date>
-  <millis>1622176491052</millis>
+  <date>2021-05-29T19:54:56</date>
+  <millis>1622292896205</millis>
   <sequence>3</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -57,8 +57,8 @@
   <property name="hostAddress">192.168.0.4</property>
 </record>
 <record>
-  <date>2021-05-28T11:34:51</date>
-  <millis>1622176491053</millis>
+  <date>2021-05-29T19:54:56</date>
+  <millis>1622292896206</millis>
   <sequence>4</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -70,8 +70,8 @@
   <property name="katalonVersion">8.0.0.208</property>
 </record>
 <record>
-  <date>2021-05-28T11:34:52</date>
-  <millis>1622176492242</millis>
+  <date>2021-05-29T19:54:57</date>
+  <millis>1622292897384</millis>
   <sequence>5</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -88,8 +88,8 @@
   <property name="isOptional">false</property>
 </record>
 <record>
-  <date>2021-05-28T11:34:52</date>
-  <millis>1622176492274</millis>
+  <date>2021-05-29T19:54:57</date>
+  <millis>1622292897419</millis>
   <sequence>7</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -100,8 +100,8 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-05-28T11:34:52</date>
-  <millis>1622176492752</millis>
+  <date>2021-05-29T19:54:57</date>
+  <millis>1622292897971</millis>
   <sequence>8</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -114,8 +114,8 @@
   <property name="stepIndex">1</property>
 </record>
 <record>
-  <date>2021-05-28T11:34:53</date>
-  <millis>1622176493124</millis>
+  <date>2021-05-29T19:54:58</date>
+  <millis>1622292898316</millis>
   <sequence>10</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -126,8 +126,8 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-05-28T11:34:53</date>
-  <millis>1622176493183</millis>
+  <date>2021-05-29T19:54:58</date>
+  <millis>1622292898375</millis>
   <sequence>12</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -138,21 +138,21 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-05-28T11:34:55</date>
-  <millis>1622176495183</millis>
+  <date>2021-05-29T19:55:00</date>
+  <millis>1622292900338</millis>
   <sequence>14</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>sessionId = 8f5477c63a607f6044bf0e7a4b04db1f</message>
+  <message>sessionId = a7afa30bc79862b560035d4aad52c6c4</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="sessionId">8f5477c63a607f6044bf0e7a4b04db1f</property>
+  <property name="sessionId">a7afa30bc79862b560035d4aad52c6c4</property>
 </record>
 <record>
-  <date>2021-05-28T11:34:55</date>
-  <millis>1622176495211</millis>
+  <date>2021-05-29T19:55:00</date>
+  <millis>1622292900387</millis>
   <sequence>15</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -164,8 +164,8 @@
   <property name="browser">Chrome 90.0.4430.212</property>
 </record>
 <record>
-  <date>2021-05-28T11:34:55</date>
-  <millis>1622176495212</millis>
+  <date>2021-05-29T19:55:00</date>
+  <millis>1622292900388</millis>
   <sequence>16</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -177,8 +177,8 @@
   <property name="platform">Windows 10</property>
 </record>
 <record>
-  <date>2021-05-28T11:34:55</date>
-  <millis>1622176495212</millis>
+  <date>2021-05-29T19:55:00</date>
+  <millis>1622292900389</millis>
   <sequence>17</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -190,8 +190,8 @@
   <property name="seleniumVersion">3.141.59</property>
 </record>
 <record>
-  <date>2021-05-28T11:34:55</date>
-  <millis>1622176495213</millis>
+  <date>2021-05-29T19:55:00</date>
+  <millis>1622292900390</millis>
   <sequence>18</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -203,8 +203,8 @@
   <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
 </record>
 <record>
-  <date>2021-05-28T11:34:55</date>
-  <millis>1622176495294</millis>
+  <date>2021-05-29T19:55:00</date>
+  <millis>1622292900422</millis>
   <sequence>19</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -217,8 +217,8 @@
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-05-28T11:34:55</date>
-  <millis>1622176495295</millis>
+  <date>2021-05-29T19:55:00</date>
+  <millis>1622292900423</millis>
   <sequence>20</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -229,8 +229,8 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-05-28T11:34:55</date>
-  <millis>1622176495296</millis>
+  <date>2021-05-29T19:55:00</date>
+  <millis>1622292900423</millis>
   <sequence>21</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -243,8 +243,8 @@
   <property name="stepIndex">2</property>
 </record>
 <record>
-  <date>2021-05-28T11:35:00</date>
-  <millis>1622176500630</millis>
+  <date>2021-05-29T19:55:53</date>
+  <millis>1622292953012</millis>
   <sequence>24</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -257,8 +257,8 @@
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-05-28T11:35:00</date>
-  <millis>1622176500631</millis>
+  <date>2021-05-29T19:55:53</date>
+  <millis>1622292953015</millis>
   <sequence>25</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -269,8 +269,8 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-05-28T11:35:00</date>
-  <millis>1622176500631</millis>
+  <date>2021-05-29T19:55:53</date>
+  <millis>1622292953015</millis>
   <sequence>26</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -283,8 +283,8 @@
   <property name="stepIndex">3</property>
 </record>
 <record>
-  <date>2021-05-28T11:35:00</date>
-  <millis>1622176500773</millis>
+  <date>2021-05-29T19:55:53</date>
+  <millis>1622292953120</millis>
   <sequence>29</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -301,8 +301,8 @@
   <property name="isOptional">false</property>
 </record>
 <record>
-  <date>2021-05-28T11:35:00</date>
-  <millis>1622176500795</millis>
+  <date>2021-05-29T19:55:53</date>
+  <millis>1622292953132</millis>
   <sequence>31</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -313,8 +313,8 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-05-28T11:35:00</date>
-  <millis>1622176500796</millis>
+  <date>2021-05-29T19:55:53</date>
+  <millis>1622292953132</millis>
   <sequence>32</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -325,8 +325,8 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-05-28T11:35:01</date>
-  <millis>1622176501330</millis>
+  <date>2021-05-29T19:55:53</date>
+  <millis>1622292953507</millis>
   <sequence>33</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -339,9 +339,9 @@
   <property name="stepIndex">1</property>
 </record>
 <record>
-  <date>2021-05-28T11:35:05</date>
-  <millis>1622176505874</millis>
-  <sequence>53</sequence>
+  <date>2021-05-29T19:56:08</date>
+  <millis>1622292968927</millis>
+  <sequence>87</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -353,9 +353,9 @@
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-05-28T11:35:05</date>
-  <millis>1622176505875</millis>
-  <sequence>54</sequence>
+  <date>2021-05-29T19:56:08</date>
+  <millis>1622292968928</millis>
+  <sequence>88</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endKeyword</method>
@@ -365,9 +365,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-05-28T11:35:05</date>
-  <millis>1622176505875</millis>
-  <sequence>55</sequence>
+  <date>2021-05-29T19:56:08</date>
+  <millis>1622292968929</millis>
+  <sequence>89</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startKeyword</method>
@@ -379,9 +379,9 @@
   <property name="stepIndex">2</property>
 </record>
 <record>
-  <date>2021-05-28T11:35:06</date>
-  <millis>1622176506517</millis>
-  <sequence>66</sequence>
+  <date>2021-05-29T19:56:09</date>
+  <millis>1622292969564</millis>
+  <sequence>100</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -393,9 +393,9 @@
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-05-28T11:35:06</date>
-  <millis>1622176506518</millis>
-  <sequence>67</sequence>
+  <date>2021-05-29T19:56:09</date>
+  <millis>1622292969565</millis>
+  <sequence>101</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endKeyword</method>
@@ -405,9 +405,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-05-28T11:35:06</date>
-  <millis>1622176506518</millis>
-  <sequence>68</sequence>
+  <date>2021-05-29T19:56:09</date>
+  <millis>1622292969565</millis>
+  <sequence>102</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startKeyword</method>
@@ -419,9 +419,9 @@
   <property name="stepIndex">3</property>
 </record>
 <record>
-  <date>2021-05-28T11:35:07</date>
-  <millis>1622176507126</millis>
-  <sequence>77</sequence>
+  <date>2021-05-29T19:56:10</date>
+  <millis>1622292970110</millis>
+  <sequence>111</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -433,9 +433,9 @@
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-05-28T11:35:07</date>
-  <millis>1622176507127</millis>
-  <sequence>78</sequence>
+  <date>2021-05-29T19:56:10</date>
+  <millis>1622292970111</millis>
+  <sequence>112</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endKeyword</method>
@@ -445,9 +445,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-05-28T11:35:07</date>
-  <millis>1622176507127</millis>
-  <sequence>79</sequence>
+  <date>2021-05-29T19:56:10</date>
+  <millis>1622292970112</millis>
+  <sequence>113</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -457,9 +457,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-05-28T11:35:07</date>
-  <millis>1622176507128</millis>
-  <sequence>80</sequence>
+  <date>2021-05-29T19:56:10</date>
+  <millis>1622292970112</millis>
+  <sequence>114</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endTest</method>
@@ -469,9 +469,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-05-28T11:35:07</date>
-  <millis>1622176507141</millis>
-  <sequence>81</sequence>
+  <date>2021-05-29T19:56:10</date>
+  <millis>1622292970125</millis>
+  <sequence>115</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -483,9 +483,9 @@
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-05-28T11:35:07</date>
-  <millis>1622176507142</millis>
-  <sequence>82</sequence>
+  <date>2021-05-29T19:56:10</date>
+  <millis>1622292970127</millis>
+  <sequence>116</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endKeyword</method>
@@ -495,9 +495,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-05-28T11:35:07</date>
-  <millis>1622176507142</millis>
-  <sequence>83</sequence>
+  <date>2021-05-29T19:56:10</date>
+  <millis>1622292970127</millis>
+  <sequence>117</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startKeyword</method>
@@ -509,9 +509,9 @@
   <property name="stepIndex">4</property>
 </record>
 <record>
-  <date>2021-05-28T11:35:10</date>
-  <millis>1622176510803</millis>
-  <sequence>93</sequence>
+  <date>2021-05-29T19:56:13</date>
+  <millis>1622292973805</millis>
+  <sequence>126</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -523,9 +523,9 @@
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-05-28T11:35:10</date>
-  <millis>1622176510803</millis>
-  <sequence>94</sequence>
+  <date>2021-05-29T19:56:13</date>
+  <millis>1622292973806</millis>
+  <sequence>127</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endKeyword</method>
@@ -535,9 +535,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-05-28T11:35:10</date>
-  <millis>1622176510804</millis>
-  <sequence>95</sequence>
+  <date>2021-05-29T19:56:13</date>
+  <millis>1622292973807</millis>
+  <sequence>128</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startKeyword</method>
@@ -549,9 +549,9 @@
   <property name="stepIndex">5</property>
 </record>
 <record>
-  <date>2021-05-28T11:35:11</date>
-  <millis>1622176511429</millis>
-  <sequence>104</sequence>
+  <date>2021-05-29T19:56:14</date>
+  <millis>1622292974649</millis>
+  <sequence>137</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -563,9 +563,9 @@
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-05-28T11:35:11</date>
-  <millis>1622176511431</millis>
-  <sequence>105</sequence>
+  <date>2021-05-29T19:56:14</date>
+  <millis>1622292974651</millis>
+  <sequence>138</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endKeyword</method>
@@ -575,9 +575,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-05-28T11:35:11</date>
-  <millis>1622176511431</millis>
-  <sequence>106</sequence>
+  <date>2021-05-29T19:56:14</date>
+  <millis>1622292974651</millis>
+  <sequence>139</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startKeyword</method>
@@ -589,9 +589,9 @@
   <property name="stepIndex">6</property>
 </record>
 <record>
-  <date>2021-05-28T11:35:12</date>
-  <millis>1622176512196</millis>
-  <sequence>115</sequence>
+  <date>2021-05-29T19:56:15</date>
+  <millis>1622292975259</millis>
+  <sequence>148</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -603,9 +603,9 @@
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-05-28T11:35:12</date>
-  <millis>1622176512197</millis>
-  <sequence>116</sequence>
+  <date>2021-05-29T19:56:15</date>
+  <millis>1622292975260</millis>
+  <sequence>149</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endKeyword</method>
@@ -615,9 +615,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-05-28T11:35:12</date>
-  <millis>1622176512197</millis>
-  <sequence>117</sequence>
+  <date>2021-05-29T19:56:15</date>
+  <millis>1622292975261</millis>
+  <sequence>150</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startKeyword</method>
@@ -629,9 +629,9 @@
   <property name="stepIndex">7</property>
 </record>
 <record>
-  <date>2021-05-28T11:35:13</date>
-  <millis>1622176513748</millis>
-  <sequence>133</sequence>
+  <date>2021-05-29T19:56:16</date>
+  <millis>1622292976259</millis>
+  <sequence>166</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -643,9 +643,9 @@
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-05-28T11:35:13</date>
-  <millis>1622176513749</millis>
-  <sequence>134</sequence>
+  <date>2021-05-29T19:56:16</date>
+  <millis>1622292976260</millis>
+  <sequence>167</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endKeyword</method>
@@ -655,9 +655,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-05-28T11:35:13</date>
-  <millis>1622176513749</millis>
-  <sequence>135</sequence>
+  <date>2021-05-29T19:56:16</date>
+  <millis>1622292976260</millis>
+  <sequence>168</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startKeyword</method>
@@ -669,9 +669,9 @@
   <property name="stepIndex">8</property>
 </record>
 <record>
-  <date>2021-05-28T11:35:14</date>
-  <millis>1622176514212</millis>
-  <sequence>144</sequence>
+  <date>2021-05-29T19:56:16</date>
+  <millis>1622292976688</millis>
+  <sequence>177</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -683,9 +683,9 @@
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-05-28T11:35:14</date>
-  <millis>1622176514213</millis>
-  <sequence>145</sequence>
+  <date>2021-05-29T19:56:16</date>
+  <millis>1622292976689</millis>
+  <sequence>178</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endKeyword</method>
@@ -695,9 +695,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-05-28T11:35:14</date>
-  <millis>1622176514214</millis>
-  <sequence>146</sequence>
+  <date>2021-05-29T19:56:16</date>
+  <millis>1622292976689</millis>
+  <sequence>179</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startKeyword</method>
@@ -709,9 +709,9 @@
   <property name="stepIndex">9</property>
 </record>
 <record>
-  <date>2021-05-28T11:35:15</date>
-  <millis>1622176515132</millis>
-  <sequence>155</sequence>
+  <date>2021-05-29T19:56:17</date>
+  <millis>1622292977611</millis>
+  <sequence>188</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -723,9 +723,9 @@
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-05-28T11:35:15</date>
-  <millis>1622176515133</millis>
-  <sequence>156</sequence>
+  <date>2021-05-29T19:56:17</date>
+  <millis>1622292977612</millis>
+  <sequence>189</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endKeyword</method>
@@ -735,35 +735,87 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-05-28T11:35:15</date>
-  <millis>1622176515133</millis>
-  <sequence>157</sequence>
+  <date>2021-05-29T19:56:17</date>
+  <millis>1622292977613</millis>
+  <sequence>190</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startKeyword</method>
   <thread>1</thread>
-  <message>Start action : if (newTeamDescription != var_teamDescription.toString())</message>
+  <message>Start action : switch (newTeamDescription)</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="startLine">40</property>
+  <property name="startLine">44</property>
   <property name="stepIndex">10</property>
 </record>
 <record>
-  <date>2021-05-28T11:35:15</date>
-  <millis>1622176515134</millis>
-  <sequence>158</sequence>
+  <date>2021-05-29T19:56:17</date>
+  <millis>1622292977616</millis>
+  <sequence>191</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : case var_teamDescription.toString():</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">46</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2021-05-29T19:56:17</date>
+  <millis>1622292977618</millis>
+  <sequence>192</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : break</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">47</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2021-05-29T19:56:17</date>
+  <millis>1622292977622</millis>
+  <sequence>193</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endKeyword</method>
   <thread>1</thread>
-  <message>End action : if (newTeamDescription != var_teamDescription.toString())</message>
+  <message>End action : break</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-05-29T19:56:17</date>
+  <millis>1622292977622</millis>
+  <sequence>194</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : case var_teamDescription.toString():</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-05-29T19:56:17</date>
+  <millis>1622292977623</millis>
+  <sequence>195</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : switch (newTeamDescription)</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-05-28T11:35:15</date>
-  <millis>1622176515134</millis>
-  <sequence>159</sequence>
+  <date>2021-05-29T19:56:17</date>
+  <millis>1622292977624</millis>
+  <sequence>196</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startKeyword</method>
@@ -771,13 +823,13 @@
   <message>Start action : closeBrowser()</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="startLine">44</property>
+  <property name="startLine">52</property>
   <property name="stepIndex">11</property>
 </record>
 <record>
-  <date>2021-05-28T11:35:15</date>
-  <millis>1622176515933</millis>
-  <sequence>161</sequence>
+  <date>2021-05-29T19:56:18</date>
+  <millis>1622292978467</millis>
+  <sequence>198</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -789,9 +841,9 @@
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-05-28T11:35:15</date>
-  <millis>1622176515934</millis>
-  <sequence>162</sequence>
+  <date>2021-05-29T19:56:18</date>
+  <millis>1622292978468</millis>
+  <sequence>199</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endKeyword</method>
@@ -801,9 +853,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-05-28T11:35:15</date>
-  <millis>1622176515936</millis>
-  <sequence>163</sequence>
+  <date>2021-05-29T19:56:18</date>
+  <millis>1622292978469</millis>
+  <sequence>200</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -813,9 +865,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-05-28T11:35:15</date>
-  <millis>1622176515936</millis>
-  <sequence>164</sequence>
+  <date>2021-05-29T19:56:18</date>
+  <millis>1622292978469</millis>
+  <sequence>201</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endTest</method>
@@ -825,9 +877,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-05-28T11:35:16</date>
-  <millis>1622176516001</millis>
-  <sequence>165</sequence>
+  <date>2021-05-29T19:56:18</date>
+  <millis>1622292978619</millis>
+  <sequence>202</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startTest</method>
@@ -843,9 +895,9 @@
   <property name="isOptional">false</property>
 </record>
 <record>
-  <date>2021-05-28T11:35:16</date>
-  <millis>1622176516016</millis>
-  <sequence>167</sequence>
+  <date>2021-05-29T19:56:18</date>
+  <millis>1622292978619</millis>
+  <sequence>204</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -855,9 +907,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-05-28T11:35:16</date>
-  <millis>1622176516016</millis>
-  <sequence>168</sequence>
+  <date>2021-05-29T19:56:18</date>
+  <millis>1622292978619</millis>
+  <sequence>205</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startKeyword</method>
@@ -869,9 +921,9 @@
   <property name="stepIndex">1</property>
 </record>
 <record>
-  <date>2021-05-28T11:35:16</date>
-  <millis>1622176516016</millis>
-  <sequence>170</sequence>
+  <date>2021-05-29T19:56:18</date>
+  <millis>1622292978635</millis>
+  <sequence>207</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -881,9 +933,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-05-28T11:35:16</date>
-  <millis>1622176516033</millis>
-  <sequence>172</sequence>
+  <date>2021-05-29T19:56:18</date>
+  <millis>1622292978641</millis>
+  <sequence>209</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -893,22 +945,22 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-05-28T11:35:17</date>
-  <millis>1622176517339</millis>
-  <sequence>174</sequence>
+  <date>2021-05-29T19:56:20</date>
+  <millis>1622292980057</millis>
+  <sequence>211</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>sessionId = 07589c5790a9486aa7673ddd013ca3bd</message>
+  <message>sessionId = 5208c52696b1d24dfae03226f2099af7</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="sessionId">07589c5790a9486aa7673ddd013ca3bd</property>
+  <property name="sessionId">5208c52696b1d24dfae03226f2099af7</property>
 </record>
 <record>
-  <date>2021-05-28T11:35:17</date>
-  <millis>1622176517359</millis>
-  <sequence>175</sequence>
+  <date>2021-05-29T19:56:20</date>
+  <millis>1622292980079</millis>
+  <sequence>212</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -919,9 +971,9 @@
   <property name="browser">Chrome 90.0.4430.212</property>
 </record>
 <record>
-  <date>2021-05-28T11:35:17</date>
-  <millis>1622176517360</millis>
-  <sequence>176</sequence>
+  <date>2021-05-29T19:56:20</date>
+  <millis>1622292980079</millis>
+  <sequence>213</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -932,9 +984,9 @@
   <property name="platform">Windows 10</property>
 </record>
 <record>
-  <date>2021-05-28T11:35:17</date>
-  <millis>1622176517360</millis>
-  <sequence>177</sequence>
+  <date>2021-05-29T19:56:20</date>
+  <millis>1622292980079</millis>
+  <sequence>214</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -945,9 +997,9 @@
   <property name="seleniumVersion">3.141.59</property>
 </record>
 <record>
-  <date>2021-05-28T11:35:17</date>
-  <millis>1622176517361</millis>
-  <sequence>178</sequence>
+  <date>2021-05-29T19:56:20</date>
+  <millis>1622292980080</millis>
+  <sequence>215</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -958,9 +1010,9 @@
   <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
 </record>
 <record>
-  <date>2021-05-28T11:35:17</date>
-  <millis>1622176517386</millis>
-  <sequence>179</sequence>
+  <date>2021-05-29T19:56:20</date>
+  <millis>1622292980103</millis>
+  <sequence>216</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -972,9 +1024,9 @@
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-05-28T11:35:17</date>
-  <millis>1622176517387</millis>
-  <sequence>180</sequence>
+  <date>2021-05-29T19:56:20</date>
+  <millis>1622292980103</millis>
+  <sequence>217</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endKeyword</method>
@@ -984,9 +1036,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-05-28T11:35:17</date>
-  <millis>1622176517387</millis>
-  <sequence>181</sequence>
+  <date>2021-05-29T19:56:20</date>
+  <millis>1622292980103</millis>
+  <sequence>218</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startKeyword</method>
@@ -997,4 +1049,3 @@
   <property name="startLine">23</property>
   <property name="stepIndex">2</property>
 </record>
-</log>

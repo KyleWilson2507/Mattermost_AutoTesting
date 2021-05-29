@@ -37,7 +37,15 @@ WebUI.click(findTestObject('Object Repository/Page_Town Square - test2 Mattermos
 
 String newTeamDescription = WebUI.getText(findTestObject('Object Repository/Page_Town Square - test2 Mattermost/div_test'))
 
-if (newTeamDescription != var_teamDescription.toString()) {
+//if (newTeamDescription != var_teamDescription.toString()) {
+//	throw new StepErrorException('Fail updated team description')
+//}
+
+switch(newTeamDescription)
+{
+	case(var_teamDescription.toString()):
+	break;
+	default:
 	throw new StepErrorException('Fail updated team description')
 }
 
