@@ -21,15 +21,26 @@ WebUI.callTestCase(findTestCase('1712612/CommonTC/TC_OpenPage'), [:], FailureHan
 
 WebUI.callTestCase(findTestCase('1712612/CommonTC/TC_Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://mattermostwebapp.herokuapp.com/test-1712612/channels/invite-people-to-channel')
+WebUI.click(findTestObject('1612049/Left_Sidebar/Public_Channels/btn_AddPublicChannel'))
 
-WebUI.click(findTestObject('Object Repository/1712612_Mattermost Object/Page_Invite people to channel - Test 171261_c46106/button_Invite others to this channel'))
+WebUI.setText(findTestObject('1612049/Left_Sidebar/Public_Channels/NewPublicChannel_Dialog/input_NewPublicChannelName'), 
+    'InvitingChannel')
 
-WebUI.click(findTestObject('Object Repository/1712612_Mattermost Object/Page_Invite people to channel - Test 171261_c46106/div_- abc string (string)_more-modal__actio_2ea070'))
+WebUI.click(findTestObject('1612049/Left_Sidebar/Public_Channels/NewPublicChannel_Dialog/btn_SubmitNewPublicChannel'))
 
-WebUI.click(findTestObject('Object Repository/1712612_Mattermost Object/Page_Invite people to channel - Test 171261_c46106/div_- abc string (string)_more-modal__actio_2ea070'))
+for (i = 1; i <= 3; i += 1) {
+    WebUI.click(findTestObject('Object Repository/1712612_Mattermost Object/Page_Invite people to channel - Test 171261_c46106/button_Invite others to this channel'))
 
-WebUI.click(findTestObject('Object Repository/1712612_Mattermost Object/Page_Invite people to channel - Test 171261_c46106/button_Add'))
+    WebUI.setText(findTestObject('1712612_Mattermost Object/Page_Invite people to channel - Test 171261_c46106/input_SearchUser'), 
+        findTestData('1712612/Data TC19 InviteMemberToChannel').getValue(1, i))
 
-WebUI.click(findTestObject('Object Repository/1712612_Mattermost Object/Page_Invite people to channel - Test 171261_c46106/button_5'))
+    WebUI.sendKeys(findTestObject('1712612_Mattermost Object/Page_Invite people to channel - Test 171261_c46106/input_SearchUser'), 
+        Keys.chord(Keys.ENTER))
+
+    WebUI.click(findTestObject('1712612_Mattermost Object/Page_Invite people to channel - Test 171261_c46106/button_Add'))
+
+    Thread.sleep(2000)
+}
+
+WebUI.closeBrowser()
 

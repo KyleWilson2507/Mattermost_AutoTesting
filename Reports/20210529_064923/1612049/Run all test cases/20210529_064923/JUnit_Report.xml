@@ -1,0 +1,1533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Run all test cases" time="422.788" tests="20" failures="0" errors="0">
+   <testsuite name="Run all test cases" tests="20" failures="0" errors="0" time="422.788" skipped="0" timestamp="2021-05-29 06:49:35" hostname="BaoChau - LAPTOP-4BGN0MAP" id="Test Suites/1612049/Run all test cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Bao Chau\\Katalon Studio\\Mattermost_AutoTesting\\Reports\\20210529_064923\\1612049\\Run all test cases\\20210529_064923"/>
+         <property name="logFiles" value="C:\\Users\\Bao Chau\\Katalon Studio\\Mattermost_AutoTesting\\Reports\\20210529_064923\\1612049\\Run all test cases\\20210529_064923\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="BaoChau - LAPTOP-4BGN0MAP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.1.208"/>
+         <property name="browser" value="Chrome 90.0.4430.212"/>
+         <property name="hostAddress" value="169.254.181.242"/>
+         <property name="sessionId" value="61ebfae00ae6e06385bc4da726c2f654"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1412263/TC01_Login" time="28.434" classname="Test Cases/1412263/TC01_Login" status="PASSED">
+         <system-out><![CDATA[2021-05-29 06:49:36 - [TEST_CASE][PASSED] - Test Cases/1412263/TC01_Login: Test Cases/1412263/TC01_Login
+
+2021-05-29 06:49:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 06:49:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 06:49:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 06:49:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 06:49:39 - [TEST_STEP][PASSED] - navigateToUrl("http://mattermostwebapp.herokuapp.com/"): Navigate to 'http://mattermostwebapp.herokuapp.com/' successfully
+
+2021-05-29 06:49:42 - [MESSAGE][PASSED] - Navigate to 'http://mattermostwebapp.herokuapp.com/' successfully
+
+2021-05-29 06:49:42 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum <= 5, (rowNum++)]): null
+
+2021-05-29 06:49:42 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Mattermost/input_All team communication in one place, _dcc84b"), findTestData("1412263/Data TC1 Login").getValue(1, rowNum)): Text 'huykhoi263' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 06:49:45 - [MESSAGE][PASSED] - Text 'huykhoi263' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 06:49:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Mattermost/input_All team communication in one place, _a3edc6"), findTestData("1412263/Data TC1 Login").getValue(2, rowNum)): Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 06:49:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 06:49:46 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Mattermost/button_Sign in")): Object: 'Object Repository/1412263_Page_Mattermost/button_Sign in' is clicked on
+
+2021-05-29 06:49:46 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Mattermost/button_Sign in' is clicked on
+
+2021-05-29 06:49:46 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-05-29 06:49:48 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Mattermost/input_All team communication in one place, _dcc84b"), findTestData("1412263/Data TC1 Login").getValue(1, rowNum)): Text 'huykhoi' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 06:49:49 - [MESSAGE][PASSED] - Text 'huykhoi' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 06:49:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Mattermost/input_All team communication in one place, _a3edc6"), findTestData("1412263/Data TC1 Login").getValue(2, rowNum)): Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 06:49:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 06:49:50 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Mattermost/button_Sign in")): Object: 'Object Repository/1412263_Page_Mattermost/button_Sign in' is clicked on
+
+2021-05-29 06:49:50 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Mattermost/button_Sign in' is clicked on
+
+2021-05-29 06:49:50 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-05-29 06:49:52 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Mattermost/input_All team communication in one place, _dcc84b"), findTestData("1412263/Data TC1 Login").getValue(1, rowNum)): Text 'huykhoi' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 06:49:53 - [MESSAGE][PASSED] - Text 'huykhoi' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 06:49:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Mattermost/input_All team communication in one place, _a3edc6"), findTestData("1412263/Data TC1 Login").getValue(2, rowNum)): Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 06:49:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 06:49:54 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Mattermost/button_Sign in")): Object: 'Object Repository/1412263_Page_Mattermost/button_Sign in' is clicked on
+
+2021-05-29 06:49:54 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Mattermost/button_Sign in' is clicked on
+
+2021-05-29 06:49:54 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-05-29 06:49:56 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Mattermost/input_All team communication in one place, _dcc84b"), findTestData("1412263/Data TC1 Login").getValue(1, rowNum)): Text 'huy' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 06:49:57 - [MESSAGE][PASSED] - Text 'huy' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 06:49:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Mattermost/input_All team communication in one place, _a3edc6"), findTestData("1412263/Data TC1 Login").getValue(2, rowNum)): Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 06:49:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 06:49:58 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Mattermost/button_Sign in")): Object: 'Object Repository/1412263_Page_Mattermost/button_Sign in' is clicked on
+
+2021-05-29 06:49:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Mattermost/button_Sign in' is clicked on
+
+2021-05-29 06:49:58 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-05-29 06:50:00 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Mattermost/input_All team communication in one place, _dcc84b"), findTestData("1412263/Data TC1 Login").getValue(1, rowNum)): Text 'huykhoi263' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 06:50:01 - [MESSAGE][PASSED] - Text 'huykhoi263' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 06:50:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Mattermost/input_All team communication in one place, _a3edc6"), findTestData("1412263/Data TC1 Login").getValue(2, rowNum)): Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 06:50:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 06:50:01 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Mattermost/button_Sign in")): Object: 'Object Repository/1412263_Page_Mattermost/button_Sign in' is clicked on
+
+2021-05-29 06:50:02 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Mattermost/button_Sign in' is clicked on
+
+2021-05-29 06:50:02 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-05-29 06:50:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 06:50:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1412263/TC02_UpdatePassword" time="36.255" classname="Test Cases/1412263/TC02_UpdatePassword" status="PASSED">
+         <system-out><![CDATA[2021-05-29 06:50:05 - [TEST_CASE][PASSED] - Test Cases/1412263/TC02_UpdatePassword: Test Cases/1412263/TC02_UpdatePassword
+
+2021-05-29 06:50:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 06:50:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 06:50:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 06:50:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 06:50:06 - [TEST_STEP][PASSED] - navigateToUrl("http://mattermostwebapp.herokuapp.com/"): Navigate to 'http://mattermostwebapp.herokuapp.com/' successfully
+
+2021-05-29 06:50:09 - [MESSAGE][PASSED] - Navigate to 'http://mattermostwebapp.herokuapp.com/' successfully
+
+2021-05-29 06:50:09 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Mattermost/input_All team communication in one place, _dcc84b"), "huykhoi263"): Text 'huykhoi263' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 06:50:13 - [MESSAGE][PASSED] - Text 'huykhoi263' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 06:50:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Mattermost/input_All team communication in one place, _a3edc6"), "o1rBehR+FzY2ClyWuSUtzg=="): Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 06:50:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 06:50:13 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Mattermost/button_Sign in")): Object: 'Object Repository/1412263_Page_Mattermost/button_Sign in' is clicked on
+
+2021-05-29 06:50:14 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Mattermost/button_Sign in' is clicked on
+
+2021-05-29 06:50:14 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span' is clicked on
+
+2021-05-29 06:50:17 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span' is clicked on
+
+2021-05-29 06:50:17 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Account Settings")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 06:50:18 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 06:50:18 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Security")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Security' is clicked on
+
+2021-05-29 06:50:18 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Security' is clicked on
+
+2021-05-29 06:50:18 - [TEST_STEP][PASSED] - for ([i = 1, i <= 5, (i++)]): null
+
+2021-05-29 06:50:18 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditPassword")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditPassword' is clicked on
+
+2021-05-29 06:50:19 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditPassword' is clicked on
+
+2021-05-29 06:50:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Current Password_currentPassword"), findTestData("1412263/Data TC2 UpdatePassword").getValue(1, i)): Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Current Password_currentPassword'
+
+2021-05-29 06:50:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Current Password_currentPassword'
+
+2021-05-29 06:50:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_New Password_newPassword"), findTestData("1412263/Data TC2 UpdatePassword").getValue(2, i)): Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_New Password_newPassword'
+
+2021-05-29 06:50:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_New Password_newPassword'
+
+2021-05-29 06:50:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Retype New Password_confirmPassword"), findTestData("1412263/Data TC2 UpdatePassword").getValue(3, i)): Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Retype New Password_confirmPassword'
+
+2021-05-29 06:50:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Retype New Password_confirmPassword'
+
+2021-05-29 06:50:20 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Save")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Save' is clicked on
+
+2021-05-29 06:50:21 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Save' is clicked on
+
+2021-05-29 06:50:21 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-05-29 06:50:23 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditPassword")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditPassword' is clicked on
+
+2021-05-29 06:50:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditPassword' is clicked on
+
+2021-05-29 06:50:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Current Password_currentPassword"), findTestData("1412263/Data TC2 UpdatePassword").getValue(1, i)): Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Current Password_currentPassword'
+
+2021-05-29 06:50:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Current Password_currentPassword'
+
+2021-05-29 06:50:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_New Password_newPassword"), findTestData("1412263/Data TC2 UpdatePassword").getValue(2, i)): Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_New Password_newPassword'
+
+2021-05-29 06:50:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_New Password_newPassword'
+
+2021-05-29 06:50:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Retype New Password_confirmPassword"), findTestData("1412263/Data TC2 UpdatePassword").getValue(3, i)): Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Retype New Password_confirmPassword'
+
+2021-05-29 06:50:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Retype New Password_confirmPassword'
+
+2021-05-29 06:50:25 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Save")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Save' is clicked on
+
+2021-05-29 06:50:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Save' is clicked on
+
+2021-05-29 06:50:25 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-05-29 06:50:27 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditPassword")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditPassword' is clicked on
+
+2021-05-29 06:50:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditPassword' is clicked on
+
+2021-05-29 06:50:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Current Password_currentPassword"), findTestData("1412263/Data TC2 UpdatePassword").getValue(1, i)): Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Current Password_currentPassword'
+
+2021-05-29 06:50:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Current Password_currentPassword'
+
+2021-05-29 06:50:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_New Password_newPassword"), findTestData("1412263/Data TC2 UpdatePassword").getValue(2, i)): Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_New Password_newPassword'
+
+2021-05-29 06:50:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_New Password_newPassword'
+
+2021-05-29 06:50:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Retype New Password_confirmPassword"), findTestData("1412263/Data TC2 UpdatePassword").getValue(3, i)): Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Retype New Password_confirmPassword'
+
+2021-05-29 06:50:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Retype New Password_confirmPassword'
+
+2021-05-29 06:50:29 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Save")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Save' is clicked on
+
+2021-05-29 06:50:29 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Save' is clicked on
+
+2021-05-29 06:50:29 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-05-29 06:50:31 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditPassword")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditPassword' is clicked on
+
+2021-05-29 06:50:32 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditPassword' is clicked on
+
+2021-05-29 06:50:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Current Password_currentPassword"), findTestData("1412263/Data TC2 UpdatePassword").getValue(1, i)): Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Current Password_currentPassword'
+
+2021-05-29 06:50:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Current Password_currentPassword'
+
+2021-05-29 06:50:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_New Password_newPassword"), findTestData("1412263/Data TC2 UpdatePassword").getValue(2, i)): Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_New Password_newPassword'
+
+2021-05-29 06:50:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_New Password_newPassword'
+
+2021-05-29 06:50:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Retype New Password_confirmPassword"), findTestData("1412263/Data TC2 UpdatePassword").getValue(3, i)): Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Retype New Password_confirmPassword'
+
+2021-05-29 06:50:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Retype New Password_confirmPassword'
+
+2021-05-29 06:50:33 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Save")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Save' is clicked on
+
+2021-05-29 06:50:34 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Save' is clicked on
+
+2021-05-29 06:50:34 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-05-29 06:50:36 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditPassword")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditPassword' is clicked on
+
+2021-05-29 06:50:36 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditPassword' is clicked on
+
+2021-05-29 06:50:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Current Password_currentPassword"), findTestData("1412263/Data TC2 UpdatePassword").getValue(1, i)): Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Current Password_currentPassword'
+
+2021-05-29 06:50:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Current Password_currentPassword'
+
+2021-05-29 06:50:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_New Password_newPassword"), findTestData("1412263/Data TC2 UpdatePassword").getValue(2, i)): Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_New Password_newPassword'
+
+2021-05-29 06:50:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_New Password_newPassword'
+
+2021-05-29 06:50:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Retype New Password_confirmPassword"), findTestData("1412263/Data TC2 UpdatePassword").getValue(3, i)): Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Retype New Password_confirmPassword'
+
+2021-05-29 06:50:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Retype New Password_confirmPassword'
+
+2021-05-29 06:50:37 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Save")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Save' is clicked on
+
+2021-05-29 06:50:38 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Save' is clicked on
+
+2021-05-29 06:50:38 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-05-29 06:50:40 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_' is clicked on
+
+2021-05-29 06:50:40 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_' is clicked on
+
+2021-05-29 06:50:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 06:50:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1412263/TC03_UpdateFullName" time="41.238" classname="Test Cases/1412263/TC03_UpdateFullName" status="PASSED">
+         <system-out><![CDATA[2021-05-29 06:50:41 - [TEST_CASE][PASSED] - Test Cases/1412263/TC03_UpdateFullName: Test Cases/1412263/TC03_UpdateFullName
+
+2021-05-29 06:50:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 06:50:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 06:50:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 06:50:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 06:50:42 - [TEST_STEP][PASSED] - navigateToUrl("http://mattermostwebapp.herokuapp.com/"): Navigate to 'http://mattermostwebapp.herokuapp.com/' successfully
+
+2021-05-29 06:50:48 - [MESSAGE][PASSED] - Navigate to 'http://mattermostwebapp.herokuapp.com/' successfully
+
+2021-05-29 06:50:48 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Mattermost/input_All team communication in one place, _dcc84b"), "huykhoi263"): Text 'huykhoi263' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 06:50:53 - [MESSAGE][PASSED] - Text 'huykhoi263' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 06:50:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Mattermost/input_All team communication in one place, _a3edc6"), "o1rBehR+FzY2ClyWuSUtzg=="): Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 06:50:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 06:50:54 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Mattermost/button_Sign in")): Object: 'Object Repository/1412263_Page_Mattermost/button_Sign in' is clicked on
+
+2021-05-29 06:50:54 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Mattermost/button_Sign in' is clicked on
+
+2021-05-29 06:50:54 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span' is clicked on
+
+2021-05-29 06:50:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span' is clicked on
+
+2021-05-29 06:50:58 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Account Settings")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 06:50:59 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 06:50:59 - [TEST_STEP][PASSED] - for ([i = 1, i <= 5, (i++)]): null
+
+2021-05-29 06:50:59 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditFullname")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditFullname' is clicked on
+
+2021-05-29 06:50:59 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditFullname' is clicked on
+
+2021-05-29 06:50:59 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_First Name_firstName"), findTestData("1412263/Data TC3 UpdateFullName").getValue(1, i)): Text 'Nguyen' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_First Name_firstName'
+
+2021-05-29 06:51:00 - [MESSAGE][PASSED] - Text 'Nguyen' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_First Name_firstName'
+
+2021-05-29 06:51:00 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Last Name_lastName"), findTestData("1412263/Data TC3 UpdateFullName").getValue(2, i)): Text 'Huy Khoi' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Last Name_lastName'
+
+2021-05-29 06:51:01 - [MESSAGE][PASSED] - Text 'Huy Khoi' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Last Name_lastName'
+
+2021-05-29 06:51:01 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save' is clicked on
+
+2021-05-29 06:51:02 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save' is clicked on
+
+2021-05-29 06:51:02 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-05-29 06:51:04 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditFullname")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditFullname' is clicked on
+
+2021-05-29 06:51:04 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditFullname' is clicked on
+
+2021-05-29 06:51:04 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_First Name_firstName"), findTestData("1412263/Data TC3 UpdateFullName").getValue(1, i)): Text 'Tran' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_First Name_firstName'
+
+2021-05-29 06:51:05 - [MESSAGE][PASSED] - Text 'Tran' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_First Name_firstName'
+
+2021-05-29 06:51:05 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Last Name_lastName"), findTestData("1412263/Data TC3 UpdateFullName").getValue(2, i)): Text 'Van A' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Last Name_lastName'
+
+2021-05-29 06:51:06 - [MESSAGE][PASSED] - Text 'Van A' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Last Name_lastName'
+
+2021-05-29 06:51:06 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save' is clicked on
+
+2021-05-29 06:51:06 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save' is clicked on
+
+2021-05-29 06:51:06 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-05-29 06:51:08 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditFullname")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditFullname' is clicked on
+
+2021-05-29 06:51:08 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditFullname' is clicked on
+
+2021-05-29 06:51:08 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_First Name_firstName"), findTestData("1412263/Data TC3 UpdateFullName").getValue(1, i)): Text 'Nguyen' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_First Name_firstName'
+
+2021-05-29 06:51:09 - [MESSAGE][PASSED] - Text 'Nguyen' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_First Name_firstName'
+
+2021-05-29 06:51:09 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Last Name_lastName"), findTestData("1412263/Data TC3 UpdateFullName").getValue(2, i)): Text 'Thi B' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Last Name_lastName'
+
+2021-05-29 06:51:10 - [MESSAGE][PASSED] - Text 'Thi B' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Last Name_lastName'
+
+2021-05-29 06:51:10 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save' is clicked on
+
+2021-05-29 06:51:10 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save' is clicked on
+
+2021-05-29 06:51:10 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-05-29 06:51:12 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditFullname")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditFullname' is clicked on
+
+2021-05-29 06:51:13 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditFullname' is clicked on
+
+2021-05-29 06:51:13 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_First Name_firstName"), findTestData("1412263/Data TC3 UpdateFullName").getValue(1, i)): Text 'ABC' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_First Name_firstName'
+
+2021-05-29 06:51:14 - [MESSAGE][PASSED] - Text 'ABC' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_First Name_firstName'
+
+2021-05-29 06:51:14 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Last Name_lastName"), findTestData("1412263/Data TC3 UpdateFullName").getValue(2, i)): Text '346$%%$&><>Z?' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Last Name_lastName'
+
+2021-05-29 06:51:14 - [MESSAGE][PASSED] - Text '346$%%$&><>Z?' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Last Name_lastName'
+
+2021-05-29 06:51:14 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save' is clicked on
+
+2021-05-29 06:51:15 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save' is clicked on
+
+2021-05-29 06:51:15 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-05-29 06:51:17 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditFullname")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditFullname' is clicked on
+
+2021-05-29 06:51:17 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditFullname' is clicked on
+
+2021-05-29 06:51:17 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_First Name_firstName"), findTestData("1412263/Data TC3 UpdateFullName").getValue(1, i)): Text 'Huy Khoi' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_First Name_firstName'
+
+2021-05-29 06:51:18 - [MESSAGE][PASSED] - Text 'Huy Khoi' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_First Name_firstName'
+
+2021-05-29 06:51:18 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Last Name_lastName"), findTestData("1412263/Data TC3 UpdateFullName").getValue(2, i)): Text 'Nguyen' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Last Name_lastName'
+
+2021-05-29 06:51:19 - [MESSAGE][PASSED] - Text 'Nguyen' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Last Name_lastName'
+
+2021-05-29 06:51:19 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save' is clicked on
+
+2021-05-29 06:51:19 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save' is clicked on
+
+2021-05-29 06:51:19 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-05-29 06:51:21 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_' is clicked on
+
+2021-05-29 06:51:21 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_' is clicked on
+
+2021-05-29 06:51:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 06:51:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1412263/TC04_UpdateNickname" time="27.893" classname="Test Cases/1412263/TC04_UpdateNickname" status="PASSED">
+         <system-out><![CDATA[2021-05-29 06:51:22 - [TEST_CASE][PASSED] - Test Cases/1412263/TC04_UpdateNickname: Test Cases/1412263/TC04_UpdateNickname
+
+2021-05-29 06:51:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 06:51:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 06:51:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 06:51:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 06:51:24 - [TEST_STEP][PASSED] - navigateToUrl("http://mattermostwebapp.herokuapp.com/"): Navigate to 'http://mattermostwebapp.herokuapp.com/' successfully
+
+2021-05-29 06:51:26 - [MESSAGE][PASSED] - Navigate to 'http://mattermostwebapp.herokuapp.com/' successfully
+
+2021-05-29 06:51:26 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Mattermost/input_All team communication in one place, _dcc84b"), "huykhoi263"): Text 'huykhoi263' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 06:51:31 - [MESSAGE][PASSED] - Text 'huykhoi263' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 06:51:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Mattermost/input_All team communication in one place, _a3edc6"), "o1rBehR+FzY2ClyWuSUtzg=="): Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 06:51:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 06:51:31 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Mattermost/button_Sign in")): Object: 'Object Repository/1412263_Page_Mattermost/button_Sign in' is clicked on
+
+2021-05-29 06:51:32 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Mattermost/button_Sign in' is clicked on
+
+2021-05-29 06:51:32 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/path")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/path' is clicked on
+
+2021-05-29 06:51:35 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/path' is clicked on
+
+2021-05-29 06:51:35 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Account Settings")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Account Settings' is clicked on
+
+2021-05-29 06:51:36 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Account Settings' is clicked on
+
+2021-05-29 06:51:36 - [TEST_STEP][PASSED] - for ([i = 1, i <= 5, (i++)]): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save' is clicked on
+
+2021-05-29 06:51:36 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditNickname")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditNickname' is clicked on
+
+2021-05-29 06:51:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditNickname' is clicked on
+
+2021-05-29 06:51:37 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Nickname_nickname"), findTestData("1412263/Data TC3 UpdateFullName").getValue(2, i)): Text 'Huy Khoi' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Nickname_nickname'
+
+2021-05-29 06:51:37 - [MESSAGE][PASSED] - Text 'Huy Khoi' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Nickname_nickname'
+
+2021-05-29 06:51:37 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save' is clicked on
+
+2021-05-29 06:51:38 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save' is clicked on
+
+2021-05-29 06:51:38 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditNickname")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditNickname' is clicked on
+
+2021-05-29 06:51:39 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditNickname' is clicked on
+
+2021-05-29 06:51:39 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Nickname_nickname"), findTestData("1412263/Data TC3 UpdateFullName").getValue(2, i)): Text 'Van A' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Nickname_nickname'
+
+2021-05-29 06:51:40 - [MESSAGE][PASSED] - Text 'Van A' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Nickname_nickname'
+
+2021-05-29 06:51:40 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save' is clicked on
+
+2021-05-29 06:51:40 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save' is clicked on
+
+2021-05-29 06:51:40 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditNickname")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditNickname' is clicked on
+
+2021-05-29 06:51:42 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditNickname' is clicked on
+
+2021-05-29 06:51:42 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Nickname_nickname"), findTestData("1412263/Data TC3 UpdateFullName").getValue(2, i)): Text 'Thi B' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Nickname_nickname'
+
+2021-05-29 06:51:42 - [MESSAGE][PASSED] - Text 'Thi B' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Nickname_nickname'
+
+2021-05-29 06:51:42 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save' is clicked on
+
+2021-05-29 06:51:43 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save' is clicked on
+
+2021-05-29 06:51:43 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditNickname")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditNickname' is clicked on
+
+2021-05-29 06:51:44 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditNickname' is clicked on
+
+2021-05-29 06:51:44 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Nickname_nickname"), findTestData("1412263/Data TC3 UpdateFullName").getValue(2, i)): Text '346$%%$&><>Z?' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Nickname_nickname'
+
+2021-05-29 06:51:45 - [MESSAGE][PASSED] - Text '346$%%$&><>Z?' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Nickname_nickname'
+
+2021-05-29 06:51:45 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save' is clicked on
+
+2021-05-29 06:51:45 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save' is clicked on
+
+2021-05-29 06:51:45 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditNickname")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditNickname' is clicked on
+
+2021-05-29 06:51:47 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditNickname' is clicked on
+
+2021-05-29 06:51:47 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Nickname_nickname"), findTestData("1412263/Data TC3 UpdateFullName").getValue(2, i)): Text 'Nguyen' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Nickname_nickname'
+
+2021-05-29 06:51:48 - [MESSAGE][PASSED] - Text 'Nguyen' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Nickname_nickname'
+
+2021-05-29 06:51:48 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save' is clicked on
+
+2021-05-29 06:51:48 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save' is clicked on
+
+2021-05-29 06:51:48 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_' is clicked on
+
+2021-05-29 06:51:49 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_' is clicked on
+
+2021-05-29 06:51:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 06:51:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1412263/TC05_UpdateUsername" time="15.794" classname="Test Cases/1412263/TC05_UpdateUsername" status="PASSED">
+         <system-out><![CDATA[2021-05-29 06:51:50 - [TEST_CASE][PASSED] - Test Cases/1412263/TC05_UpdateUsername: Test Cases/1412263/TC05_UpdateUsername
+
+2021-05-29 06:51:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 06:51:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 06:51:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 06:51:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 06:51:52 - [TEST_STEP][PASSED] - navigateToUrl("http://mattermostwebapp.herokuapp.com/"): Navigate to 'http://mattermostwebapp.herokuapp.com/' successfully
+
+2021-05-29 06:51:54 - [MESSAGE][PASSED] - Navigate to 'http://mattermostwebapp.herokuapp.com/' successfully
+
+2021-05-29 06:51:54 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Mattermost/input_All team communication in one place, _dcc84b"), "huykhoi263"): Text 'huykhoi263' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 06:51:57 - [MESSAGE][PASSED] - Text 'huykhoi263' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 06:51:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Mattermost/input_All team communication in one place, _a3edc6"), "o1rBehR+FzY2ClyWuSUtzg=="): Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 06:51:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 06:51:58 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Mattermost/span_Sign in")): Object: 'Object Repository/1412263_Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 06:51:59 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 06:51:59 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span' is clicked on
+
+2021-05-29 06:52:02 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span' is clicked on
+
+2021-05-29 06:52:02 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Account Settings")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 06:52:03 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 06:52:03 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditUsername")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditUsername' is clicked on
+
+2021-05-29 06:52:03 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditUsername' is clicked on
+
+2021-05-29 06:52:03 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Username_username"), "huykhoi263"): Text 'huykhoi263' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Username_username'
+
+2021-05-29 06:52:04 - [MESSAGE][PASSED] - Text 'huykhoi263' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Username_username'
+
+2021-05-29 06:52:04 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Save")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Save' is clicked on
+
+2021-05-29 06:52:05 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Save' is clicked on
+
+2021-05-29 06:52:05 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_' is clicked on
+
+2021-05-29 06:52:05 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_' is clicked on
+
+2021-05-29 06:52:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 06:52:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1412263/TC06_UpdatePosition" time="15.642" classname="Test Cases/1412263/TC06_UpdatePosition" status="PASSED">
+         <system-out><![CDATA[2021-05-29 06:52:06 - [TEST_CASE][PASSED] - Test Cases/1412263/TC06_UpdatePosition: Test Cases/1412263/TC06_UpdatePosition
+
+2021-05-29 06:52:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 06:52:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 06:52:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 06:52:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 06:52:07 - [TEST_STEP][PASSED] - navigateToUrl("http://mattermostwebapp.herokuapp.com/"): Navigate to 'http://mattermostwebapp.herokuapp.com/' successfully
+
+2021-05-29 06:52:10 - [MESSAGE][PASSED] - Navigate to 'http://mattermostwebapp.herokuapp.com/' successfully
+
+2021-05-29 06:52:10 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Mattermost/input_All team communication in one place, _dcc84b"), "huykhoi263"): Text 'huykhoi263' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 06:52:13 - [MESSAGE][PASSED] - Text 'huykhoi263' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 06:52:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Mattermost/input_All team communication in one place, _a3edc6"), "o1rBehR+FzY2ClyWuSUtzg=="): Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 06:52:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 06:52:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("1412263_Page_Mattermost/input_All team communication in one place, _a3edc6"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 06:52:14 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 06:52:14 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_huykhoi263_style--none sidebar-heade_fefe58")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_huykhoi263_style--none sidebar-heade_fefe58' is clicked on
+
+2021-05-29 06:52:18 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_huykhoi263_style--none sidebar-heade_fefe58' is clicked on
+
+2021-05-29 06:52:18 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Account Settings")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 06:52:18 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 06:52:18 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditPosition")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditPosition' is clicked on
+
+2021-05-29 06:52:19 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditPosition' is clicked on
+
+2021-05-29 06:52:19 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Position_position"), "student"): Text 'student' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Position_position'
+
+2021-05-29 06:52:20 - [MESSAGE][PASSED] - Text 'student' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Position_position'
+
+2021-05-29 06:52:20 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save' is clicked on
+
+2021-05-29 06:52:20 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save' is clicked on
+
+2021-05-29 06:52:20 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_' is clicked on
+
+2021-05-29 06:52:21 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_' is clicked on
+
+2021-05-29 06:52:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 06:52:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1412263/TC07_UpdateEmail" time="18.261" classname="Test Cases/1412263/TC07_UpdateEmail" status="PASSED">
+         <system-out><![CDATA[2021-05-29 06:52:21 - [TEST_CASE][PASSED] - Test Cases/1412263/TC07_UpdateEmail: Test Cases/1412263/TC07_UpdateEmail
+
+2021-05-29 06:52:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 06:52:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 06:52:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 06:52:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 06:52:23 - [TEST_STEP][PASSED] - navigateToUrl("http://mattermostwebapp.herokuapp.com/"): Navigate to 'http://mattermostwebapp.herokuapp.com/' successfully
+
+2021-05-29 06:52:26 - [MESSAGE][PASSED] - Navigate to 'http://mattermostwebapp.herokuapp.com/' successfully
+
+2021-05-29 06:52:26 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Mattermost/input_All team communication in one place, _dcc84b"), "huykhoi263"): Text 'huykhoi263' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 06:52:30 - [MESSAGE][PASSED] - Text 'huykhoi263' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 06:52:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Mattermost/input_All team communication in one place, _a3edc6"), "o1rBehR+FzY2ClyWuSUtzg=="): Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 06:52:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 06:52:31 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Mattermost/span_Sign in")): Object: 'Object Repository/1412263_Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 06:52:31 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 06:52:31 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/path")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/path' is clicked on
+
+2021-05-29 06:52:35 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/path' is clicked on
+
+2021-05-29 06:52:35 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Account Settings")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 06:52:35 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 06:52:35 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditEmail")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditEmail' is clicked on
+
+2021-05-29 06:52:36 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_EditEmail' is clicked on
+
+2021-05-29 06:52:36 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_New Email_primaryEmail"), "huykhoiabca@gmail.com"): Text 'huykhoiabca@gmail.com' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_New Email_primaryEmail'
+
+2021-05-29 06:52:37 - [MESSAGE][PASSED] - Text 'huykhoiabca@gmail.com' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_New Email_primaryEmail'
+
+2021-05-29 06:52:37 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Confirm Email_confirmEmail"), "huykhoiabca@gmail.com"): Text 'huykhoiabca@gmail.com' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Confirm Email_confirmEmail'
+
+2021-05-29 06:52:38 - [MESSAGE][PASSED] - Text 'huykhoiabca@gmail.com' is set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Confirm Email_confirmEmail'
+
+2021-05-29 06:52:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Current Password_currentPassword"), "o1rBehR+FzY2ClyWuSUtzg=="): Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Current Password_currentPassword'
+
+2021-05-29 06:52:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/input_Current Password_currentPassword'
+
+2021-05-29 06:52:38 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save' is clicked on
+
+2021-05-29 06:52:39 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_Save' is clicked on
+
+2021-05-29 06:52:39 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Close")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Close' is clicked on
+
+2021-05-29 06:52:39 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/button_Close' is clicked on
+
+2021-05-29 06:52:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 06:52:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1412263/TC08_ResetPassword" time="71.913" classname="Test Cases/1412263/TC08_ResetPassword" status="PASSED">
+         <system-out><![CDATA[2021-05-29 06:52:40 - [TEST_CASE][PASSED] - Test Cases/1412263/TC08_ResetPassword: Test Cases/1412263/TC08_ResetPassword
+
+2021-05-29 06:52:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 06:52:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 06:52:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 06:52:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 06:52:41 - [TEST_STEP][PASSED] - navigateToUrl("http://mattermostwebapp.herokuapp.com/"): Navigate to 'http://mattermostwebapp.herokuapp.com/' successfully
+
+2021-05-29 06:52:44 - [MESSAGE][PASSED] - Navigate to 'http://mattermostwebapp.herokuapp.com/' successfully
+
+2021-05-29 06:52:44 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Mattermost/input_All team communication in one place, _dcc84b (1)"), "huykhoi263"): Text 'huykhoi263' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b (1)'
+
+2021-05-29 06:52:47 - [MESSAGE][PASSED] - Text 'huykhoi263' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b (1)'
+
+2021-05-29 06:52:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Mattermost/input_All team communication in one place, _a3edc6 (1)"), "o1rBehR+FzY2ClyWuSUtzg=="): Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6 (1)'
+
+2021-05-29 06:52:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6 (1)'
+
+2021-05-29 06:52:48 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Mattermost/span_Sign in (1)")): Object: 'Object Repository/1412263_Page_Mattermost/span_Sign in (1)' is clicked on
+
+2021-05-29 06:53:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='login']/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-05-29 06:53:19 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/1412263_Page_Mattermost/span_Sign in (1)'. Try using Self-healing.
+
+2021-05-29 06:53:19 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/1412263_Page_Mattermost/span_Sign in (1)' was broken. Propose an alternative one: '//button[@id='loginButton']/span'.
+
+2021-05-29 06:53:19 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Mattermost/span_Sign in (1)' is clicked on
+
+2021-05-29 06:53:19 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/path")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/path' is clicked on
+
+2021-05-29 06:53:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/path' is clicked on
+
+2021-05-29 06:53:24 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_System Console")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_System Console' is clicked on
+
+2021-05-29 06:53:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_System Console' is clicked on
+
+2021-05-29 06:53:24 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_System Console - Mattermost/a_Users")): Object: 'Object Repository/1412263_Page_System Console - Mattermost/a_Users' is clicked on
+
+2021-05-29 06:53:26 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_System Console - Mattermost/a_Users' is clicked on
+
+2021-05-29 06:53:26 - [TEST_STEP][PASSED] - for ([i = 1, i <= 5, (i++)]): null
+
+2021-05-29 06:53:26 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_System Console - Mattermost/a_System Admin")): Object: 'Object Repository/1412263_Page_System Console - Mattermost/a_System Admin' is clicked on
+
+2021-05-29 06:53:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_System Console - Mattermost/a_System Admin' is clicked on
+
+2021-05-29 06:53:27 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_System Console - Mattermost/span_Reset Password")): Object: 'Object Repository/1412263_Page_System Console - Mattermost/span_Reset Password' is clicked on
+
+2021-05-29 06:53:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_System Console - Mattermost/span_Reset Password' is clicked on
+
+2021-05-29 06:53:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_System Console - Mattermost/input_New Password_form-control"), findTestData("1412263/Data TC8 ResetPassword").getValue(1, i)): Text ****** has been set on object 'Object Repository/1412263_Page_System Console - Mattermost/input_New Password_form-control'
+
+2021-05-29 06:53:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_System Console - Mattermost/input_New Password_form-control'
+
+2021-05-29 06:53:28 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_System Console - Mattermost/button_Reset")): Object: 'Object Repository/1412263_Page_System Console - Mattermost/button_Reset' is clicked on
+
+2021-05-29 06:53:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_System Console - Mattermost/button_Reset' is clicked on
+
+2021-05-29 06:53:28 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2021-05-29 06:53:31 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_System Console - Mattermost/a_System Admin")): Object: 'Object Repository/1412263_Page_System Console - Mattermost/a_System Admin' is clicked on
+
+2021-05-29 06:53:32 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_System Console - Mattermost/a_System Admin' is clicked on
+
+2021-05-29 06:53:32 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_System Console - Mattermost/span_Reset Password")): Object: 'Object Repository/1412263_Page_System Console - Mattermost/span_Reset Password' is clicked on
+
+2021-05-29 06:53:32 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_System Console - Mattermost/span_Reset Password' is clicked on
+
+2021-05-29 06:53:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_System Console - Mattermost/input_New Password_form-control"), findTestData("1412263/Data TC8 ResetPassword").getValue(1, i)): Text ****** has been set on object 'Object Repository/1412263_Page_System Console - Mattermost/input_New Password_form-control'
+
+2021-05-29 06:53:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_System Console - Mattermost/input_New Password_form-control'
+
+2021-05-29 06:53:33 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_System Console - Mattermost/button_Reset")): Object: 'Object Repository/1412263_Page_System Console - Mattermost/button_Reset' is clicked on
+
+2021-05-29 06:53:33 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_System Console - Mattermost/button_Reset' is clicked on
+
+2021-05-29 06:53:33 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2021-05-29 06:53:36 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_System Console - Mattermost/a_System Admin")): Object: 'Object Repository/1412263_Page_System Console - Mattermost/a_System Admin' is clicked on
+
+2021-05-29 06:53:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_System Console - Mattermost/a_System Admin' is clicked on
+
+2021-05-29 06:53:37 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_System Console - Mattermost/span_Reset Password")): Object: 'Object Repository/1412263_Page_System Console - Mattermost/span_Reset Password' is clicked on
+
+2021-05-29 06:53:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_System Console - Mattermost/span_Reset Password' is clicked on
+
+2021-05-29 06:53:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_System Console - Mattermost/input_New Password_form-control"), findTestData("1412263/Data TC8 ResetPassword").getValue(1, i)): Text ****** has been set on object 'Object Repository/1412263_Page_System Console - Mattermost/input_New Password_form-control'
+
+2021-05-29 06:53:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_System Console - Mattermost/input_New Password_form-control'
+
+2021-05-29 06:53:38 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_System Console - Mattermost/button_Reset")): Object: 'Object Repository/1412263_Page_System Console - Mattermost/button_Reset' is clicked on
+
+2021-05-29 06:53:38 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_System Console - Mattermost/button_Reset' is clicked on
+
+2021-05-29 06:53:38 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2021-05-29 06:53:41 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_System Console - Mattermost/a_System Admin")): Object: 'Object Repository/1412263_Page_System Console - Mattermost/a_System Admin' is clicked on
+
+2021-05-29 06:53:41 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_System Console - Mattermost/a_System Admin' is clicked on
+
+2021-05-29 06:53:41 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_System Console - Mattermost/span_Reset Password")): Object: 'Object Repository/1412263_Page_System Console - Mattermost/span_Reset Password' is clicked on
+
+2021-05-29 06:53:42 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_System Console - Mattermost/span_Reset Password' is clicked on
+
+2021-05-29 06:53:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_System Console - Mattermost/input_New Password_form-control"), findTestData("1412263/Data TC8 ResetPassword").getValue(1, i)): Text ****** has been set on object 'Object Repository/1412263_Page_System Console - Mattermost/input_New Password_form-control'
+
+2021-05-29 06:53:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_System Console - Mattermost/input_New Password_form-control'
+
+2021-05-29 06:53:43 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_System Console - Mattermost/button_Reset")): Object: 'Object Repository/1412263_Page_System Console - Mattermost/button_Reset' is clicked on
+
+2021-05-29 06:53:43 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_System Console - Mattermost/button_Reset' is clicked on
+
+2021-05-29 06:53:43 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2021-05-29 06:53:46 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_System Console - Mattermost/a_System Admin")): Object: 'Object Repository/1412263_Page_System Console - Mattermost/a_System Admin' is clicked on
+
+2021-05-29 06:53:46 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_System Console - Mattermost/a_System Admin' is clicked on
+
+2021-05-29 06:53:46 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_System Console - Mattermost/span_Reset Password")): Object: 'Object Repository/1412263_Page_System Console - Mattermost/span_Reset Password' is clicked on
+
+2021-05-29 06:53:47 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_System Console - Mattermost/span_Reset Password' is clicked on
+
+2021-05-29 06:53:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_System Console - Mattermost/input_New Password_form-control"), findTestData("1412263/Data TC8 ResetPassword").getValue(1, i)): Text ****** has been set on object 'Object Repository/1412263_Page_System Console - Mattermost/input_New Password_form-control'
+
+2021-05-29 06:53:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_System Console - Mattermost/input_New Password_form-control'
+
+2021-05-29 06:53:48 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_System Console - Mattermost/button_Reset")): Object: 'Object Repository/1412263_Page_System Console - Mattermost/button_Reset' is clicked on
+
+2021-05-29 06:53:48 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_System Console - Mattermost/button_Reset' is clicked on
+
+2021-05-29 06:53:48 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2021-05-29 06:53:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 06:53:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1412263/TC10_SetPasswordLimit" time="21.364" classname="Test Cases/1412263/TC10_SetPasswordLimit" status="PASSED">
+         <system-out><![CDATA[2021-05-29 06:53:52 - [TEST_CASE][PASSED] - Test Cases/1412263/TC10_SetPasswordLimit: Test Cases/1412263/TC10_SetPasswordLimit
+
+2021-05-29 06:53:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 06:53:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 06:53:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 06:53:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 06:53:53 - [TEST_STEP][PASSED] - navigateToUrl("http://mattermostwebapp.herokuapp.com/"): Navigate to 'http://mattermostwebapp.herokuapp.com/' successfully
+
+2021-05-29 06:53:59 - [MESSAGE][PASSED] - Navigate to 'http://mattermostwebapp.herokuapp.com/' successfully
+
+2021-05-29 06:53:59 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_Mattermost/input_All team communication in one place, _dcc84b"), "huykhoi263"): Text 'huykhoi263' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 06:54:03 - [MESSAGE][PASSED] - Text 'huykhoi263' is set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 06:54:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1412263_Page_Mattermost/input_All team communication in one place, _a3edc6"), "o1rBehR+FzY2ClyWuSUtzg=="): Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 06:54:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 06:54:03 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Mattermost/button_Sign in")): Object: 'Object Repository/1412263_Page_Mattermost/button_Sign in' is clicked on
+
+2021-05-29 06:54:04 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Mattermost/button_Sign in' is clicked on
+
+2021-05-29 06:54:04 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/path")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/path' is clicked on
+
+2021-05-29 06:54:08 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/path' is clicked on
+
+2021-05-29 06:54:08 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_System Console")): Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_System Console' is clicked on
+
+2021-05-29 06:54:09 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_Town Square - CNC_Nhom3 Mattermost/span_System Console' is clicked on
+
+2021-05-29 06:54:09 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_System Console - Mattermost/a_Password")): Object: 'Object Repository/1412263_Page_System Console - Mattermost/a_Password' is clicked on
+
+2021-05-29 06:54:11 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_System Console - Mattermost/a_Password' is clicked on
+
+2021-05-29 06:54:11 - [TEST_STEP][PASSED] - setText(findTestObject("1412263_Page_System Console - Mattermost/input_Minimum Password Length_passwordMinim_e95e98"), "6"): Text '6' is set on object 'Object Repository/1412263_Page_System Console - Mattermost/input_Minimum Password Length_passwordMinim_e95e98'
+
+2021-05-29 06:54:12 - [MESSAGE][PASSED] - Text '6' is set on object 'Object Repository/1412263_Page_System Console - Mattermost/input_Minimum Password Length_passwordMinim_e95e98'
+
+2021-05-29 06:54:12 - [TEST_STEP][PASSED] - click(findTestObject("1412263_Page_System Console - Mattermost/button_Save")): Object: 'Object Repository/1412263_Page_System Console - Mattermost/button_Save' is clicked on
+
+2021-05-29 06:54:12 - [MESSAGE][PASSED] - Object: 'Object Repository/1412263_Page_System Console - Mattermost/button_Save' is clicked on
+
+2021-05-29 06:54:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 06:54:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1412263/TC52_APILogin" time="2.373" classname="Test Cases/1412263/TC52_APILogin" status="PASSED">
+         <system-out><![CDATA[2021-05-29 06:54:13 - [TEST_CASE][PASSED] - Test Cases/1412263/TC52_APILogin: Test Cases/1412263/TC52_APILogin
+
+2021-05-29 06:54:13 - [TEST_STEP][PASSED] - sendRequest(findTestObject("1412263_API_Mattermost/API_Login")): Send request successfully
+
+2021-05-29 06:54:15 - [MESSAGE][INFO] - HAR: C:\Users\Bao Chau\Katalon Studio\Mattermost_AutoTesting\Reports\20210529_064923\1612049\Run all test cases\20210529_064923\requests\main\0.har
+
+2021-05-29 06:54:15 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1412263/TC53_APISignUp" time="1.456" classname="Test Cases/1412263/TC53_APISignUp" status="PASSED">
+         <system-out><![CDATA[2021-05-29 06:54:15 - [TEST_CASE][PASSED] - Test Cases/1412263/TC53_APISignUp: Test Cases/1412263/TC53_APISignUp
+
+2021-05-29 06:54:16 - [TEST_STEP][PASSED] - sendRequest(findTestObject("1412263_API_Mattermost/API_SignUp")): Send request successfully
+
+2021-05-29 06:54:17 - [MESSAGE][INFO] - HAR: C:\Users\Bao Chau\Katalon Studio\Mattermost_AutoTesting\Reports\20210529_064923\1612049\Run all test cases\20210529_064923\requests\main\1.har
+
+2021-05-29 06:54:17 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1412263/TC54_APISendMessage" time="2.484" classname="Test Cases/1412263/TC54_APISendMessage" status="PASSED">
+         <system-out><![CDATA[2021-05-29 06:54:17 - [TEST_CASE][PASSED] - Test Cases/1412263/TC54_APISendMessage: Test Cases/1412263/TC54_APISendMessage
+
+2021-05-29 06:54:17 - [TEST_STEP][PASSED] - loginResponse = sendRequest(findTestObject("Object Repository/1412263_API_Mattermost/API_Login")): Send request successfully
+
+2021-05-29 06:54:18 - [MESSAGE][INFO] - HAR: C:\Users\Bao Chau\Katalon Studio\Mattermost_AutoTesting\Reports\20210529_064923\1612049\Run all test cases\20210529_064923\requests\main\2.har
+
+2021-05-29 06:54:18 - [MESSAGE][PASSED] - Send request successfully
+
+2021-05-29 06:54:18 - [TEST_STEP][PASSED] - parsed = loginResponse.getHeaderFields(): null
+
+2021-05-29 06:54:18 - [TEST_STEP][PASSED] - tokenAPI = Token: null
+
+2021-05-29 06:54:18 - [TEST_STEP][PASSED] - token = "Bearer " + tokenAPI.substring(1, tokenAPI.length() - 1): null
+
+2021-05-29 06:54:18 - [TEST_STEP][PASSED] - sendMessageRequest = findTestObject("Object Repository/1412263_API_Mattermost/API_SendMessage_2"): null
+
+2021-05-29 06:54:19 - [TEST_STEP][PASSED] - HTTPHeader = new java.util.ArrayList(): null
+
+2021-05-29 06:54:19 - [TEST_STEP][PASSED] - authorizationTest = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, token): null
+
+2021-05-29 06:54:19 - [TEST_STEP][PASSED] - HTTPHeader.add(authorizationTest): null
+
+2021-05-29 06:54:19 - [TEST_STEP][PASSED] - sendMessageRequest.setHttpHeaderProperties(HTTPHeader): null
+
+2021-05-29 06:54:19 - [TEST_STEP][PASSED] - response = sendRequest(sendMessageRequest): Send request successfully
+
+2021-05-29 06:54:19 - [MESSAGE][INFO] - HAR: C:\Users\Bao Chau\Katalon Studio\Mattermost_AutoTesting\Reports\20210529_064923\1612049\Run all test cases\20210529_064923\requests\main\3.har
+
+2021-05-29 06:54:19 - [MESSAGE][PASSED] - Send request successfully
+
+2021-05-29 06:54:19 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "channel_id", "3bba45je8pyjtp8s4cgk6iei3c"): Verify element property value successfully
+
+2021-05-29 06:54:19 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-05-29 06:54:19 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "message", "Coco Jambo"): Verify element property value successfully
+
+2021-05-29 06:54:19 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1712666/TC55_ChangeNameAPI" time="2.806" classname="Test Cases/1712666/TC55_ChangeNameAPI" status="PASSED">
+         <system-out><![CDATA[2021-05-29 06:54:19 - [TEST_CASE][PASSED] - Test Cases/1712666/TC55_ChangeNameAPI: Test Cases/1712666/TC55_ChangeNameAPI
+
+2021-05-29 06:54:20 - [TEST_STEP][PASSED] - loginResponse = sendRequest(findTestObject("Object Repository/1712666_API_Mattermost/CommonAPI/Common_LoginAPI")): Send request successfully
+
+2021-05-29 06:54:21 - [MESSAGE][INFO] - HAR: C:\Users\Bao Chau\Katalon Studio\Mattermost_AutoTesting\Reports\20210529_064923\1612049\Run all test cases\20210529_064923\requests\main\4.har
+
+2021-05-29 06:54:21 - [MESSAGE][PASSED] - Send request successfully
+
+2021-05-29 06:54:21 - [TEST_STEP][PASSED] - parsed = loginResponse.getHeaderFields(): null
+
+2021-05-29 06:54:21 - [TEST_STEP][PASSED] - tokenAPI = Token: null
+
+2021-05-29 06:54:21 - [TEST_STEP][PASSED] - token = "Bearer " + tokenAPI.substring(1, tokenAPI.length() - 1): null
+
+2021-05-29 06:54:21 - [TEST_STEP][PASSED] - changeNameRequest = findTestObject("1712666_API_Mattermost/ChangeNameAPI"): null
+
+2021-05-29 06:54:21 - [TEST_STEP][PASSED] - HTTPHeader = new java.util.ArrayList(): null
+
+2021-05-29 06:54:21 - [TEST_STEP][PASSED] - authorizationTest = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, token): null
+
+2021-05-29 06:54:21 - [TEST_STEP][PASSED] - HTTPHeader.add(authorizationTest): null
+
+2021-05-29 06:54:21 - [TEST_STEP][PASSED] - changeNameRequest.setHttpHeaderProperties(HTTPHeader): null
+
+2021-05-29 06:54:21 - [TEST_STEP][PASSED] - response = sendRequest(changeNameRequest): Send request successfully
+
+2021-05-29 06:54:22 - [MESSAGE][INFO] - HAR: C:\Users\Bao Chau\Katalon Studio\Mattermost_AutoTesting\Reports\20210529_064923\1612049\Run all test cases\20210529_064923\requests\main\5.har
+
+2021-05-29 06:54:22 - [MESSAGE][PASSED] - Send request successfully
+
+2021-05-29 06:54:22 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "first_name", "test first name"): Verify element property value successfully
+
+2021-05-29 06:54:22 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-05-29 06:54:22 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "last_name", "test last name"): Verify element property value successfully
+
+2021-05-29 06:54:22 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1712666/TC56_SearchUserAPI" time="2.899" classname="Test Cases/1712666/TC56_SearchUserAPI" status="PASSED">
+         <system-out><![CDATA[2021-05-29 06:54:22 - [TEST_CASE][PASSED] - Test Cases/1712666/TC56_SearchUserAPI: Test Cases/1712666/TC56_SearchUserAPI
+
+2021-05-29 06:54:23 - [TEST_STEP][PASSED] - loginResponse = sendRequest(findTestObject("Object Repository/1712666_API_Mattermost/CommonAPI/Common_LoginAPI")): Send request successfully
+
+2021-05-29 06:54:24 - [MESSAGE][INFO] - HAR: C:\Users\Bao Chau\Katalon Studio\Mattermost_AutoTesting\Reports\20210529_064923\1612049\Run all test cases\20210529_064923\requests\main\6.har
+
+2021-05-29 06:54:24 - [MESSAGE][PASSED] - Send request successfully
+
+2021-05-29 06:54:24 - [TEST_STEP][PASSED] - parsed = loginResponse.getHeaderFields(): null
+
+2021-05-29 06:54:24 - [TEST_STEP][PASSED] - tokenAPI = Token: null
+
+2021-05-29 06:54:24 - [TEST_STEP][PASSED] - token = "Bearer " + tokenAPI.substring(1, tokenAPI.length() - 1): null
+
+2021-05-29 06:54:24 - [TEST_STEP][PASSED] - searchUserRequest = findTestObject("1712666_API_Mattermost/SearchUserAPI"): null
+
+2021-05-29 06:54:24 - [TEST_STEP][PASSED] - HTTPHeader = new java.util.ArrayList(): null
+
+2021-05-29 06:54:24 - [TEST_STEP][PASSED] - authorizationTest = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, token): null
+
+2021-05-29 06:54:24 - [TEST_STEP][PASSED] - HTTPHeader.add(authorizationTest): null
+
+2021-05-29 06:54:24 - [TEST_STEP][PASSED] - searchUserRequest.setHttpHeaderProperties(HTTPHeader): null
+
+2021-05-29 06:54:24 - [TEST_STEP][PASSED] - response = sendRequest(searchUserRequest): Send request successfully
+
+2021-05-29 06:54:25 - [MESSAGE][INFO] - HAR: C:\Users\Bao Chau\Katalon Studio\Mattermost_AutoTesting\Reports\20210529_064923\1612049\Run all test cases\20210529_064923\requests\main\7.har
+
+2021-05-29 06:54:25 - [MESSAGE][PASSED] - Send request successfully
+
+2021-05-29 06:54:25 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].username", "phuc"): Verify element property value successfully
+
+2021-05-29 06:54:25 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1712666/TC57_SearchPublicChannelAPI" time="2.837" classname="Test Cases/1712666/TC57_SearchPublicChannelAPI" status="PASSED">
+         <system-out><![CDATA[2021-05-29 06:54:25 - [TEST_CASE][PASSED] - Test Cases/1712666/TC57_SearchPublicChannelAPI: Test Cases/1712666/TC57_SearchPublicChannelAPI
+
+2021-05-29 06:54:25 - [TEST_STEP][PASSED] - loginResponse = sendRequest(findTestObject("Object Repository/1712666_API_Mattermost/CommonAPI/Common_LoginAPI")): Send request successfully
+
+2021-05-29 06:54:27 - [MESSAGE][INFO] - HAR: C:\Users\Bao Chau\Katalon Studio\Mattermost_AutoTesting\Reports\20210529_064923\1612049\Run all test cases\20210529_064923\requests\main\8.har
+
+2021-05-29 06:54:27 - [MESSAGE][PASSED] - Send request successfully
+
+2021-05-29 06:54:27 - [TEST_STEP][PASSED] - parsed = loginResponse.getHeaderFields(): null
+
+2021-05-29 06:54:27 - [TEST_STEP][PASSED] - tokenAPI = Token: null
+
+2021-05-29 06:54:27 - [TEST_STEP][PASSED] - token = "Bearer " + tokenAPI.substring(1, tokenAPI.length() - 1): null
+
+2021-05-29 06:54:27 - [TEST_STEP][PASSED] - searchPublicChannelRequest = findTestObject("1712666_API_Mattermost/SearchPublicChannelAPI"): null
+
+2021-05-29 06:54:27 - [TEST_STEP][PASSED] - HTTPHeader = new java.util.ArrayList(): null
+
+2021-05-29 06:54:27 - [TEST_STEP][PASSED] - authorizationTest = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, token): null
+
+2021-05-29 06:54:27 - [TEST_STEP][PASSED] - HTTPHeader.add(authorizationTest): null
+
+2021-05-29 06:54:27 - [TEST_STEP][PASSED] - searchPublicChannelRequest.setHttpHeaderProperties(HTTPHeader): null
+
+2021-05-29 06:54:27 - [TEST_STEP][PASSED] - response = sendRequest(searchPublicChannelRequest): Send request successfully
+
+2021-05-29 06:54:28 - [MESSAGE][INFO] - HAR: C:\Users\Bao Chau\Katalon Studio\Mattermost_AutoTesting\Reports\20210529_064923\1612049\Run all test cases\20210529_064923\requests\main\9.har
+
+2021-05-29 06:54:28 - [MESSAGE][PASSED] - Send request successfully
+
+2021-05-29 06:54:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].name", "test1"): Verify element property value successfully
+
+2021-05-29 06:54:28 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1712666/TC58_LogoutAPI" time="2.687" classname="Test Cases/1712666/TC58_LogoutAPI" status="PASSED">
+         <system-out><![CDATA[2021-05-29 06:54:28 - [TEST_CASE][PASSED] - Test Cases/1712666/TC58_LogoutAPI: Test Cases/1712666/TC58_LogoutAPI
+
+2021-05-29 06:54:28 - [TEST_STEP][PASSED] - loginResponse = sendRequest(findTestObject("Object Repository/1712666_API_Mattermost/CommonAPI/Common_LoginAPI")): Send request successfully
+
+2021-05-29 06:54:29 - [MESSAGE][INFO] - HAR: C:\Users\Bao Chau\Katalon Studio\Mattermost_AutoTesting\Reports\20210529_064923\1612049\Run all test cases\20210529_064923\requests\main\10.har
+
+2021-05-29 06:54:29 - [MESSAGE][PASSED] - Send request successfully
+
+2021-05-29 06:54:29 - [TEST_STEP][PASSED] - parsed = loginResponse.getHeaderFields(): null
+
+2021-05-29 06:54:29 - [TEST_STEP][PASSED] - tokenAPI = Token: null
+
+2021-05-29 06:54:29 - [TEST_STEP][PASSED] - token = "Bearer " + tokenAPI.substring(1, tokenAPI.length() - 1): null
+
+2021-05-29 06:54:29 - [TEST_STEP][PASSED] - logoutRequest = findTestObject("1712666_API_Mattermost/LogoutAPI"): null
+
+2021-05-29 06:54:29 - [TEST_STEP][PASSED] - HTTPHeader = new java.util.ArrayList(): null
+
+2021-05-29 06:54:29 - [TEST_STEP][PASSED] - authorizationTest = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, token): null
+
+2021-05-29 06:54:29 - [TEST_STEP][PASSED] - HTTPHeader.add(authorizationTest): null
+
+2021-05-29 06:54:29 - [TEST_STEP][PASSED] - logoutRequest.setHttpHeaderProperties(HTTPHeader): null
+
+2021-05-29 06:54:29 - [TEST_STEP][PASSED] - response = sendRequest(logoutRequest): Send request successfully
+
+2021-05-29 06:54:30 - [MESSAGE][INFO] - HAR: C:\Users\Bao Chau\Katalon Studio\Mattermost_AutoTesting\Reports\20210529_064923\1612049\Run all test cases\20210529_064923\requests\main\11.har
+
+2021-05-29 06:54:30 - [MESSAGE][PASSED] - Send request successfully
+
+2021-05-29 06:54:30 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "OK"): Verify element property value successfully
+
+2021-05-29 06:54:31 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1712612/TC20_Update_channel_purpose" time="24.627" classname="Test Cases/1712612/TC20_Update_channel_purpose" status="PASSED">
+         <system-out><![CDATA[2021-05-29 06:54:31 - [TEST_CASE][PASSED] - Test Cases/1712612/TC20_Update_channel_purpose: Test Cases/1712612/TC20_Update_channel_purpose
+
+2021-05-29 06:54:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1712612/CommonTC/TC_OpenPage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1712612/CommonTC/TC_OpenPage' successfully
+
+2021-05-29 06:54:31 - [TEST_CASE][PASSED] - Test Cases/1712612/CommonTC/TC_OpenPage: Test Cases/1712612/CommonTC/TC_OpenPage
+
+2021-05-29 06:54:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 06:54:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 06:54:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 06:54:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 06:54:33 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermostwebapp.herokuapp.com/login"): Navigate to 'https://mattermostwebapp.herokuapp.com/login' successfully
+
+2021-05-29 06:54:36 - [MESSAGE][PASSED] - Navigate to 'https://mattermostwebapp.herokuapp.com/login' successfully
+
+2021-05-29 06:54:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1712612/CommonTC/TC_OpenPage' successfully
+
+2021-05-29 06:54:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1712612/CommonTC/TC_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1712612/CommonTC/TC_Login' successfully
+
+2021-05-29 06:54:36 - [TEST_CASE][PASSED] - Test Cases/1712612/CommonTC/TC_Login: Test Cases/1712612/CommonTC/TC_Login
+
+2021-05-29 06:54:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/1712612_Mattermost Object/Page_Mattermost/input_login_username"), STOP_ON_FAILURE): Object 'Object Repository/1712612_Mattermost Object/Page_Mattermost/input_login_username' is visible
+
+2021-05-29 06:54:40 - [MESSAGE][PASSED] - Object 'Object Repository/1712612_Mattermost Object/Page_Mattermost/input_login_username' is visible
+
+2021-05-29 06:54:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/1712612_Mattermost Object/Page_Mattermost/input_login_password"), STOP_ON_FAILURE): Object 'Object Repository/1712612_Mattermost Object/Page_Mattermost/input_login_password' is visible
+
+2021-05-29 06:54:41 - [MESSAGE][PASSED] - Object 'Object Repository/1712612_Mattermost Object/Page_Mattermost/input_login_password' is visible
+
+2021-05-29 06:54:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1712612_Mattermost Object/Page_Mattermost/input_login_username"), "nghi_tran"): Text 'nghi_tran' is set on object 'Object Repository/1712612_Mattermost Object/Page_Mattermost/input_login_username'
+
+2021-05-29 06:54:41 - [MESSAGE][PASSED] - Text 'nghi_tran' is set on object 'Object Repository/1712612_Mattermost Object/Page_Mattermost/input_login_username'
+
+2021-05-29 06:54:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/1712612_Mattermost Object/Page_Mattermost/input_login_password"), "KBlHou+hFmnFUOUwxwboiw=="): Text ****** has been set on object 'Object Repository/1712612_Mattermost Object/Page_Mattermost/input_login_password'
+
+2021-05-29 06:54:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1712612_Mattermost Object/Page_Mattermost/input_login_password'
+
+2021-05-29 06:54:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1712612_Mattermost Object/Page_Mattermost/button_Sign in")): Object: 'Object Repository/1712612_Mattermost Object/Page_Mattermost/button_Sign in' is clicked on
+
+2021-05-29 06:54:42 - [MESSAGE][PASSED] - Object: 'Object Repository/1712612_Mattermost Object/Page_Mattermost/button_Sign in' is clicked on
+
+2021-05-29 06:54:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/1712612_Mattermost Object/Page_Town Square - another Mattermost/img__Avatar Avatar-lg"), STOP_ON_FAILURE): Object 'Object Repository/1712612_Mattermost Object/Page_Town Square - another Mattermost/img__Avatar Avatar-lg' is visible
+
+2021-05-29 06:54:46 - [MESSAGE][PASSED] - Object 'Object Repository/1712612_Mattermost Object/Page_Town Square - another Mattermost/img__Avatar Avatar-lg' is visible
+
+2021-05-29 06:54:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1712612/CommonTC/TC_Login' successfully
+
+2021-05-29 06:54:46 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermostwebapp.herokuapp.com/test-1712612/channels/update-channel-purpose"): Navigate to 'https://mattermostwebapp.herokuapp.com/test-1712612/channels/update-channel-purpose' successfully
+
+2021-05-29 06:54:46 - [MESSAGE][PASSED] - Navigate to 'https://mattermostwebapp.herokuapp.com/test-1712612/channels/update-channel-purpose' successfully
+
+2021-05-29 06:54:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1712612_Mattermost Object/Page_Update channel purpose - Test 1712612 _81d6bc/button_Update channel purpose")): Object: 'Object Repository/1712612_Mattermost Object/Page_Update channel purpose - Test 1712612 _81d6bc/button_Update channel purpose' is clicked on
+
+2021-05-29 06:54:50 - [MESSAGE][PASSED] - Object: 'Object Repository/1712612_Mattermost Object/Page_Update channel purpose - Test 1712612 _81d6bc/button_Update channel purpose' is clicked on
+
+2021-05-29 06:54:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1712612_Mattermost Object/Page_Update channel purpose - Test 1712612 _81d6bc/button_Edit Channel Purpose")): Object: 'Object Repository/1712612_Mattermost Object/Page_Update channel purpose - Test 1712612 _81d6bc/button_Edit Channel Purpose' is clicked on
+
+2021-05-29 06:54:50 - [MESSAGE][PASSED] - Object: 'Object Repository/1712612_Mattermost Object/Page_Update channel purpose - Test 1712612 _81d6bc/button_Edit Channel Purpose' is clicked on
+
+2021-05-29 06:54:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1712612_Mattermost Object/Page_Update channel purpose - Test 1712612 _81d6bc/div_CloseEdit Purpose for Update channel pu_f30fff")): Object: 'Object Repository/1712612_Mattermost Object/Page_Update channel purpose - Test 1712612 _81d6bc/div_CloseEdit Purpose for Update channel pu_f30fff' is clicked on
+
+2021-05-29 06:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/1712612_Mattermost Object/Page_Update channel purpose - Test 1712612 _81d6bc/div_CloseEdit Purpose for Update channel pu_f30fff' is clicked on
+
+2021-05-29 06:54:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1712612_Mattermost Object/Page_Update channel purpose - Test 1712612 _81d6bc/textarea_This is update channel purpose"), "This is update channel purpose."): Text 'This is update channel purpose.' is set on object 'Object Repository/1712612_Mattermost Object/Page_Update channel purpose - Test 1712612 _81d6bc/textarea_This is update channel purpose'
+
+2021-05-29 06:54:51 - [MESSAGE][PASSED] - Text 'This is update channel purpose.' is set on object 'Object Repository/1712612_Mattermost Object/Page_Update channel purpose - Test 1712612 _81d6bc/textarea_This is update channel purpose'
+
+2021-05-29 06:54:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1712612_Mattermost Object/Page_Update channel purpose - Test 1712612 _81d6bc/button_Save")): Object: 'Object Repository/1712612_Mattermost Object/Page_Update channel purpose - Test 1712612 _81d6bc/button_Save' is clicked on
+
+2021-05-29 06:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/1712612_Mattermost Object/Page_Update channel purpose - Test 1712612 _81d6bc/button_Save' is clicked on
+
+2021-05-29 06:54:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1712612_Mattermost Object/Page_Update channel purpose - Test 1712612 _81d6bc/button_Update channel purpose")): Object: 'Object Repository/1712612_Mattermost Object/Page_Update channel purpose - Test 1712612 _81d6bc/button_Update channel purpose' is clicked on
+
+2021-05-29 06:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/1712612_Mattermost Object/Page_Update channel purpose - Test 1712612 _81d6bc/button_Update channel purpose' is clicked on
+
+2021-05-29 06:54:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1712612_Mattermost Object/Page_Update channel purpose - Test 1712612 _81d6bc/button_View Info")): Object: 'Object Repository/1712612_Mattermost Object/Page_Update channel purpose - Test 1712612 _81d6bc/button_View Info' is clicked on
+
+2021-05-29 06:54:54 - [MESSAGE][PASSED] - Object: 'Object Repository/1712612_Mattermost Object/Page_Update channel purpose - Test 1712612 _81d6bc/button_View Info' is clicked on
+
+2021-05-29 06:54:54 - [TEST_STEP][PASSED] - verifyTextPresent("This is update channel purpose.", false): Text 'This is update channel purpose.' is present on page 
+
+2021-05-29 06:54:55 - [MESSAGE][PASSED] - Text 'This is update channel purpose.' is present on page 
+
+2021-05-29 06:54:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 06:54:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1712612/TC21_RenameChannel" time="21.046" classname="Test Cases/1712612/TC21_RenameChannel" status="PASSED">
+         <system-out><![CDATA[2021-05-29 06:54:55 - [TEST_CASE][PASSED] - Test Cases/1712612/TC21_RenameChannel: Test Cases/1712612/TC21_RenameChannel
+
+2021-05-29 06:54:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1712612/CommonTC/TC_OpenPage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1712612/CommonTC/TC_OpenPage' successfully
+
+2021-05-29 06:54:56 - [TEST_CASE][PASSED] - Test Cases/1712612/CommonTC/TC_OpenPage: Test Cases/1712612/CommonTC/TC_OpenPage
+
+2021-05-29 06:54:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 06:54:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 06:54:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 06:54:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 06:54:57 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermostwebapp.herokuapp.com/login"): Navigate to 'https://mattermostwebapp.herokuapp.com/login' successfully
+
+2021-05-29 06:55:00 - [MESSAGE][PASSED] - Navigate to 'https://mattermostwebapp.herokuapp.com/login' successfully
+
+2021-05-29 06:55:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1712612/CommonTC/TC_OpenPage' successfully
+
+2021-05-29 06:55:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1712612/CommonTC/TC_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1712612/CommonTC/TC_Login' successfully
+
+2021-05-29 06:55:00 - [TEST_CASE][PASSED] - Test Cases/1712612/CommonTC/TC_Login: Test Cases/1712612/CommonTC/TC_Login
+
+2021-05-29 06:55:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/1712612_Mattermost Object/Page_Mattermost/input_login_username"), STOP_ON_FAILURE): Object 'Object Repository/1712612_Mattermost Object/Page_Mattermost/input_login_username' is visible
+
+2021-05-29 06:55:04 - [MESSAGE][PASSED] - Object 'Object Repository/1712612_Mattermost Object/Page_Mattermost/input_login_username' is visible
+
+2021-05-29 06:55:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/1712612_Mattermost Object/Page_Mattermost/input_login_password"), STOP_ON_FAILURE): Object 'Object Repository/1712612_Mattermost Object/Page_Mattermost/input_login_password' is visible
+
+2021-05-29 06:55:05 - [MESSAGE][PASSED] - Object 'Object Repository/1712612_Mattermost Object/Page_Mattermost/input_login_password' is visible
+
+2021-05-29 06:55:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1712612_Mattermost Object/Page_Mattermost/input_login_username"), "nghi_tran"): Text 'nghi_tran' is set on object 'Object Repository/1712612_Mattermost Object/Page_Mattermost/input_login_username'
+
+2021-05-29 06:55:05 - [MESSAGE][PASSED] - Text 'nghi_tran' is set on object 'Object Repository/1712612_Mattermost Object/Page_Mattermost/input_login_username'
+
+2021-05-29 06:55:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/1712612_Mattermost Object/Page_Mattermost/input_login_password"), "KBlHou+hFmnFUOUwxwboiw=="): Text ****** has been set on object 'Object Repository/1712612_Mattermost Object/Page_Mattermost/input_login_password'
+
+2021-05-29 06:55:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1712612_Mattermost Object/Page_Mattermost/input_login_password'
+
+2021-05-29 06:55:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1712612_Mattermost Object/Page_Mattermost/button_Sign in")): Object: 'Object Repository/1712612_Mattermost Object/Page_Mattermost/button_Sign in' is clicked on
+
+2021-05-29 06:55:06 - [MESSAGE][PASSED] - Object: 'Object Repository/1712612_Mattermost Object/Page_Mattermost/button_Sign in' is clicked on
+
+2021-05-29 06:55:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/1712612_Mattermost Object/Page_Town Square - another Mattermost/img__Avatar Avatar-lg"), STOP_ON_FAILURE): Object 'Object Repository/1712612_Mattermost Object/Page_Town Square - another Mattermost/img__Avatar Avatar-lg' is visible
+
+2021-05-29 06:55:10 - [MESSAGE][PASSED] - Object 'Object Repository/1712612_Mattermost Object/Page_Town Square - another Mattermost/img__Avatar Avatar-lg' is visible
+
+2021-05-29 06:55:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1712612/CommonTC/TC_Login' successfully
+
+2021-05-29 06:55:10 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermostwebapp.herokuapp.com/test-1712612/channels/channel"): Navigate to 'https://mattermostwebapp.herokuapp.com/test-1712612/channels/channel' successfully
+
+2021-05-29 06:55:11 - [MESSAGE][PASSED] - Navigate to 'https://mattermostwebapp.herokuapp.com/test-1712612/channels/channel' successfully
+
+2021-05-29 06:55:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1712612_Mattermost Object/Page_channel - Test 1712612 Mattermost/button_channel")): Object: 'Object Repository/1712612_Mattermost Object/Page_channel - Test 1712612 Mattermost/button_channel' is clicked on
+
+2021-05-29 06:55:14 - [MESSAGE][PASSED] - Object: 'Object Repository/1712612_Mattermost Object/Page_channel - Test 1712612 Mattermost/button_channel' is clicked on
+
+2021-05-29 06:55:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1712612_Mattermost Object/Page_channel - Test 1712612 Mattermost/button_Rename Channel")): Object: 'Object Repository/1712612_Mattermost Object/Page_channel - Test 1712612 Mattermost/button_Rename Channel' is clicked on
+
+2021-05-29 06:55:14 - [MESSAGE][PASSED] - Object: 'Object Repository/1712612_Mattermost Object/Page_channel - Test 1712612 Mattermost/button_Rename Channel' is clicked on
+
+2021-05-29 06:55:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1712612_Mattermost Object/Page_channel - Test 1712612 Mattermost/input_Display Name_display_name"), "channels"): Text 'channels' is set on object 'Object Repository/1712612_Mattermost Object/Page_channel - Test 1712612 Mattermost/input_Display Name_display_name'
+
+2021-05-29 06:55:15 - [MESSAGE][PASSED] - Text 'channels' is set on object 'Object Repository/1712612_Mattermost Object/Page_channel - Test 1712612 Mattermost/input_Display Name_display_name'
+
+2021-05-29 06:55:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1712612_Mattermost Object/Page_channel - Test 1712612 Mattermost/button_Save")): Object: 'Object Repository/1712612_Mattermost Object/Page_channel - Test 1712612 Mattermost/button_Save' is clicked on
+
+2021-05-29 06:55:16 - [MESSAGE][PASSED] - Object: 'Object Repository/1712612_Mattermost Object/Page_channel - Test 1712612 Mattermost/button_Save' is clicked on
+
+2021-05-29 06:55:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 06:55:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1612049/TC36_SearchMessages" time="39.876" classname="Test Cases/1612049/TC36_SearchMessages" status="PASSED">
+         <system-out><![CDATA[2021-05-29 06:55:16 - [TEST_CASE][PASSED] - Test Cases/1612049/TC36_SearchMessages: Test Cases/1612049/TC36_SearchMessages
+
+2021-05-29 06:55:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 06:55:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 06:55:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 06:55:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 06:55:18 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermostwebapp.herokuapp.com/"): Navigate to 'https://mattermostwebapp.herokuapp.com/' successfully
+
+2021-05-29 06:55:21 - [MESSAGE][PASSED] - Navigate to 'https://mattermostwebapp.herokuapp.com/' successfully
+
+2021-05-29 06:55:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1612049/CommonTC/CTC_Login"), ["username":"jooie", "password":"6z6Vi2R3i06jbzaqW0pQ8Q=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/1612049/CommonTC/CTC_Login' successfully
+
+2021-05-29 06:55:21 - [TEST_CASE][PASSED] - Test Cases/1612049/CommonTC/CTC_Login: Test Cases/1612049/CommonTC/CTC_Login
+
+2021-05-29 06:55:22 - [TEST_STEP][PASSED] - setText(findTestObject("1612049/Login_Screen/input_LoginID"), username): Text 'jooie' is set on object 'Object Repository/1612049/Login_Screen/input_LoginID'
+
+2021-05-29 06:55:26 - [MESSAGE][PASSED] - Text 'jooie' is set on object 'Object Repository/1612049/Login_Screen/input_LoginID'
+
+2021-05-29 06:55:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1612049/Login_Screen/input_LoginPassword"), password): Text ****** has been set on object 'Object Repository/1612049/Login_Screen/input_LoginPassword'
+
+2021-05-29 06:55:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1612049/Login_Screen/input_LoginPassword'
+
+2021-05-29 06:55:26 - [TEST_STEP][PASSED] - click(findTestObject("1612049/Login_Screen/btn_Signin")): Object: 'Object Repository/1612049/Login_Screen/btn_Signin' is clicked on
+
+2021-05-29 06:55:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1612049/Login_Screen/btn_Signin' is clicked on
+
+2021-05-29 06:55:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1612049/CommonTC/CTC_Login' successfully
+
+2021-05-29 06:55:27 - [TEST_STEP][PASSED] - click(findTestObject("1612049/Posts_Area/Posts_Area_Header/Search_Box/btn_SearchMessageButton")): Object: 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/btn_SearchMessageButton' is clicked on
+
+2021-05-29 06:55:30 - [MESSAGE][PASSED] - Object: 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/btn_SearchMessageButton' is clicked on
+
+2021-05-29 06:55:30 - [TEST_STEP][PASSED] - for ([index = 1, index <= 5, (index++)]): null
+
+2021-05-29 06:55:30 - [TEST_STEP][PASSED] - setText(findTestObject("1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox"), findTestData("1612049/Data TC36 SearchMessages").getValue(1, index)): Text 'test' is set on object 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox'
+
+2021-05-29 06:55:32 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox'
+
+2021-05-29 06:55:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox'
+
+2021-05-29 06:55:33 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox'
+
+2021-05-29 06:55:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1612049/Right_Popup/SearchResults_Popup/div_Search Results"), 5): Object 'Object Repository/1612049/Right_Popup/SearchResults_Popup/div_Search Results' is present
+
+2021-05-29 06:55:34 - [MESSAGE][PASSED] - Object 'Object Repository/1612049/Right_Popup/SearchResults_Popup/div_Search Results' is present
+
+2021-05-29 06:55:34 - [TEST_STEP][PASSED] - click(findTestObject("1612049/Posts_Area/Posts_Area_Header/Search_Box/btn_DeleteSearchText")): Object: 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/btn_DeleteSearchText' is clicked on
+
+2021-05-29 06:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/btn_DeleteSearchText' is clicked on
+
+2021-05-29 06:55:35 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-05-29 06:55:37 - [TEST_STEP][PASSED] - setText(findTestObject("1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox"), findTestData("1612049/Data TC36 SearchMessages").getValue(1, index)): Text 'colo' is set on object 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox'
+
+2021-05-29 06:55:37 - [MESSAGE][PASSED] - Text 'colo' is set on object 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox'
+
+2021-05-29 06:55:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox'
+
+2021-05-29 06:55:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox'
+
+2021-05-29 06:55:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1612049/Right_Popup/SearchResults_Popup/div_Search Results"), 5): Object 'Object Repository/1612049/Right_Popup/SearchResults_Popup/div_Search Results' is present
+
+2021-05-29 06:55:39 - [MESSAGE][PASSED] - Object 'Object Repository/1612049/Right_Popup/SearchResults_Popup/div_Search Results' is present
+
+2021-05-29 06:55:39 - [TEST_STEP][PASSED] - click(findTestObject("1612049/Posts_Area/Posts_Area_Header/Search_Box/btn_DeleteSearchText")): Object: 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/btn_DeleteSearchText' is clicked on
+
+2021-05-29 06:55:39 - [MESSAGE][PASSED] - Object: 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/btn_DeleteSearchText' is clicked on
+
+2021-05-29 06:55:39 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-05-29 06:55:41 - [TEST_STEP][PASSED] - setText(findTestObject("1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox"), findTestData("1612049/Data TC36 SearchMessages").getValue(1, index)): Text 'abc' is set on object 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox'
+
+2021-05-29 06:55:42 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox'
+
+2021-05-29 06:55:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox'
+
+2021-05-29 06:55:43 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox'
+
+2021-05-29 06:55:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1612049/Right_Popup/SearchResults_Popup/div_Search Results"), 5): Object 'Object Repository/1612049/Right_Popup/SearchResults_Popup/div_Search Results' is present
+
+2021-05-29 06:55:43 - [MESSAGE][PASSED] - Object 'Object Repository/1612049/Right_Popup/SearchResults_Popup/div_Search Results' is present
+
+2021-05-29 06:55:43 - [TEST_STEP][PASSED] - click(findTestObject("1612049/Posts_Area/Posts_Area_Header/Search_Box/btn_DeleteSearchText")): Object: 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/btn_DeleteSearchText' is clicked on
+
+2021-05-29 06:55:44 - [MESSAGE][PASSED] - Object: 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/btn_DeleteSearchText' is clicked on
+
+2021-05-29 06:55:44 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-05-29 06:55:46 - [TEST_STEP][PASSED] - setText(findTestObject("1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox"), findTestData("1612049/Data TC36 SearchMessages").getValue(1, index)): Text 'hello' is set on object 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox'
+
+2021-05-29 06:55:47 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox'
+
+2021-05-29 06:55:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox'
+
+2021-05-29 06:55:47 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox'
+
+2021-05-29 06:55:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1612049/Right_Popup/SearchResults_Popup/div_Search Results"), 5): Object 'Object Repository/1612049/Right_Popup/SearchResults_Popup/div_Search Results' is present
+
+2021-05-29 06:55:48 - [MESSAGE][PASSED] - Object 'Object Repository/1612049/Right_Popup/SearchResults_Popup/div_Search Results' is present
+
+2021-05-29 06:55:48 - [TEST_STEP][PASSED] - click(findTestObject("1612049/Posts_Area/Posts_Area_Header/Search_Box/btn_DeleteSearchText")): Object: 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/btn_DeleteSearchText' is clicked on
+
+2021-05-29 06:55:49 - [MESSAGE][PASSED] - Object: 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/btn_DeleteSearchText' is clicked on
+
+2021-05-29 06:55:49 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-05-29 06:55:51 - [TEST_STEP][PASSED] - setText(findTestObject("1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox"), findTestData("1612049/Data TC36 SearchMessages").getValue(1, index)): Text 'oscar' is set on object 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox'
+
+2021-05-29 06:55:52 - [MESSAGE][PASSED] - Text 'oscar' is set on object 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox'
+
+2021-05-29 06:55:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox'
+
+2021-05-29 06:55:52 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/input_SearchMessageBox'
+
+2021-05-29 06:55:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1612049/Right_Popup/SearchResults_Popup/div_Search Results"), 5): Object 'Object Repository/1612049/Right_Popup/SearchResults_Popup/div_Search Results' is present
+
+2021-05-29 06:55:53 - [MESSAGE][PASSED] - Object 'Object Repository/1612049/Right_Popup/SearchResults_Popup/div_Search Results' is present
+
+2021-05-29 06:55:53 - [TEST_STEP][PASSED] - click(findTestObject("1612049/Posts_Area/Posts_Area_Header/Search_Box/btn_DeleteSearchText")): Object: 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/btn_DeleteSearchText' is clicked on
+
+2021-05-29 06:55:53 - [MESSAGE][PASSED] - Object: 'Object Repository/1612049/Posts_Area/Posts_Area_Header/Search_Box/btn_DeleteSearchText' is clicked on
+
+2021-05-29 06:55:53 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-05-29 06:55:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 06:55:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1612049/TC44_SetHeaderForDirectMessage" time="41.265" classname="Test Cases/1612049/TC44_SetHeaderForDirectMessage" status="PASSED">
+         <system-out><![CDATA[2021-05-29 06:55:56 - [TEST_CASE][PASSED] - Test Cases/1612049/TC44_SetHeaderForDirectMessage: Test Cases/1612049/TC44_SetHeaderForDirectMessage
+
+2021-05-29 06:55:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 06:55:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 06:55:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 06:55:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 06:55:58 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermostwebapp.herokuapp.com/"): Navigate to 'https://mattermostwebapp.herokuapp.com/' successfully
+
+2021-05-29 06:56:01 - [MESSAGE][PASSED] - Navigate to 'https://mattermostwebapp.herokuapp.com/' successfully
+
+2021-05-29 06:56:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1612049/CommonTC/CTC_Login"), ["username":"jooie", "password":"6z6Vi2R3i06jbzaqW0pQ8Q=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/1612049/CommonTC/CTC_Login' successfully
+
+2021-05-29 06:56:01 - [TEST_CASE][PASSED] - Test Cases/1612049/CommonTC/CTC_Login: Test Cases/1612049/CommonTC/CTC_Login
+
+2021-05-29 06:56:01 - [TEST_STEP][PASSED] - setText(findTestObject("1612049/Login_Screen/input_LoginID"), username): Text 'jooie' is set on object 'Object Repository/1612049/Login_Screen/input_LoginID'
+
+2021-05-29 06:56:06 - [MESSAGE][PASSED] - Text 'jooie' is set on object 'Object Repository/1612049/Login_Screen/input_LoginID'
+
+2021-05-29 06:56:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1612049/Login_Screen/input_LoginPassword"), password): Text ****** has been set on object 'Object Repository/1612049/Login_Screen/input_LoginPassword'
+
+2021-05-29 06:56:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1612049/Login_Screen/input_LoginPassword'
+
+2021-05-29 06:56:06 - [TEST_STEP][PASSED] - click(findTestObject("1612049/Login_Screen/btn_Signin")): Object: 'Object Repository/1612049/Login_Screen/btn_Signin' is clicked on
+
+2021-05-29 06:56:07 - [MESSAGE][PASSED] - Object: 'Object Repository/1612049/Login_Screen/btn_Signin' is clicked on
+
+2021-05-29 06:56:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1612049/CommonTC/CTC_Login' successfully
+
+2021-05-29 06:56:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1612049/CommonTC/CTC_OpenDirectMessage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1612049/CommonTC/CTC_OpenDirectMessage' successfully
+
+2021-05-29 06:56:07 - [TEST_CASE][PASSED] - Test Cases/1612049/CommonTC/CTC_OpenDirectMessage: Test Cases/1612049/CommonTC/CTC_OpenDirectMessage
+
+2021-05-29 06:56:07 - [TEST_STEP][PASSED] - click(findTestObject("1612049/Left_Sidebar/Direct_Messages/btn_AddDirectMessage")): Object: 'Object Repository/1612049/Left_Sidebar/Direct_Messages/btn_AddDirectMessage' is clicked on
+
+2021-05-29 06:56:10 - [MESSAGE][PASSED] - Object: 'Object Repository/1612049/Left_Sidebar/Direct_Messages/btn_AddDirectMessage' is clicked on
+
+2021-05-29 06:56:10 - [TEST_STEP][PASSED] - setText(findTestObject("1612049/Left_Sidebar/Direct_Messages/AddDirectMessage_Dialog/input_UsernameForDirectMessage"), "nghi_tran"): Text 'nghi_tran' is set on object 'Object Repository/1612049/Left_Sidebar/Direct_Messages/AddDirectMessage_Dialog/input_UsernameForDirectMessage'
+
+2021-05-29 06:56:12 - [MESSAGE][PASSED] - Text 'nghi_tran' is set on object 'Object Repository/1612049/Left_Sidebar/Direct_Messages/AddDirectMessage_Dialog/input_UsernameForDirectMessage'
+
+2021-05-29 06:56:12 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("1612049/Left_Sidebar/Direct_Messages/AddDirectMessage_Dialog/div_FirstSearchUsernameResult"), 10, CONTINUE_ON_FAILURE)): null
+
+2021-05-29 06:56:14 - [MESSAGE][PASSED] - Object 'Object Repository/1612049/Left_Sidebar/Direct_Messages/AddDirectMessage_Dialog/div_FirstSearchUsernameResult' is present
+
+2021-05-29 06:56:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("1612049/Left_Sidebar/Direct_Messages/AddDirectMessage_Dialog/input_UsernameForDirectMessage"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/1612049/Left_Sidebar/Direct_Messages/AddDirectMessage_Dialog/input_UsernameForDirectMessage'
+
+2021-05-29 06:56:15 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/1612049/Left_Sidebar/Direct_Messages/AddDirectMessage_Dialog/input_UsernameForDirectMessage'
+
+2021-05-29 06:56:15 - [TEST_STEP][PASSED] - click(findTestObject("1612049/Left_Sidebar/Direct_Messages/AddDirectMessage_Dialog/btn_SubmitUsernameForDirectMessage")): Object: 'Object Repository/1612049/Left_Sidebar/Direct_Messages/AddDirectMessage_Dialog/btn_SubmitUsernameForDirectMessage' is clicked on
+
+2021-05-29 06:56:15 - [MESSAGE][PASSED] - Object: 'Object Repository/1612049/Left_Sidebar/Direct_Messages/AddDirectMessage_Dialog/btn_SubmitUsernameForDirectMessage' is clicked on
+
+2021-05-29 06:56:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1612049/CommonTC/CTC_OpenDirectMessage' successfully
+
+2021-05-29 06:56:15 - [TEST_STEP][PASSED] - for ([i = 1, i <= 5, i += 1]): null
+
+2021-05-29 06:56:15 - [TEST_STEP][PASSED] - click(findTestObject("1612049/Posts_Area/Channel_Intro/btn_SetHeader")): Object: 'Object Repository/1612049/Posts_Area/Channel_Intro/btn_SetHeader' is clicked on
+
+2021-05-29 06:56:18 - [MESSAGE][PASSED] - Object: 'Object Repository/1612049/Posts_Area/Channel_Intro/btn_SetHeader' is clicked on
+
+2021-05-29 06:56:18 - [TEST_STEP][PASSED] - setText(findTestObject("1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/textarea_EditChannelHeader"), findTestData("1612049/Data TC44 SetHeaderForDirectMessage").getValue(1, i)): Text 'Meeting' is set on object 'Object Repository/1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/textarea_EditChannelHeader'
+
+2021-05-29 06:56:19 - [MESSAGE][PASSED] - Text 'Meeting' is set on object 'Object Repository/1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/textarea_EditChannelHeader'
+
+2021-05-29 06:56:19 - [TEST_STEP][PASSED] - click(findTestObject("1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/btn_SaveNewHeader")): Object: 'Object Repository/1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/btn_SaveNewHeader' is clicked on
+
+2021-05-29 06:56:19 - [MESSAGE][PASSED] - Object: 'Object Repository/1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/btn_SaveNewHeader' is clicked on
+
+2021-05-29 06:56:19 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-05-29 06:56:21 - [TEST_STEP][PASSED] - click(findTestObject("1612049/Posts_Area/Channel_Intro/btn_SetHeader")): Object: 'Object Repository/1612049/Posts_Area/Channel_Intro/btn_SetHeader' is clicked on
+
+2021-05-29 06:56:22 - [MESSAGE][PASSED] - Object: 'Object Repository/1612049/Posts_Area/Channel_Intro/btn_SetHeader' is clicked on
+
+2021-05-29 06:56:22 - [TEST_STEP][PASSED] - setText(findTestObject("1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/textarea_EditChannelHeader"), findTestData("1612049/Data TC44 SetHeaderForDirectMessage").getValue(1, i)): Text 'Lecture' is set on object 'Object Repository/1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/textarea_EditChannelHeader'
+
+2021-05-29 06:56:23 - [MESSAGE][PASSED] - Text 'Lecture' is set on object 'Object Repository/1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/textarea_EditChannelHeader'
+
+2021-05-29 06:56:23 - [TEST_STEP][PASSED] - click(findTestObject("1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/btn_SaveNewHeader")): Object: 'Object Repository/1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/btn_SaveNewHeader' is clicked on
+
+2021-05-29 06:56:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/btn_SaveNewHeader' is clicked on
+
+2021-05-29 06:56:23 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-05-29 06:56:25 - [TEST_STEP][PASSED] - click(findTestObject("1612049/Posts_Area/Channel_Intro/btn_SetHeader")): Object: 'Object Repository/1612049/Posts_Area/Channel_Intro/btn_SetHeader' is clicked on
+
+2021-05-29 06:56:26 - [MESSAGE][PASSED] - Object: 'Object Repository/1612049/Posts_Area/Channel_Intro/btn_SetHeader' is clicked on
+
+2021-05-29 06:56:26 - [TEST_STEP][PASSED] - setText(findTestObject("1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/textarea_EditChannelHeader"), findTestData("1612049/Data TC44 SetHeaderForDirectMessage").getValue(1, i)): Text 'Conversation' is set on object 'Object Repository/1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/textarea_EditChannelHeader'
+
+2021-05-29 06:56:27 - [MESSAGE][PASSED] - Text 'Conversation' is set on object 'Object Repository/1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/textarea_EditChannelHeader'
+
+2021-05-29 06:56:27 - [TEST_STEP][PASSED] - click(findTestObject("1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/btn_SaveNewHeader")): Object: 'Object Repository/1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/btn_SaveNewHeader' is clicked on
+
+2021-05-29 06:56:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/btn_SaveNewHeader' is clicked on
+
+2021-05-29 06:56:27 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-05-29 06:56:29 - [TEST_STEP][PASSED] - click(findTestObject("1612049/Posts_Area/Channel_Intro/btn_SetHeader")): Object: 'Object Repository/1612049/Posts_Area/Channel_Intro/btn_SetHeader' is clicked on
+
+2021-05-29 06:56:30 - [MESSAGE][PASSED] - Object: 'Object Repository/1612049/Posts_Area/Channel_Intro/btn_SetHeader' is clicked on
+
+2021-05-29 06:56:30 - [TEST_STEP][PASSED] - setText(findTestObject("1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/textarea_EditChannelHeader"), findTestData("1612049/Data TC44 SetHeaderForDirectMessage").getValue(1, i)): Text 'Chit-chat' is set on object 'Object Repository/1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/textarea_EditChannelHeader'
+
+2021-05-29 06:56:30 - [MESSAGE][PASSED] - Text 'Chit-chat' is set on object 'Object Repository/1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/textarea_EditChannelHeader'
+
+2021-05-29 06:56:30 - [TEST_STEP][PASSED] - click(findTestObject("1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/btn_SaveNewHeader")): Object: 'Object Repository/1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/btn_SaveNewHeader' is clicked on
+
+2021-05-29 06:56:31 - [MESSAGE][PASSED] - Object: 'Object Repository/1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/btn_SaveNewHeader' is clicked on
+
+2021-05-29 06:56:31 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-05-29 06:56:33 - [TEST_STEP][PASSED] - click(findTestObject("1612049/Posts_Area/Channel_Intro/btn_SetHeader")): Object: 'Object Repository/1612049/Posts_Area/Channel_Intro/btn_SetHeader' is clicked on
+
+2021-05-29 06:56:33 - [MESSAGE][PASSED] - Object: 'Object Repository/1612049/Posts_Area/Channel_Intro/btn_SetHeader' is clicked on
+
+2021-05-29 06:56:33 - [TEST_STEP][PASSED] - setText(findTestObject("1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/textarea_EditChannelHeader"), findTestData("1612049/Data TC44 SetHeaderForDirectMessage").getValue(1, i)): Text 'Group Learning' is set on object 'Object Repository/1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/textarea_EditChannelHeader'
+
+2021-05-29 06:56:34 - [MESSAGE][PASSED] - Text 'Group Learning' is set on object 'Object Repository/1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/textarea_EditChannelHeader'
+
+2021-05-29 06:56:34 - [TEST_STEP][PASSED] - click(findTestObject("1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/btn_SaveNewHeader")): Object: 'Object Repository/1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/btn_SaveNewHeader' is clicked on
+
+2021-05-29 06:56:35 - [MESSAGE][PASSED] - Object: 'Object Repository/1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/btn_SaveNewHeader' is clicked on
+
+2021-05-29 06:56:35 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-05-29 06:56:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 06:56:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-05-29 06:49:35 - [TEST_SUITE][PASSED] - Run all test cases: Test Cases/1612049/TC44_SetHeaderForDirectMessage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -33,8 +33,8 @@ WebUI.click(findTestObject('Object Repository/Page_Town Square - noname Mattermo
 
 //WebUI.click(findTestObject('1612049/DirectMessage_Workspace/btn_More Action Of Pin TC'))
 
-WebUI.click(findTestObject('Object Repository/1612049/DirectMessage_Workspace/btn_More Action Of Pin TC - Copy'))
+WebUI.click(findTestObject('null'))
 
 //WebUI.click(findTestObject('1612049/DirectMessage_Workspace/btn_Pin Message'))
 
-WebUI.click(findTestObject('Object Repository/1612049/DirectMessage_Workspace/btn_Pin Message - Copy'))
+WebUI.click(findTestObject('null'))

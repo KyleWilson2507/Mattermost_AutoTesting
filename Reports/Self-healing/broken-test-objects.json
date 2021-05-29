@@ -69,6 +69,66 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/1612049/Posts_Area/Channel_Intro/btn_SetHeader",
+      "brokenLocator": "//div[@id\u003d\u0027channelIntro\u0027]/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Viewing message history\u0027])[1]/following::button[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/1612049/Posts_Area/Channel_Intro/btn_SetHeader_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Town Square - abc Mattermost/span_Finish",
+      "brokenLocator": "//button[@id\u003d\u0027teamURLFinishButton\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Mattermost\u0027])[2]/preceding::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Town Square - abc Mattermost/span_Finish_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Town Square - test2 Mattermost/div_test",
+      "brokenLocator": "//div[@id\u003d\u0027descriptionDesc\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Edit\u0027])[2]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Town Square - test2 Mattermost/div_test_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b",
+      "brokenLocator": "//input[@id\u003d\u0027loginId\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027login_section\u0027]/div/div[2]/div/form/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _dcc84b_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6",
+      "brokenLocator": "//input[@id\u003d\u0027loginPassword\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027login_section\u0027]/div/div[2]/div/form/div/div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/1412263_Page_Mattermost/input_All team communication in one place, _a3edc6_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/1412263_Page_Mattermost/button_Sign in",
+      "brokenLocator": "#loginButton",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027All team communication in one place, searchable and accessible anywhere\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/1412263_Page_Mattermost/button_Sign in_neighbor.png"
     }
   ]
 }

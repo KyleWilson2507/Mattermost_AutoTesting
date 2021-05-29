@@ -37,12 +37,10 @@ for (i = 1; i <= 5; i += 1) {
 
         WebUI.click(findTestObject('1612049/Left_Sidebar/Direct_Messages/AddDirectMessage_Dialog/btn_SubmitUsernameForDirectMessage'))
 
-        if (WebUI.verifyElementPresent(findTestObject('null'), 5, FailureHandling.CONTINUE_ON_FAILURE)) {
-            WebUI.setText(findTestObject('1612049/Posts_Area/Posts_Create/input_Message'), 'Hello, ' + findTestData('1612049/Data TC35 SendDirectMessage').getValue(
-                    1, i))
+        WebUI.setText(findTestObject('1612049/Posts_Area/Posts_Create/input_Message'), 'Hello, ' + findTestData('1612049/Data TC35 SendDirectMessage').getValue(
+                1, i))
 
-            WebUI.sendKeys(findTestObject('1612049/Posts_Area/Posts_Create/input_Message'), Keys.chord(Keys.ENTER))
-        }
+        WebUI.sendKeys(findTestObject('1612049/Posts_Area/Posts_Create/input_Message'), Keys.chord(Keys.ENTER))
     } else {
         WebUI.click(findTestObject('1612049/Left_Sidebar/Direct_Messages/AddDirectMessage_Dialog/btn_CloseDialog'))
     }

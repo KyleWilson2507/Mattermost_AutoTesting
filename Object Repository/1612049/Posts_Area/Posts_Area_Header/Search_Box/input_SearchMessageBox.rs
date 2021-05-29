@@ -6,12 +6,12 @@
    <elementGuidId>dc26d49e-30fd-4c6e-a29a-88de8547f82b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='searchBox']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#searchBox</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='searchFormContainer']/form/div/div[2]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

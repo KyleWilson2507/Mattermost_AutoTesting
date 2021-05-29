@@ -17,24 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-if (WebUI.verifyElementPresent(findTestObject('1612049/Left_Sidebar/Private_Channels/a_firstPrivateChannel'), 0, FailureHandling.CONTINUE_ON_FAILURE)) {
-    WebUI.click(findTestObject('1612049/Left_Sidebar/Private_Channels/a_firstPrivateChannel'))
+WebUI.click(findTestObject('1612049/Left_Sidebar/Private_Channels/btn_AddPrivateChannel'))
+
+WebUI.setText(findTestObject('1612049/Left_Sidebar/Private_Channels/AddPrivateChannel_Dialog/input_PrivateChannelName'), 
+    'Anonymous Channel')
+
+WebUI.click(findTestObject('1612049/Left_Sidebar/Private_Channels/AddPrivateChannel_Dialog/btn_SubmitNewChannel'))
+
+if (WebUI.verifyElementPresent(findTestObject('1612049/Left_Sidebar/Private_Channels/a_FirstPrivateChannel'), 5, FailureHandling.STOP_ON_FAILURE)) {
+    WebUI.click(findTestObject('1612049/Left_Sidebar/Private_Channels/a_FirstPrivateChannel'))
 
     WebUI.setText(findTestObject('1612049/Posts_Area/Posts_Create/input_Message'), 'Hello, anonymous')
 
     WebUI.sendKeys(findTestObject('1612049/Posts_Area/Posts_Create/input_Message'), Keys.chord(Keys.ENTER))
-} else {
-    WebUI.click(findTestObject('1612049/Left_Sidebar/Private_Channels/btn_AddPrivateChannel'))
-
-    WebUI.setText(findTestObject('1612049/Left_Sidebar/Private_Channels/AddPrivateChannel_Dialog/input_PrivateChannelName'), 
-        'Anonymous Channel')
-
-    WebUI.click(findTestObject('1612049/Left_Sidebar/Private_Channels/AddPrivateChannel_Dialog/btn_SubmitNewChannel'))
-
-    if (WebUI.verifyElementPresent(findTestObject('1612049/Left_Sidebar/Private_Channels/a_firstPrivateChannel'), 5, FailureHandling.STOP_ON_FAILURE)) {
-        WebUI.setText(findTestObject('1612049/Posts_Area/Posts_Create/input_Message'), 'Hello, anonymous')
-
-        WebUI.sendKeys(findTestObject('1612049/Posts_Area/Posts_Create/input_Message'), Keys.chord(Keys.ENTER))
-    }
 }
 

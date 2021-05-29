@@ -8,11 +8,11 @@
    <dataFileGUID>9ed35355-4f29-44f4-9320-88e277462fde</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>test1</data>
-   <data>test2</data>
-   <data>test3</data>
-   <data>test4</data>
-   <data>test5</data>
+   <data>band1</data>
+   <data>band2</data>
+   <data>band3</data>
+   <data>band4</data>
+   <data>band5</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>team name</name>

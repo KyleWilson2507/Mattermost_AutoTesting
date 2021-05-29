@@ -35,7 +35,7 @@ WebUI.sendKeys(findTestObject('Page_Town Square - noname Mattermost/textarea_Wri
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - noname Mattermost/p_a'))
 
-WebUI.click(findTestObject('Object Repository/1612049/DirectMessage_Workspace/btn_Reply A Message_btnReply - Copy'))
+WebUI.click(findTestObject('null'))
 
 WebUI.setText(findTestObject('1612049/DirectMessage_Workspace/textarea_Add a comment_reply_textbox'), 'I\'m jooie')
 

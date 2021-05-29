@@ -29,8 +29,8 @@ WebUI.callTestCase(findTestCase('1612049/CommonTC/CTC_OpenDirectMessage'), [:], 
 for (i = 1; i <= 5; i += 1) {
     WebUI.click(findTestObject('1612049/Posts_Area/Channel_Intro/btn_SetHeader'))
 
-    WebUI.setText(findTestObject('1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/textarea_EditChannelHeader'), 
-        findTestData('1612049/Data TC44 SetHeaderForDirectMessage').getValue(1, i))
+    WebUI.setText(findTestObject('1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/textarea_EditChannelHeader'), findTestData(
+            '1612049/Data TC44 SetHeaderForDirectMessage').getValue(1, i))
 
     WebUI.click(findTestObject('1612049/Posts_Area/Channel_Intro/EditHeader_Dialog/btn_SaveNewHeader'))
 

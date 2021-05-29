@@ -6,12 +6,12 @@
    <elementGuidId>dcb115e1-699f-48b3-9d26-e797bd572ddb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='descriptionDesc']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#descriptionDesc</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='teamSettingsModal']/div/div/div[2]/div/div[2]/div/div/div[2]/div[4]/div[@id='descriptionDesc']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

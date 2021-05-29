@@ -6,12 +6,12 @@
    <elementGuidId>40ca7720-46e7-4507-bc7e-79480ee02f73</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='channelIntro']/button</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.style--none.intro-links.color--link</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='channelIntro']/button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

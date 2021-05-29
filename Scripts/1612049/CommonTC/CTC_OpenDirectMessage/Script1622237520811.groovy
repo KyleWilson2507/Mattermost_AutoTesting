@@ -17,13 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('1612049/Left_Sidebar/Direct_Messages/btn_AddDirectMessage'))
 
-WebUI.setText(findTestObject('1612049/Left_Sidebar/Direct_Messages/AddDirectMessage_Dialog/input_UsernameForDirectMessage'), 'nghi_tran')
+WebUI.setText(findTestObject('1612049/Left_Sidebar/Direct_Messages/AddDirectMessage_Dialog/input_UsernameForDirectMessage'), 
+    'nghi_tran')
 
-if (WebUI.verifyElementPresent(findTestObject('1612049/Left_Sidebar/Direct_Messages/AddDirectMessage_Dialog/div_FirstSearchUsernameResult'), 10, 
-    FailureHandling.CONTINUE_ON_FAILURE)) {
-    WebUI.sendKeys(findTestObject('1612049/Left_Sidebar/Direct_Messages/AddDirectMessage_Dialog/input_UsernameForDirectMessage'), Keys.chord(Keys.ENTER))
+if (WebUI.verifyElementPresent(findTestObject('1612049/Left_Sidebar/Direct_Messages/AddDirectMessage_Dialog/div_FirstSearchUsernameResult'), 
+    10, FailureHandling.CONTINUE_ON_FAILURE)) {
+    WebUI.sendKeys(findTestObject('1612049/Left_Sidebar/Direct_Messages/AddDirectMessage_Dialog/input_UsernameForDirectMessage'), 
+        Keys.chord(Keys.ENTER))
 
     WebUI.click(findTestObject('1612049/Left_Sidebar/Direct_Messages/AddDirectMessage_Dialog/btn_SubmitUsernameForDirectMessage'))
 } else {

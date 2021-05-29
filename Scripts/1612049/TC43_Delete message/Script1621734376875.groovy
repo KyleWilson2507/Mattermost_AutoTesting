@@ -35,10 +35,10 @@ WebUI.click(findTestObject('Object Repository/Page_Town Square - noname Mattermo
 
 //WebUI.click(findTestObject('1612049/DirectMessage_Workspace/btn_More Actions_btnMore'))
 
-WebUI.click(findTestObject('Object Repository/1612049/DirectMessage_Workspace/btn_More Action Of Pin TC - Copy'))
+WebUI.click(findTestObject('null'))
 
 //WebUI.click(findTestObject('1612049/DirectMessage_Workspace/btn_Delete Message'))
 
-WebUI.click(findTestObject('Object Repository/1612049/DirectMessage_Workspace/btn_Delete Message - Copy'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/1612049/DirectMessage_Workspace/btn_Delete Message_AreYouSure'))
+WebUI.click(findTestObject('null'))

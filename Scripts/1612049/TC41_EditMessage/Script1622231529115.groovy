@@ -24,6 +24,8 @@ WebUI.navigateToUrl('https://mattermostwebapp.herokuapp.com/')
 WebUI.callTestCase(findTestCase('1612049/CommonTC/CTC_Login'), [('username') : 'jooie', ('password') : '6z6Vi2R3i06jbzaqW0pQ8Q=='], 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('1612049/CommonTC/CTC_SendDirectMessage'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.mouseOver(findTestObject('1612049/Posts_Area/Posts_List/div_LastPost'))
 
 WebUI.click(findTestObject('1612049/Posts_Area/Posts_List/Post_Menu/btn_MoreActions'))

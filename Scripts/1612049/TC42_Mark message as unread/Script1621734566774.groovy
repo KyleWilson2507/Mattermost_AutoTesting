@@ -37,6 +37,6 @@ WebUI.sendKeys(findTestObject('Page_Town Square - noname Mattermost/textarea_Wri
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - noname Mattermost/p_a'))
 
-WebUI.click(findTestObject('Object Repository/1612049/DirectMessage_Workspace/btn_More Action Of Pin TC - Copy'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/1612049/DirectMessage_Workspace/Page_Town Square - noname Mattermost/button_Mark as Unread - Copy'))
+WebUI.click(findTestObject('null'))
