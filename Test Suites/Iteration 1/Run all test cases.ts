@@ -147,13 +147,13 @@
       <guid>e397a72a-3bae-4ec8-910a-d65630238b35</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1612049/TC36_Search messages</testCaseId>
+      <testCaseId>Test Cases/1612049/TC36_SearchMessages</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6fda9820-360e-497a-bf38-001b779260d1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1612049/TC44_Set header for direct message</testCaseId>
+      <testCaseId>Test Cases/1612049/TC44_SetHeaderForDirectMessage</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c76188b5-9c45-4257-8299-efc86f9c5ea8</guid>

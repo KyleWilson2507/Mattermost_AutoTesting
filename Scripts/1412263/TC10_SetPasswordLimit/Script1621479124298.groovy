@@ -23,8 +23,7 @@ WebUI.navigateToUrl('http://mattermostwebapp.herokuapp.com/')
 
 WebUI.setText(findTestObject('1412263_Page_Mattermost/input_All team communication in one place, _dcc84b'), 'huykhoi263')
 
-WebUI.setEncryptedText(findTestObject('1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'), 
-    'o1rBehR+FzY2ClyWuSUtzg==')
+WebUI.setEncryptedText(findTestObject('1412263_Page_Mattermost/input_All team communication in one place, _a3edc6'), 'o1rBehR+FzY2ClyWuSUtzg==')
 
 WebUI.click(findTestObject('1412263_Page_Mattermost/button_Sign in'))
 
@@ -35,7 +34,7 @@ WebUI.click(findTestObject('1412263_Page_Town Square - CNC_Nhom3 Mattermost/span
 WebUI.click(findTestObject('1412263_Page_System Console - Mattermost/a_Password'))
 
 WebUI.setText(findTestObject('1412263_Page_System Console - Mattermost/input_Minimum Password Length_passwordMinim_e95e98'), 
-    '9')
+    '6')
 
 WebUI.click(findTestObject('1412263_Page_System Console - Mattermost/button_Save'))
 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_CreateATeam</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7e4fa0e2-d913-4abd-ad5a-f505a0733a40</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f76a89a8-067d-4083-bebd-cef7025107fc</id>
+      <masked>false</masked>
+      <name>var_teamName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c0f64aa5-b79c-401b-b090-81bc781dd876</id>
+      <masked>false</masked>
+      <name>var_statusExpected</name>
+   </variable>
+</TestCaseEntity>

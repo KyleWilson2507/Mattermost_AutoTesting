@@ -1,0 +1,74 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/1412263_Page_Mattermost/span_Sign in (1)",
+      "brokenLocator": "//button[@id\u003d\u0027login\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@id\u003d\u0027loginButton\u0027]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/1412263_Page_Mattermost/span_Sign in (1)_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/1712612_Mattermost Object/Page_Town Square - Test 1712612 Mattermost/a_new channel",
+      "brokenLocator": "//a[@id\u003d\u0027sidebarItem_new-channel\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//ul[@id\u003d\u0027publicChannelList\u0027]/li[7]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/1712612_Mattermost Object/Page_Town Square - Test 1712612 Mattermost/a_new channel_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/1712612_Mattermost Object/Page_new channel - Test 1712612 Mattermost/svg",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027new channel\u0027])[4]//*[name()\u003d\u0027svg\u0027][1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027About\u0027])[1]/following::*[name()\u003d\u0027svg\u0027][1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/1712612_Mattermost Object/Page_new channel - Test 1712612 Mattermost/svg_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/1712612_Mattermost Object/Page_Town Square - Test 1712612 Mattermost/button_nghi_tran_CENTER_button_y84p141g8fff_63d7c5",
+      "brokenLocator": "//button[@id\u003d\u0027CENTER_button_y84p141g8fffugwo5wnkspdt1o\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027nghi_tran\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/1712612_Mattermost Object/Page_Town Square - Test 1712612 Mattermost/button_nghi_tran_CENTER_button_y84p141g8fff_63d7c5_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/1712612_Mattermost Object/Page_test pin message - Test 1712612 Mattermost/button_nghi_tran_CENTER_button_brb8z9fihidf_f663c2",
+      "brokenLocator": "//button[@id\u003d\u0027CENTER_button_brb8z9fihidfmxns5kwing6pqo\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027nghi_tran\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/1712612_Mattermost Object/Page_test pin message - Test 1712612 Mattermost/button_nghi_tran_CENTER_button_brb8z9fihidf_f663c2_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/1612049/DirectMessage_Workspace/button_Emoji Picker Button",
+      "brokenLocator": "//button[@class\u003d\u0027emoji-picker__container post-action\u0027])",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[8]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/1612049/DirectMessage_Workspace/button_Emoji Picker Button_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/1612049/DirectMessage_Workspace/Page_Town Square - noname Mattermost/button_Mark as Unread",
+      "brokenLocator": "//li[@id\u003d\u0027unread_post_hpt5g3eck3nhbj91bz8rehbjte\u0027]/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027jooie\u0027])[17]/following::button[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
+}

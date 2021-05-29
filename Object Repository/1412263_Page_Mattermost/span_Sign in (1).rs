@@ -3,15 +3,15 @@
    <description></description>
    <name>span_Sign in (1)</name>
    <tag></tag>
-   <elementGuidId>6ea4a78a-5f19-4832-ae73-256aac77aaec</elementGuidId>
+   <elementGuidId>15a427f3-312b-4d3e-9ae1-77e036e2aee4</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='login']/span</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>#loginButton > span</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//button[@id='loginButton']/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

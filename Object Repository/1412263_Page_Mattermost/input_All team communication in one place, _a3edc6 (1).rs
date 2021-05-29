@@ -3,15 +3,15 @@
    <description></description>
    <name>input_All team communication in one place, _a3edc6 (1)</name>
    <tag></tag>
-   <elementGuidId>eae250b7-e0ea-423d-a8ab-198eea919691</elementGuidId>
+   <elementGuidId>1db0de19-6175-4a8b-ab61-bfe48f1720ac</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#loginPassword</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='loginPassword']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#loginPassword</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control a11y--active a11y--focused</value>
+      <value>form-control</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

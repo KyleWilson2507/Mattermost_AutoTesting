@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Data TC44 SetHeaderForDirectMessage</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>75d8edba-610a-4f7a-97d2-d66bd7008fbb</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Meeting</data>
+   <data>Lecture</data>
+   <data>Conversation</data>
+   <data>Chit-chat</data>
+   <data>Group+Learning</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Header</name>
+      <size>5</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

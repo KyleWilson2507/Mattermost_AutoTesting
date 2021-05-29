@@ -30,7 +30,7 @@ String tokenAPI = parsed.Token
 
 String token = "Bearer " + tokenAPI.substring(1, tokenAPI.length() - 1)
 
-RequestObject sendMessageRequest = findTestObject('Object Repository/1412263_API_Mattermost/API_SendMessage')
+RequestObject sendMessageRequest = findTestObject('Object Repository/1412263_API_Mattermost/API_SendMessage_2')
 
 def HTTPHeader = new ArrayList()
 
